@@ -1,0 +1,49 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Header components styles
+    ------------------------------------------- **/
+.page-header {
+	position: relative;
+	height: 150px;
+}
+
+.page-heading {
+	@include position(absolute, 50px 0 0 $gutter);
+	height: 93px;
+	margin: 0;
+	padding-left: 120px;
+	background: url("../images/logo@2x.png") center left no-repeat;
+	background-size: 93px;
+	font: {
+		size: 3em;
+		weight: bold;
+	}
+	letter-spacing: -1px;
+	line-height: 93px;
+
+	@media screen and (min-width: 960px){
+		left: 0px;
+	}
+}
+
+.main-nav {
+	@include position(absolute, 50% $gutter 0 0);
+	font: {
+		weight: bold;
+	}
+
+	a {
+		display: inline-block;
+		margin-left: 15px;
+		color: $link-color;
+
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
+
+	@media screen and (min-width: 960px){
+		right: 0px;
+	}
+}

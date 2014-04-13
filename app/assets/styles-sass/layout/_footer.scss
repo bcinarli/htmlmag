@@ -1,0 +1,35 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Footer Styles
+    ------------------------------------------- **/
+.page-footer {
+	position: relative;
+	height: $footer-height;
+	background: #333;
+	color: $base-footer-color;
+	font-size: .8em;
+}
+
+.footer {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 $gutter;
+
+	@media screen and (min-width: 960px){
+		padding: 0;
+	}
+
+	p {
+		margin: 0;
+
+		&:first-child {
+			padding-top: 1em;
+		}
+	}
+
+	a {
+		color: $footer-link-color;
+		text-decoration: underline;
+	}
+}

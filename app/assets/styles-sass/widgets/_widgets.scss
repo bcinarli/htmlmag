@@ -1,0 +1,21 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Widgets
+    ------------------------------------------- **/
+.widget {
+	margin-bottom: 1.5em;
+}
+
+.social-links {
+	font-size: 1.2em;
+}
+
+.twitter-widget {
+	padding-top: 1.5em;
+	border-top: 1px dashed #ccc;
+}
+
+.twitter-sharing {
+	@include position(relative, 7px 0 0 0);
+}

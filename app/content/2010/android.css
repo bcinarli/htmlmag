@@ -1,0 +1,22 @@
+.android-color { background: #a4ca39; }
+
+#android { height: 558px; margin: 50px auto; position: relative; width: 500px; }
+#head { height: 151px; left: 86px; position: absolute; width: 328px; border-radius: 328px 328px 0 0; -moz-border-radius: 328px 328px 0 0; -o-border-radius: 328px 328px 0 0; -webkit-border-radius: 328px 328px 0 0; }
+
+.ear { height: 70px; top: -40px; position: absolute; width: 11px; border-radius: 11px 11px 0 0; -moz-border-radius: 11px 11px 0 0; -o-border-radius: 11px 11px 0 0; -webkit-border-radius: 11px 11px 0 0; }
+#left-ear { left: 73px; transform: rotate(-30deg); -moz-transform: rotate(-30deg); -o-transform: rotate(-30deg); -webkit-transform: rotate(-30deg); }
+#right-ear { right: 73px; transform: rotate(30deg); -moz-transform: rotate(30deg); -o-transform: rotate(30deg); -webkit-transform: rotate(30deg); }
+
+.eye { background: #fff; height: 29px; position: absolute; top: 64px; width: 29px; border-radius: 29px; -moz-border-radius: 29px; -o-border-radius: 29px; -webkit-border-radius: 29px; }
+#left-eye { left: 75px; }
+#right-eye { right: 75px; }
+
+#body { height: 277px; left: 86px; position: absolute; top: 164px; width: 328px; border-radius: 0 0 50px 50px; -moz-border-radius: 0 0 50px 50px; -o-border-radius: 0 0 50px 50px; -webkit-border-radius: 0 0 50px 50px; }
+
+.arm { height: 227px; position: absolute; top: 155px; width: 73px; border-radius: 73px; -moz-border-radius: 73px; -o-border-radius: 73px; -webkit-border-radius: 73px; }
+#left-arm { left: 0; }
+#right-arm { right: 0; }
+
+.leg { bottom: 0; height: 117px; position: absolute; width: 73px; border-radius: 0 0 73px 73px; -moz-border-radius: 0 0 73px 73px; -o-border-radius: 0 0 73px 73px; -webkit-border-radius: 0 0 73px 73px; }
+#left-leg { left: 152px; }
+#right-leg { right: 152px; }

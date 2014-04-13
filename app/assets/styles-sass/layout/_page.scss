@@ -1,0 +1,34 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Body styles and Page Wrapper definitions
+    ------------------------------------------- **/
+body {
+	height: 100%;
+	color: $body-color;
+	font: {
+		size: $base-font-height;
+		family: "Arsenal", "Helvetica Neueu Light", "Helvetica Neueu", Helvetica, Arial, sans-serif;
+	}
+	line-height: $base-line-height;
+}
+
+.page-wrap {
+	position: relative;
+	max-width: 1100px;
+	min-height: 100%;
+	margin: 0 auto (-$footer-height);
+
+	&:before {
+		@include position(fixed, 0px 0 0 0px);
+		@include dims(100%, 8px);
+		@include linear-gradient(110deg, #c30018 0%, #e30055 10%, #ff8e00 20%, #ffca00 30%, #0e3f74 50%, #3f85af 70%, #0a6917 80%, #34b45a 90%);
+		z-index: 99;
+		content: "";
+	}
+}
+
+#push {
+	clear: both;
+	height: $footer-height;
+}

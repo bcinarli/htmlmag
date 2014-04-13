@@ -1,0 +1,63 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Articles
+    ------------------------------------------- **/
+.article-content {
+	margin-bottom: 2em;
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 1em;
+		padding-left: 0;
+		list-style-position: outside;
+	}
+}
+
+.article-title {
+	margin-top: 0;
+	font-weight: bold;
+}
+
+.article-meta {
+	margin: 0;
+
+	.date {
+		color: $light-text;
+	}
+}
+
+.update-info {
+	color: $body-color;
+	font-weight: bold;
+
+	+ blockquote {
+		margin: .5em 0 1em;
+		padding: 0 .8em;
+		border: 1px dashed $light-text;
+		background: $stripe-color;
+		font: {
+			size: .9em;
+			style: italic;
+		}
+	}
+}
+
+.lightbox {
+	ul {
+		@extend .group;
+		margin-left: -10%;
+	}
+
+	li {
+		@include dims(50%, 200px);
+		position: relative;
+		float: left;
+		overflow: hidden;
+		padding-left: 10%;
+
+		@media screen and (min-width: 960px) {
+			width: 33%;
+		}
+	}
+}

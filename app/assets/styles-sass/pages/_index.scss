@@ -1,0 +1,34 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Index Page styles
+    ------------------------------------------- **/
+.summary {
+	position: relative;
+	margin-top: 3em;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	.date {
+		font: {
+			size: .9em;
+			style: italic;
+		}
+		color: $light-text;
+	}
+
+	.excerpt {
+		margin-top: .5em;
+	}
+
+	@media screen and (min-width: 960px){
+		padding-left: 100px;
+
+		.date {
+			@include position(absolute, .25em 0 0 0px);
+			width: 90px;
+		}
+	}
+}

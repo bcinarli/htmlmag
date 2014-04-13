@@ -1,0 +1,16 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Layout Files
+    ------------------------------------------- **/
+// generic body and page wrapper
+@import "page";
+
+// generic header layout and element positions mostly contains main navigation and logo
+@import "header";
+
+// generic content holder layout
+@import "content";
+
+// generic footer layout and element positions mostly contains copyright statement and footer logo
+@import "footer";
