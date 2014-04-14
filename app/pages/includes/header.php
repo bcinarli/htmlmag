@@ -11,6 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<?php html::load_meta(); ?>
 
+	<link rel="alternate" type="application/rss+xml" title="HTML Mag &raquo; Feed" href="http://feeds.feedburner.com/htmlmag" />
+
 	<link rel="stylesheet" href="<?php echo url::styles('styles.css'); ?>" />
 	<link rel="bookmark icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 

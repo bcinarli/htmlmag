@@ -5,25 +5,37 @@
     ------------------------------------------- **/
 .page-header {
 	position: relative;
-	height: 150px;
+	height: 100px;
+
+	@media screen and (min-width: 600px) {
+		height: 150px;
+	}
 }
 
 .page-heading {
-	@include position(absolute, 50px 0 0 $gutter);
-	height: 93px;
+	@include position(absolute, 35px 0 0 $gutter);
+	height: 48px;
 	margin: 0;
-	padding-left: 120px;
+	padding-left: 60px;
 	background: url("../images/logo@2x.png") center left no-repeat;
-	background-size: 93px;
-	font: {
-		size: 3em;
-		weight: bold;
-	}
+	background-size: 48px;
+	line-height: 48px;
 	letter-spacing: -1px;
-	line-height: 93px;
 
 	@media screen and (min-width: 960px){
 		left: 0px;
+	}
+
+	@media screen and (min-width: 600px) {
+		top: 50px;
+		height: 93px;
+		padding-left: 120px;
+		background-size: 93px;
+		font: {
+			size: 3em;
+			weight: bold;
+		}
+		line-height: 93px;
 	}
 }
 

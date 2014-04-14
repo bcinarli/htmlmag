@@ -17,7 +17,7 @@ body {
 	position: relative;
 	max-width: 1100px;
 	min-height: 100%;
-	margin: 0 auto (-$footer-height);
+	margin: 0 auto (-$footer-height-mobile);
 
 	&:before {
 		@include position(fixed, 0px 0 0 0px);
@@ -26,9 +26,17 @@ body {
 		z-index: 99;
 		content: "";
 	}
+
+	@media screen and (min-width: 600px) {
+		margin-bottom: -$footer-height;
+	}
 }
 
 #push {
 	clear: both;
-	height: $footer-height;
+	height: $footer-height-mobile;
+
+	@media screen and (min-width: 600px) {
+		height: $footer-height;
+	}
 }

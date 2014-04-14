@@ -3,6 +3,13 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'So what is HTML Mag?',
+	'slug' => 'so-what-is-htmlmag',
+	'date' => '2014-04-13',
+	'excerpt' => 'After a longtime residing in the dusts of history, I finally started writing for HTML Mag.'
+);
+
+$articles[] = array(
 	'title' => 'Google Android Logo with pure html and css',
 	'slug' => 'google-android-logo-with-pure-html-and-css',
 	'date' => '2010-10-18',

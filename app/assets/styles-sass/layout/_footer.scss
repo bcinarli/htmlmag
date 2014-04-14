@@ -5,10 +5,14 @@
     ------------------------------------------- **/
 .page-footer {
 	position: relative;
-	height: $footer-height;
+	height: $footer-height-mobile;
 	background: #333;
 	color: $base-footer-color;
 	font-size: .8em;
+
+	@media screen and (min-width: 600px){
+		height: $footer-height;
+	}
 }
 
 .footer {

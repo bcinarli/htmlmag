@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 slug: about
 title: About
 date: 2014-04-13
