@@ -18,7 +18,10 @@ html::$class = 'article';
 				</p>
 				<h1 class="article-title"><?php echo html::$title; ?></h1>
 			</header>
-			<?php $md::printContent(); ?>
+
+			<div class="article-content group">
+				<?php $md::printContent(); ?>
+			</div>
 
 			<footer class="article-footer">
 				<h3>Like the article?</h3>

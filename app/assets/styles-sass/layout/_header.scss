@@ -18,7 +18,7 @@
 	margin: 0;
 	padding-left: 60px;
 	background: url("../images/logo@2x.png") center left no-repeat;
-	background-size: 48px;
+	background-size: auto 100%;
 	line-height: 48px;
 	letter-spacing: -1px;
 
@@ -30,7 +30,6 @@
 		top: 50px;
 		height: 93px;
 		padding-left: 120px;
-		background-size: 93px;
 		font: {
 			size: 3em;
 			weight: bold;

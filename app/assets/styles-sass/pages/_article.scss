@@ -5,13 +5,6 @@
     ------------------------------------------- **/
 .article-content {
 	margin-bottom: 2em;
-
-	ul {
-		margin-top: 0;
-		margin-bottom: 1em;
-		padding-left: 0;
-		list-style-position: inside;
-	}
 }
 
 .article-title {
@@ -25,6 +18,12 @@
 	.date {
 		color: $light-text;
 	}
+}
+
+.article-footer {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 1px dashed $light-text;
 }
 
 .update-info {
@@ -47,6 +46,7 @@
 	ul {
 		@extend .group;
 		margin-left: -10%;
+		list-style: none;
 	}
 
 	li {
