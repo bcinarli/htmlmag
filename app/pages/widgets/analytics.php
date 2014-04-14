@@ -12,6 +12,7 @@
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	ga('create', 'UA-49983781-1', 'htmlmag.com');
+	ga('require', 'displayfeatures');
 	ga('send', 'pageview');
 </script>
 <div id="fb-root"></div>
