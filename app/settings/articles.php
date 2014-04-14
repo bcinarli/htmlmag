@@ -3,6 +3,13 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'Future of Web Design 2014 - Part 1',
+	'slug' => 'fowd-2014-part1',
+	'date' => '2014-04-14',
+	'excerpt' => 'Future Insights\'ın düzenlediği Future of Web Design konferansı 7-9 Nisan tarihleri arasında Londra\'da yapıldı. İlk günü workshoplardan oluşan konferansın ikinci ve üçüncü gününde güncel web tasarımlarından ve modern frontend uygulamalarından örneklerin sunulduğu, tartışıldığı konuşmalar ile dolu dolu geçti.'
+);
+
+$articles[] = array(
 	'title' => 'So what is HTML Mag?',
 	'slug' => 'so-what-is-htmlmag',
 	'date' => '2014-04-13',
