@@ -18,6 +18,7 @@
 	    public static $externalCSS;
 	    public static $externalJS;
 	    public static $lang;
+	    public static $author;
 	    public static $comments = false;
 
         public static function load_meta()
