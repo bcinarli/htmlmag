@@ -55,7 +55,12 @@ class feed {
 			return;
 		}
 
+		$start = 1;
 		foreach(self::$feed_source as $feed){
+			if($start > self::$feed_limit) {
+				break;
+			}
+
 			$summary = $feed['excerpt'];
 
 			if(self::$fulltext == true){
@@ -76,6 +81,8 @@ class feed {
 					</summary>
 					<link href="' . url::make_abs_url('article/' . $feed['slug']) .'" />
 				</entry>';
+
+			$start++;
 		}
 
 		return $this->_feed_text;
