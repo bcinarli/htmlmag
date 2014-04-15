@@ -1,11 +1,13 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
- 	Base Elements
+ 	Rule
     ------------------------------------------- **/
-@import "links";
-@import "headings";
-@import "images";
-@import "codes";
-@import "lists";
-@import "rule";
+hr {
+	border: 1px dashed $light-text;
+	border-width: 0 0 1px;
+
+	.footnotes & {
+		border-style: solid;
+	}
+}

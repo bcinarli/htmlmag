@@ -3,6 +3,13 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'Future of Web Design 2014 - Part 2',
+	'slug' => 'fowd-2014-part2',
+	'date' => '2014-04-15',
+	'excerpt' => 'Future of Web Design konferansının 2. günü ve konuşmaların ilk günü keyifli öğretici konuşmalarla geçti. Ama günün aklımda kalan sözü Paul Boag\'ın sosyalleşme ve network imkanını üst düzeyde tutmak için "Go talk to a stranger" lafı oldu.'
+);
+
+$articles[] = array(
 	'title' => 'Future of Web Design 2014 - Part 1',
 	'slug' => 'fowd-2014-part1',
 	'date' => '2014-04-14',
