@@ -1,4 +1,5 @@
 Header set X-UA-Compatible "IE=edge"
+
 Options +FollowSymLinks
 RewriteEngine On
 
@@ -22,6 +23,7 @@ RewriteRule . index.php [L]
   <IfModule mod_filter.c>
     AddOutputFilterByType DEFLATE application/atom+xml \
                                   application/javascript \
+                                  application/x-javascript \
                                   application/json \
                                   application/rss+xml \
                                   application/vnd.ms-fontobject \
