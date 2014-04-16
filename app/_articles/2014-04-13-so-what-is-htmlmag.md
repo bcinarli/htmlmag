@@ -2,7 +2,7 @@
 comments: true
 slug: so-what-is-htmlmag
 title: So what is HTML Mag?
-date: 2014-04-13
+date: 2014-04-13 14:36:30
 ---
 HTML Mag is abbreviation for HTML Magazine. Back then, during 2009 HTML Mag project started to be blog about web development. Sometimes because of tight working schedules, sometimes laziness, project paused for a longtime.
 
