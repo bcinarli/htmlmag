@@ -29,13 +29,20 @@ img[height] {
 }
 
 // figures and images
-figure > img {
-	display: block;
+figure {
+	font: {
+		size: .9em;
+		style: italic;
+	}
+
+	> img {
+		display: block;
+	}
 }
+
 
 .credits {
 	font: {
 		size: .8em;
-		style: italic;
 	}
 }

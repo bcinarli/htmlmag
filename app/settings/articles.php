@@ -3,23 +3,30 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'Future of Web Design 2014 - Part 3',
+	'slug' => 'fowd-2014-part3',
+	'date' => '2014-04-16 23:25:45',
+	'excerpt' => 'Yeni fikirler edindiğim, webin farklı kısımları için geliştirilen farklı yaklaşımları takip ettiğim konferansın son gününü daha çok Rising Stars Track konuşmalarında geçirdim. Bu konuşmalar boyunca arayüz yazılımları ve tasarım ile kullanılabilirliğe yeni bakış açılarını değerlendirdik.'
+);
+
+$articles[] = array(
 	'title' => 'Future of Web Design 2014 - Part 2',
 	'slug' => 'fowd-2014-part2',
-	'date' => '2014-04-15',
+	'date' => '2014-04-15 23:32:20',
 	'excerpt' => 'Future of Web Design konferansının 2. günü ve konuşmaların ilk günü keyifli öğretici konuşmalarla geçti. Ama günün aklımda kalan sözü Paul Boag\'ın sosyalleşme ve network imkanını üst düzeyde tutmak için "Go talk to a stranger" lafı oldu.'
 );
 
 $articles[] = array(
 	'title' => 'Future of Web Design 2014 - Part 1',
 	'slug' => 'fowd-2014-part1',
-	'date' => '2014-04-14',
+	'date' => '2014-04-14 11:59:10',
 	'excerpt' => 'Future Insights\'ın düzenlediği Future of Web Design konferansı 7-9 Nisan tarihleri arasında Londra\'da yapıldı. İlk günü workshoplardan oluşan konferansın ikinci ve üçüncü gününde güncel web tasarımlarından ve modern frontend uygulamalarından örneklerin sunulduğu, tartışıldığı konuşmalar ile dolu dolu geçti.'
 );
 
 $articles[] = array(
 	'title' => 'So what is HTML Mag?',
 	'slug' => 'so-what-is-htmlmag',
-	'date' => '2014-04-13',
+	'date' => '2014-04-13 14:36:30',
 	'excerpt' => 'After a longtime residing in the dusts of history, I finally started writing for HTML Mag.'
 );
 
