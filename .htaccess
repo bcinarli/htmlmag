@@ -3,6 +3,9 @@ Header set X-UA-Compatible "IE=edge"
 Options +FollowSymLinks
 RewriteEngine On
 
+RewriteRule ^app/content/(.*)$ /content/$1 [R=301,NC,L]
+RewriteRule ^downloads/(.*)$ /content/downloads/$1 [R=301,NC,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]

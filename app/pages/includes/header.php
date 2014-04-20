@@ -22,12 +22,10 @@
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="HTML Mag" />
-	<meta property="og:description" content="HTML Mag is a website dedicated for HTML, CSS and JavaScript." />
+	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
 	<meta property="og:url" content="http://htmlmag.com/" />
 	<meta property="og:site_name" content="HTML Mag" />
 	<meta property="article:publisher" content="https://www.facebook.com/htmlmag" />
-	<meta property="og:image" content="http://htmlmag.com/app/assets/images/logo@2x.png" />
 
 	<?php if(html::$externalCSS != ''): ?>
 	<link rel="stylesheet" href="<?php echo html::$externalCSS; ?>" />
