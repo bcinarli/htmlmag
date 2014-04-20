@@ -30,6 +30,8 @@
 	<?php if(html::$externalCSS != ''): ?>
 	<link rel="stylesheet" href="<?php echo html::$externalCSS; ?>" />
 	<?php endif; ?>
+
+    <script src="<?php echo url::scripts('app-min.js'); ?>"></script>
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
 <?php tools::inc('widgets/analytics'); ?>

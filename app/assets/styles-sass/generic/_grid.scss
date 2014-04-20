@@ -1,0 +1,42 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Some grids
+    ------------------------------------------- **/
+/** column wrapper **/
+.row { 
+    @include clearfix;
+    margin-left: -$gutter;
+    
+    [class*="-column"] {
+        float: left;
+        padding-left: $gutter;
+        
+        &:last-child {
+            float: right;
+        }
+    }
+}
+
+
+/** columns **/
+.full-column            { width: 100%; }
+.half-column            { width: 50%; }
+
+.one-third-column       { width: 33.3333%; }
+.two-third-column,
+.two-thirds-columns     { width: 66.6666%; }
+
+.one-quarter-column     { width: 25%; }
+.two-quarter-column,
+.two-quarters-columns   { @extend .half-column; }
+.three-quarter-column,
+.three-quarters-columns { width: 75%; }
+
+.one-fifth-column       { width: 20%; }
+.two-fifth-column,
+.two-fifths-columns     { width: 40%; }
+.three-fifth-column,
+.three-fifths-columns   { width: 60%; }
+.four-fifth-column,
+.four-fifths-columns    { width: 80%; }
