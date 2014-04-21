@@ -6,37 +6,50 @@
 /** column wrapper **/
 .row { 
     @include clearfix;
-    margin-left: -$gutter;
-    
-    [class*="-column"] {
-        float: left;
-        padding-left: $gutter;
-        
-        &:last-child {
-            float: right;
-        }
+
+    @media screen and (min-width: 760px) {
+        margin-left: -$gutter;
     }
 }
 
+/** each column is 100% in mobile **/
+[class*="-column"] {
+    width: 100%;
 
-/** columns **/
-.full-column            { width: 100%; }
-.half-column            { width: 50%; }
+    /** and floats in tablets and bigger screen if they are in a row **/
+    .row & {
+        @media screen and (min-width: 760px) {
+            float: left;
+            padding-left: $gutter;
 
-.one-third-column       { width: 33.3333%; }
-.two-third-column,
-.two-thirds-columns     { width: 66.6666%; }
+            &:last-child:not(:only-child) {
+                float: right;
+            }
+        }
+    }
 
-.one-quarter-column     { width: 25%; }
-.two-quarter-column,
-.two-quarters-columns   { @extend .half-column; }
-.three-quarter-column,
-.three-quarters-columns { width: 75%; }
+}
 
-.one-fifth-column       { width: 20%; }
-.two-fifth-column,
-.two-fifths-columns     { width: 40%; }
-.three-fifth-column,
-.three-fifths-columns   { width: 60%; }
-.four-fifth-column,
-.four-fifths-columns    { width: 80%; }
+/** columns for tablet and bigger screens **/
+@media screen and (min-width: 760px) {
+    .full-column            { width: 100%; }
+    .half-column            { width: 50%; }
+
+    .one-third-column       { width: 33.3333%; }
+    .two-third-column,
+    .two-thirds-columns     { width: 66.6666%; }
+
+    .one-quarter-column     { width: 25%; }
+    .two-quarter-column,
+    .two-quarters-columns   { @extend .half-column; }
+    .three-quarter-column,
+    .three-quarters-columns { width: 75%; }
+
+    .one-fifth-column       { width: 20%; }
+    .two-fifth-column,
+    .two-fifths-columns     { width: 40%; }
+    .three-fifth-column,
+    .three-fifths-columns   { width: 60%; }
+    .four-fifth-column,
+    .four-fifths-columns    { width: 80%; }
+}

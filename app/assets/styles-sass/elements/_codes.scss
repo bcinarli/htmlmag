@@ -3,6 +3,8 @@
 /** -------------------------------------------
  	Coding sample styles
     ------------------------------------------- **/
+$langs: css, sass, less, stylus, javascript, php, coffeescript, sql;
+
 %lang {
     @include position(absolute, -.6em (-.6em) 0 0);
     padding: .3em .5em;
@@ -10,6 +12,7 @@
     font-weight: normal;
     color: #fff;
     text-transform: uppercase;
+    text-shadow: none;
 }
 
 code {
@@ -24,20 +27,12 @@ code {
 		size: .8em;
 	}
 	line-height: 1;
-}
 
-pre[class*="language-"] {
-    padding: .5em;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    background: #f8f8f8;
-
-    code {
+    pre[class*="language-"] & {
         position: relative;
         display: block;
         border: 0;
-
-        $langs: css, sass, less, stylus, javascript, php, coffeescript, sql;
+        line-height: 1.4;
 
         @each $i in $langs {
             &.#{$i}:after {
@@ -46,4 +41,11 @@ pre[class*="language-"] {
             }
         }
     }
+}
+
+pre[class*="language-"] {
+    padding: .5em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f8f8f8;
 }
