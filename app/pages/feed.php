@@ -12,6 +12,6 @@ feed::$fulltext = true;
 feed::$title = 'HTML Magazine';
 feed::$author = 'Bilal Cinarli';
 feed::$author_email = 'htmlmag@htmlmag.com';
-feed::$link = url::make_abs_url('/');
+feed::$link = url::make_abs_url('');
 
 $feed = new feed();
