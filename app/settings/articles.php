@@ -3,6 +3,15 @@
 $articles = array();
 
 $articles[] = array(
+    'title' => 'Anatomy of a jQuery Plugin',
+    'slug' => 'anatomy-of-a-jquery-plugin',
+    'date' => '2014-05-12 20:23:10',
+    'excerpt' => 'jQuery plugins allow new methods available in your code, a better abstraction and optimization.
+    From basic to advanced ones, the plugin concept is the same and with the key architecture,
+    almost all type of plugin can be built.'
+);
+
+$articles[] = array(
     'title'   => 'An Introduction to CSS Pre-Processors; SASS, LESS, and Stylus',
     'slug'    => 'an-introduction-to-css-preprocessors-sass-less-stylus',
     'date'    => '2014-04-21 23:41:20',
