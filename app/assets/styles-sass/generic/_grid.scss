@@ -5,7 +5,7 @@
     ------------------------------------------- **/
 /** column wrapper **/
 .row { 
-    @include clearfix;
+    @extend .group;
 
     @media screen and (min-width: 760px) {
         margin-left: -$gutter;

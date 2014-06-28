@@ -10,8 +10,10 @@
 		position: relative;
 
 		&:before {
-			@include position(absolute, 0px 0 0 (-.35em));
-			content: "“";
+			position: absolute;
+            top: 0;
+            left: -.35em;
+            content: "“";
 			font-size: 6em;
 			line-height: 1;
 			color: lighten($light-text, 20%);

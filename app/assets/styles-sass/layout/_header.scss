@@ -13,7 +13,9 @@
 }
 
 .page-heading {
-	@include position(absolute, 4*$gutter 0 0 $gutter);
+    position: absolute;
+    top: 4*$gutter;
+    left: $gutter;
 	height: 48px;
 	margin: 0;
 	padding-left: 60px;
@@ -39,7 +41,9 @@
 }
 
 .main-nav {
-	@include position(absolute, 0 $gutter (-$gutter) 0);
+    position: absolute;
+    right: $gutter;
+    bottom: -$gutter;
 
 	font: {
 		weight: bold;

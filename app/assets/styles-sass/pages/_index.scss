@@ -27,7 +27,9 @@
 		padding-left: 100px;
 
 		.date {
-			@include position(absolute, .25em 0 0 0px);
+            position: absolute;
+            top: .25em;
+            left: 0;
 			width: 90px;
 		}
 	}

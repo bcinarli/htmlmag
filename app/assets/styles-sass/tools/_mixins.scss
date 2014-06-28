@@ -24,7 +24,6 @@
 	// defaults
 	$el: "&:after";
 
-	$pos: 0 0 100% 50%;
 	$border-side: border-bottom-color;
 	$margin-side: margin-left;
 
@@ -46,8 +45,10 @@
 
 	&:after,
 	&:before {
-		@include position(absolute, $pos);
 		@include dims(0);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
 		content: "";
 		border: solid transparent;
 		pointer-events: none;
@@ -69,4 +70,12 @@
 			border-width: ($arrow-size + $arrow-border-size);
 		}
 	}
+}
+
+@mixin linear-gradient($content...){
+    background: -moz-linear-gradient($content); /* FF3.6+ */
+    background: -webkit-linear-gradient($content); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient($content); /* Opera 11.10+ */
+    background: -ms-linear-gradient($content); /* IE10+ */
+    background: linear-gradient($content); /* W3C */
 }
