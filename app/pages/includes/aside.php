@@ -6,7 +6,8 @@
  */
 ?>
 <aside class="suplementary" role="complementary">
-	<?php tools::inc('widgets/social-links.php'); ?>
-	<?php tools::inc('widgets/info.php'); ?>
-	<?php tools::inc('widgets/twitter.php'); ?>
+	<?php tools::inc('widgets/social-links'); ?>
+	<?php tools::inc('widgets/share-bubbles'); ?>
+    <?php tools::inc('widgets/info'); ?>
+	<?php tools::inc('widgets/twitter'); ?>
 </aside>

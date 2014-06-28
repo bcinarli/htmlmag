@@ -13,11 +13,22 @@
 	font-size: 1.2em;
 }
 
+[class*="-sharing"] {
+    position: relative;
+    display: inline-block;
+
+    .suplementary & {
+        margin-right: 2*$gutter;
+    }
+}
+
+.info-widget,
 .twitter-widget {
 	padding-top: 1.5em;
 	border-top: 1px dashed #ccc;
 }
 
-.twitter-sharing {
-	@include position(relative, 7px 0 0 0);
+.facebook-sharing {
+	top: -7px;
+    margin-right: $gutter;
 }
