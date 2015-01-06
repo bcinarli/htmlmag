@@ -13,10 +13,11 @@ html::$class = 'article';
 	<div id="main" class="main-content">
 		<article class="article-content">
 			<header class="article-header">
-				<p class="article-meta">
-					<span class="date"><?php echo tools::formatDate(html::$date); ?></span>
-				</p>
 				<h1 class="article-title"><?php echo html::$title; ?></h1>
+				<div class="article-meta">
+					<span class="article-meta-author">by <span class="author-name"><?php echo html::$author; ?></span></span>
+					<span class="article-meta-date">published on <span class="datetime"><?php echo tools::formatDate(html::$date); ?></span></span>
+				</div>
 			</header>
 
 			<div class="article-content group">

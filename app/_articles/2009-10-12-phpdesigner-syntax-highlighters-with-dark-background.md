@@ -3,6 +3,7 @@ comments: true
 slug: phpdesigner-syntax-highlighters-with-dark-background
 title: phpDesigner syntax highlighters with dark background
 date: 2009-10-12
+author: Bilal Cinarli
 ---
 ### Update {.update-info}
 > This article is first published on bcinarli.com <br />

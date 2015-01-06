@@ -13,6 +13,7 @@
 			<p><a href="http://twitter.com/htmlmag">Follow on Twitter</a> and for keep up with the content grap <a href="http://feeds.feedburner.com/htmlmag">the rss feed</a>.</p>
 		</div>
 	</footer>
+	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
 	<?php if(html::$externalJS != ''): ?>
 	<script src="<?php echo html::$externalJS; ?>"></script>
 	<?php endif; ?>

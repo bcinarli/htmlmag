@@ -4,4 +4,5 @@
 
 $(function(){
 	$("a.gallery").colorbox();
+	$("a.external").attr('target', '_blank');
 });

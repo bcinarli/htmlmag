@@ -3,6 +3,7 @@ comments: true
 slug: anatomy-of-a-jquery-plugin
 title: Anatomy of a jQuery Plugin
 date: 2014-05-12 20:23:10
+author: Bilal Cinarli
 tags:
 - jQuery
 ---

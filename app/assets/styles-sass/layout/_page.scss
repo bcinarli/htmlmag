@@ -23,7 +23,7 @@ body {
         position: fixed;
         top: 0;
         left: 0;
-		@include dims(100%, 8px);
+		@include dims(100%, 5px);
 		@include linear-gradient(110deg, #c30018 0%, #e30055 10%, #ff8e00 20%, #ffca00 30%, #0e3f74 50%, #3f85af 70%, #0a6917 80%, #34b45a 90%);
 		z-index: 99;
 		content: "";

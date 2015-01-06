@@ -28,9 +28,14 @@
 
 .article-meta {
 	margin: 0;
+	color: $light-text;
+}
 
-	.date {
-		color: $light-text;
+[class^="article-meta-"] {
+	margin-right: 5px;
+	
+	span {
+		color: $body-color;
 	}
 }
 
