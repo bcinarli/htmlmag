@@ -9,6 +9,8 @@ tags:
 - SASS
 - LESS
 - Stylus
+keywords: Sass vs Less vs Stylus, Pre-Processors
+description: A quick comparison for CSS pre-processors. Which one to choose, Code samples, similarities and differences between Sass, Less and Stylus
 ---
 CSS Pre-processors are in our development life for years. In their first implementations, they had few features. But nowadays, they are the key ingredients and must have tools for CSS development. Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. [SASS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.io/stylus/) are the well known ones. By the time this article is published, SASS is at version 3.3.5,
 LESS is at version 1.7.0 and Stylus is at version 0.43.1

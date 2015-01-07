@@ -6,6 +6,7 @@ date: 2014-05-12 20:23:10
 author: Bilal Cinarli
 tags:
 - jQuery
+externalJS: //codepen.io/assets/embed/ei.js
 ---
 Since released, jQuery has become one of the key components in web projects. Extensibility, easy to use,
 short learning curve and huge community support, makes it to be the first choice for a front-end developer most
@@ -181,7 +182,6 @@ The following code block and the CodePen embed is the final version of the sampl
 ```
 
 <p data-height="268" data-theme-id="0" data-slug-hash="Larjg" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/bcinarli/pen/Larjg/'>Larjg</a> by Bilal Çınarlı (<a href='http://codepen.io/bcinarli'>@bcinarli</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
 
 To sum up, a jQuery plugin is a new method or utility that will be available in your code. It is reusable, and it can support complex actions and operations.
 
