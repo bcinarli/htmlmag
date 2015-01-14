@@ -6,7 +6,7 @@
  */
 ?>
 
-			<div id="disqus_thread"></div>
+			
 			<script type="text/javascript">
 				var disqus_shortname  = 'htmlmag';
 				var disqus_identifier = '<?php echo html::$slug; ?>';

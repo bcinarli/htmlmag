@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'Namespace Your Events with the help of jQuery',
+	'slug' => 'namespace-your-events',
+	'date' => '2015-01-14 13:29:10',
+	'author' => 'Bilal Cinarli',
+	'excerpt' => 'In daily coding, binding an event to an element is simply and autonomous routine. Most of time developers select the element with jQuery, attach the event with <code>on</code> method or event\'s keyword and never think about if any other methods are also attached to same element with the very same event.'
+);
+
+$articles[] = array(
     'title' => 'Hidden Gems: Fixed Table Layout',
     'slug' => 'hidden-gems-fixed-table-layout',
     'date' => '2015-01-06 20:05:00',

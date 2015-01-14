@@ -17,6 +17,9 @@
 	<?php if(html::$externalJS != ''): ?>
 	<script src="<?php echo html::$externalJS; ?>"></script>
 	<?php endif; ?>
+	<?php if(html::$comments == 'true'): ?>
+	<?php tools::inc('widgets/disqus'); ?>
+	<?php endif; ?>
     <script type="text/javascript">
         (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

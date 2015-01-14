@@ -32,7 +32,7 @@ html::$class = 'article';
 
 		<?php if(html::$comments == 'true'): ?>
 		<div id="comments" class="article-comments">
-			<?php tools::inc('widgets/disqus'); ?>
+			<div id="disqus_thread"></div>
 		</div>
 		<?php endif; ?>
 	</div>
