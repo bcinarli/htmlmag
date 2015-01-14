@@ -15,7 +15,7 @@
 	</footer>
 	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
 	<?php if(html::$externalJS != ''): ?>
-	<script src="<?php echo html::$externalJS; ?>"></script>
+	<script async src="<?php echo html::$externalJS; ?>"></script>
 	<?php endif; ?>
 	<?php if(html::$comments == 'true'): ?>
 	<?php tools::inc('widgets/disqus'); ?>
