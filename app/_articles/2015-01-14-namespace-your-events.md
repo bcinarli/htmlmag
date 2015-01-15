@@ -36,7 +36,18 @@ $(el).on('keyup', callback);
 $(el).on('keyup.namespace', callback);
 ```
 
+Same as the binding your event, unbinding the namespaced event as follows:
+
+``` {.language-javascript}
+// unbinds all 'keyup' events 
+$(el).off('keyup');
+
+// only removes the specified event in namespace, 
+// other 'keyup' events will still continue working
+$(el).off('keyup.namespace');
+```
 
 ## Further reading
 - jQuery documentation for [namespacing](http://api.jquery.com/event.namespace/){.external} your events
+- Detailed [explanation](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener){.external} of event listeners on Mozilla.
 - Checkout namespaced events in some of [uxrocket](https://github.com/uxrocet){.external} plugins such as [clear](https://github.com/uxrocket/uxrocket.clear){.external} or [textlimit](https://github.com/uxrocket/uxrocket.textlimit){.external}.
