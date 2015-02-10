@@ -7,6 +7,7 @@
 $md = new md('_articles/' . router::getMatches(1));
 
 html::$class = 'article';
+html::$lang = $md::getMeta('lang');
 
 ?>
 <?php tools::inc('includes/header'); ?>

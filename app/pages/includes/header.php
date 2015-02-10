@@ -5,7 +5,7 @@
  **/
 ?>
 <!DOCTYPE html>
-<html xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="<?php echo html::$lang != '' ? html::$lang : 'en_US'; ?>">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,10 +20,10 @@
 	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<link rel="author" href="https://plus.google.com/116168797582640048599/posts">
 
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="<?php echo html::$lang != '' ? html::$lang : 'en_US'; ?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
-	<meta property="og:url" content="http://htmlmag.com/" />
+	<meta property="og:url" content="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<meta property="og:site_name" content="HTML Mag" />
 	<meta property="article:publisher" content="https://www.facebook.com/htmlmag" />
 
