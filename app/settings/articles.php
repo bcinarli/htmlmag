@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+	'title' => 'Gizli Cevherler: Widows & Orphans',
+	'slug' => 'gizli-cevherler-widows-orphans',
+	'date' => '2015-02-10 17:47:00',
+	'author' => 'Nesrin Kalender',
+	'excerpt' => 'CSS yazan çoğu kişinin otomatik tamamlamalardan aşina olduğu şeylerden birisi <code>widows</code>\'dur. <code>width</code> yazmak isterken defalarca <code>widows</code> yazılmış ama asla nedir bu <code>widows</code> bakılmamış, kullanılmamıştır.'
+);
+
+$articles[] = array(
 	'title' => 'Namespace Your Events with the help of jQuery',
 	'slug' => 'namespace-your-events',
 	'date' => '2015-01-14 13:29:10',
