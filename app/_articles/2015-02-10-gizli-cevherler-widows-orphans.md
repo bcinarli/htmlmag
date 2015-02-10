@@ -4,6 +4,7 @@ slug: gizli-cevherler-widows-orphans
 title: Gizli Cevherler: Widows & Orphans
 date: 2015-02-10 17:47:00
 author: Nesrin Kalender
+lang: tr
 tags:
 - CSS
 - widows
