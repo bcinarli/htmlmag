@@ -35,7 +35,8 @@ p {
 }
 ```
 
-Son olarak tarayıcı desteğine değinecek olursak desktop da safari ve firefox desteklemiyor. Mobile desteği hiç yok. 
+### Tarayıcı Desteği
+Son olarak tarayıcı desteğine değinecek olursak _print_ için Safari ve Firefox desteklemiyor. Mobile desteği hiç yok. Ama _screen_ için, CSS Columns desteği veren tarayıcılarda kullanılabiliyor.
 
 ### Örnek
 Yukarıda bahsettiğim örnek için <a href="http://www.w3schools.com/jsref/tryjsref_style_widows.htm" target="_blank" rel="nofollow">tıklayınız.</a>
@@ -44,3 +45,4 @@ _Buradaki örnek __print__ stillerine göre tanımlandığı için, sayfa açıl
 ## Diğer Kaynaklar
 - Mozilla Geliştirici Portalı'nda detaylı [kullanımı](https://developer.mozilla.org/tr/docs/Web/CSS/widows){.external} anlatılmış.
 - QuirksMod sitesindeki [örnekler](http://www.quirksmode.org/css/css2/widows.html){.external}
+- Caniuse sitesinde [columns](http://caniuse.com/#search=columns){.external} desteği veren tarayıcı listesi.
