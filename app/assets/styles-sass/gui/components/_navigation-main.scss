@@ -4,5 +4,19 @@
     Main Navigation
     ------------------------------------------- **/
 .main-nav {
-    position: absolute;
+    @include center-vertical();
+    left: 200px;
+
+    &-item {
+        margin-right: 2*$base-gutter;
+        @include font-size(18px);
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .description {
+        display: block;
+        @include font-size(14px);
+        font-weight: normal;
+    }
 }
