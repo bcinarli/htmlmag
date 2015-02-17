@@ -20,6 +20,9 @@
 	<?php if(html::$comments == 'true'): ?>
 	<?php tools::inc('widgets/disqus'); ?>
 	<?php endif; ?>
+    <?php if(role::is_homepage()): ?>
+        <?php tools::inc('widgets/disqus-count'); ?>
+    <?php endif; ?>
     <script type="text/javascript">
         (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
