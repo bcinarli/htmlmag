@@ -1,10 +1,44 @@
 /* @author Bilal Cinarli */
 
+/**
+ * System wide settings
+ *
+ * All the imported values are set to "null" if they have a default value.
+ * So if you want to use them as default, do not change to null value.
+ */
+
 /** -------------------------------------------
- 	Setting Files
+    Settings for default overwrites and
+    GUI related variables
     ------------------------------------------- **/
-// sizes
+//
+// Support for systems/browsers
+//
+@import "supports";
+
+//
+// Namespace definition
+//
+@import "namespace";
+
+//
+// Animation definitions
+//
+@import "animations";
+
+//
+// Size definitions
+//
 @import "sizes";
 
-// element colors
+
+//
+// Font definitions
+//
+@import "fonts";
+
+
+//
+// Color definitions
+//
 @import "colors";

@@ -1,12 +1,38 @@
 /* @author Bilal Cinarli */
-
 /** -------------------------------------------
- 	Component Heights
+    Size Definitions
     ------------------------------------------- **/
-$gutter: 5%;
+/**
+ * Spacing in element
+ *
+ * Sets the padding sizes for an element
+ * @default $base-spacing 1em
+ * @default $base-input-spacing 5px
+ */
+$base-spacing: null;
+$base-input-spacing: null;
 
-$base-font-height: 16px;
-$base-line-height: 1.5;
 
-$footer-height: 65px;
-$footer-height-mobile: 90px;
+/**
+ * Grid gutter and columns
+ *
+ * Defines the grid gutter size and column count in a row
+ * Grid columns floated by default. But it is optional whether float or not
+ * for percentage widths.
+ * @default $base-gutter: 20px
+ * @default $base-grid-columns: 18
+ * @default $base-float-widths: true
+ */
+
+$base-gutter        : null;
+$base-grid-columns  : null;
+$base-float-widths  : null;
+
+
+/**
+ * Border Widths
+ *
+ * Applied border with for input fields and table borders
+ * @default $base-border-width: 1px;
+ */
+$base-border-width: null;

@@ -1,0 +1,29 @@
+{
+  "name": "htmlmag",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bcinarli/htmlmag",
+  "authors": [
+    "Bilal Çınarlı <bcinarli@gmail.com>"
+  ],
+  "description": "HTML Mag website",
+  "keywords": [
+    "htmlmag",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "license": "Private Use",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "caffeine": "~0.2.1",
+    "jquery": "~2.1.3",
+    "melange": "~0.3.4"
+  }
+}

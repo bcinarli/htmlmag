@@ -1,19 +1,30 @@
-/**
-  * @author Bilal Cinarli
-  */
+/*!
+ * HTML Magazine Theme
+ * @author Bilal Cinarli
+ * @author Nesrin Kalender
+ * @designer Hasan Yalcin
+ * @preserve
+ */
 
+/** -------------------------------------------
+    Settings
+    ------------------------------------------- **/
 @import "settings/settings";
 
-@import "tools/mixins";
 
-@import "generic/generic";
+/** -------------------------------------------
+    Caffeine
+    ------------------------------------------- **/
+@import "../../../bower_components/caffeine/lib/caffeine";
 
-@import "plugins/plugins";
 
-@import "elements/elements";
+/** -------------------------------------------
+    Melange
+    ------------------------------------------- **/
+@import "../../../bower_components/melange/lib/melange";
 
-@import "layout/layout";
 
-@import "pages/pages";
-
-@import "widgets/widgets";
+/** -------------------------------------------
+    GUI
+    ------------------------------------------- **/
+@import "gui/gui";
