@@ -13,3 +13,14 @@
 $base-font-size     : null;
 $base-font-family   : null;
 $base-line-height   : null;
+
+@font-face {
+	font-family: 'Arimo';
+	src: url('../fonts/arimo-regular-webfont.eot');
+	src: url('../fonts/arimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/arimo-regular-webfont.woff') format('woff'),
+	url('../fonts/arimo-regular-webfont.ttf') format('truetype'),
+	url('../fonts/arimo-regular-webfont.svg#arimoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
