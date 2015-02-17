@@ -3,7 +3,6 @@
  * @author Bilal Cinarli
  * @link http://bcinarli.com
  **/
-?>
 
 $lang = array();
 
