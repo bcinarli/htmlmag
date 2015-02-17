@@ -11,7 +11,7 @@
 .page-container,
 .page-content {
     position: relative;
-    max-width: 1200px;
+    max-width: $base-max-width;
     min-height: 100%;
     margin: auto;
 }

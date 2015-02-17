@@ -1,14 +1,9 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
-    Elements
+    Font Face
     ------------------------------------------- **/
 //
-// Font Face
+// Arimo
 //
-@import "fonts";
-
-//
-// Code
-//
-@import "code";
+@include font-face('Arimo', 'arimo-regular-webfont');
