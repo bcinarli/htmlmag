@@ -22,8 +22,8 @@
     "tests"
   ],
   "dependencies": {
-    "caffeine": "~0.2.1",
+    "caffeine": "latest",
     "jquery": "~2.1.3",
-    "melange": "~0.3.4"
+    "melange": "latest"
   }
 }
