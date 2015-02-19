@@ -1,0 +1,13 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Rule
+    ------------------------------------------- **/
+hr {
+	border: dashed $color-light-text;
+	border-width: 0 0 1px;
+
+	.footnotes & {
+		border-style: solid;
+	}
+}

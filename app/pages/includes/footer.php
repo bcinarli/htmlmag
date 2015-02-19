@@ -9,8 +9,8 @@
 	</div><!-- #wrapper -->
 	<footer id="mastfoot" class="page-footer">
 		<div class="footer">
-			<p>© <?php echo date('Y'); ?> - <a href="http://twitter.com/bcinarli">Bilal Cinarli</a> & HTML Mag. Built with <a href="http://mistoapp.com" target="_blank">Misto</a>, logo by <a href="http://www.hasanyalcin.com" target="_blank">Hasan Yalçın</a></p>
-			<p><a href="http://twitter.com/htmlmag">Follow on Twitter</a> and for keep up with the content grap <a href="http://feeds.feedburner.com/htmlmag">the rss feed</a>.</p>
+			<p>© <?php echo date('Y'); ?> - <a href="http://twitter.com/bcinarli">Bilal Cinarli</a> & HTML Mag. <a href="http://mistoapp.com" target="_blank">Misto</a> ile hazırlanmıştır. Logo ve tasarımlar <a href="http://www.hasanyalcin.com" target="_blank">Hasan Yalçın</a> tarafından dizayn edilmiştir.</p>
+			<p>Güncellemelerden ve yeni içeriklerden haberdar olmak için bizi<a href="http://twitter.com/htmlmag">Twitter'da takip edin</a> ya da RSS okuyucunuz için <a href="http://feeds.feedburner.com/htmlmag">RSS Feed</a>imizi ekleyin.</p>
 		</div>
 	</footer>
 	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
@@ -20,6 +20,9 @@
 	<?php if(html::$comments == 'true'): ?>
 	<?php tools::inc('widgets/disqus'); ?>
 	<?php endif; ?>
+    <?php if(role::is_homepage() || html::$comments == 'true'): ?>
+        <?php tools::inc('widgets/disqus-count'); ?>
+    <?php endif; ?>
     <script type="text/javascript">
         (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

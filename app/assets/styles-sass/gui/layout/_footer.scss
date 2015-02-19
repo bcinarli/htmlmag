@@ -1,0 +1,51 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Footer Styles
+    ------------------------------------------- **/
+.page-footer {
+	position: relative;
+	background: #6d6d6d;
+	color: $base-tertiary-text-color;
+	@include font-size(14px);
+    line-height: 1.25;
+
+	@media screen and (min-width: 720px){
+        height: $footer-height;
+	}
+}
+
+.footer {
+    position: relative;
+	max-width: $base-max-width;
+	margin: 0 auto;
+	padding: 0 $base-gutter;
+
+	p {
+		margin: 0;
+
+		&:first-child {
+			padding-top: 1em;
+		}
+	}
+
+	a {
+		color: $base-tertiary-text-color;
+		text-decoration: underline;
+	}
+
+    @media screen and (min-width: 720px){
+        padding: 0;
+
+        &:after {
+            position: absolute;
+            top: -($footer-height + 2*$base-gutter);
+            right: 110px;
+            @include dims(131px, 91px);
+            background: center no-repeat;
+            background-size: 100%;
+            @include retina-image('logo-gray');
+            content: "";
+        }
+    }
+}

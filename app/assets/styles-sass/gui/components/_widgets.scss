@@ -1,0 +1,63 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Widgets
+    ------------------------------------------- **/
+//
+// Widget
+//
+.widget {
+    position: relative;
+    padding: $base-gutter 0;
+
+    .supplementary & {
+        padding-left: $base-gutter;
+        border-left: 10px solid $color-gray;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .supplementary .widget {
+        float: left;
+        width: 300px;
+        padding-right: $base-gutter;
+    }
+}
+
+.social-links {
+    @include font-size(14px);
+}
+
+.share-widget {
+    .article-footer & {
+        @include center-vertical();
+        right: 0;
+    }
+}
+
+.social-links.social-links,
+.share-widget.share-widget {
+    border-color: #99d6ae;
+}
+
+.info-widget.info-widget {
+    border-color: lighten($color-primary, 10%);
+}
+
+.twitter-widget.twitter-widget {
+    border-color: $color-secondary;
+}
+
+[class*="-sharing"] {
+    position: relative;
+    display: inline-block;
+
+    .supplementary & {
+        margin-right: $base-gutter;
+    }
+}
+
+.facebook-sharing {
+    top: -7px;
+    margin-right: $base-gutter;
+}

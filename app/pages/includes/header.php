@@ -35,8 +35,10 @@
 <?php tools::inc('widgets/analytics'); ?>
 	<div id="wrapper" class="page-wrap">
 		<header class="page-header">
-			<a href="<?php echo url::homepage(); ?>/"><h1 class="page-heading"><?php echo SITE_TITLE; ?></h1></a>
+            <div class="page-container">
+                <a href="<?php echo url::homepage(); ?>/"><h1 class="page-heading"><?php echo SITE_TITLE; ?></h1></a>
 
-			<?php include "navigation.php"; ?>
+                <?php include "navigation.php"; ?>
+            </div>
 		</header>
 		<div id="content" class="page-content group">

@@ -3,3 +3,5 @@
 *.sass-cache
 *.md-cache
 *.map
+bower_components
+old

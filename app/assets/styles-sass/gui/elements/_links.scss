@@ -1,0 +1,14 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Default Links Styles
+    ------------------------------------------- **/
+a {
+	color: $base-anchor-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $base-anchor-highlight;
+		text-decoration: underline;
+	}
+}
