@@ -9,7 +9,7 @@
     min-height: 100%;
     margin: 0 auto (-$footer-height-mobile);
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 720px) {
         margin-bottom: -$footer-height;
     }
 }
@@ -24,9 +24,9 @@
 
 #push {
     clear: both;
-    //height: $footer-height-mobile;
+    height: $footer-height-mobile;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 720px) {
         height: $footer-height;
     }
 }

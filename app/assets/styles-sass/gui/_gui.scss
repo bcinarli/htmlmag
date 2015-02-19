@@ -4,9 +4,19 @@
     GUI Styles
     ------------------------------------------- **/
 //
+// Plugins
+//
+@import "plugins/plugins";
+
+//
 // Layout
 //
 @import "layout/layout";
+
+//
+// Pages
+//
+@import "pages/pages";
 
 //
 // Elements

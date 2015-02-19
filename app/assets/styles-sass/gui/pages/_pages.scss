@@ -1,21 +1,15 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
-    Components
+    Pages
     ------------------------------------------- **/
 //
-// Navigation
+// Index & Listings
 //
-@import "navigation-main";
+@import "index";
 
 
 //
-// Widgets
+// Article Details
 //
-@import "widgets";
-
-
-//
-// Footnotes
-//
-@import "footnotes";
+@import "article";

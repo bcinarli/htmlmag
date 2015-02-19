@@ -1,0 +1,17 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Index Page styles
+    ------------------------------------------- **/
+.summary {
+	position: relative;
+	margin-top: 3em;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	.excerpt {
+		margin-top: .5em;
+	}
+}

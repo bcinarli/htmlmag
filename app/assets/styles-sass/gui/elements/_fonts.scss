@@ -15,3 +15,8 @@
 @include font-face('OpenSans', 'opensans');
 @include font-face('OpenSans', 'opensans-bold', bold);
 @include font-face('OpenSans', 'opensans-italic', normal, italic);
+
+//
+// Icons
+//
+@include font-face('htmlmag', 'htmlmag');

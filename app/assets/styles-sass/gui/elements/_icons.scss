@@ -1,0 +1,50 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Icons
+    ------------------------------------------- **/
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'htmlmag';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-author:before {
+    content: "\e600";
+}
+
+.icon-label:before {
+    content: "\e601";
+}
+
+.icon-question-answer:before {
+    content: "\e602";
+}
+
+.icon-schedule:before {
+    content: "\e603";
+}
+
+.icon-today:before {
+    content: "\e604";
+}
+
+.icon-comment:before {
+    content: "\e605";
+}
+
+.icon-share:before {
+    content: "\e606";
+}
+
+.icon-time:before {
+    content: "\e607";
+}

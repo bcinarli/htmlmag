@@ -8,10 +8,18 @@
     left: 200px;
 
     &-item {
-        margin-right: 2*$base-gutter;
+        padding: 10px;
+        margin-right: $base-gutter;
+        border-radius: 4px;
         @include font-size(18px);
         font-weight: bold;
         color: #fff;
+
+        &:hover {
+            background-color: darken($color-primary, 15%);
+            color: #fff;
+            text-decoration: none;
+        }
     }
     
     .description {

@@ -10,6 +10,7 @@
 
 .page-heading {
     @include center-vertical();
+    left: $base-gutter;
     @include dims(131px, 91px);
     background: center no-repeat;
     background-size: 100%;
