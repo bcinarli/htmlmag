@@ -36,4 +36,18 @@ $base-float-widths  : null;
  * @default $base-border-width: 1px;
  */
 $base-border-width: null;
+
+/**
+ * Widths
+ *
+ * Generic width definitions for various elements
+ */
 $base-max-width: 1200px;
+
+/**
+ * Heights
+ *
+ * Generic heights definitions for various elements
+ */
+$footer-height: 65px;
+$footer-height-mobile: 90px;

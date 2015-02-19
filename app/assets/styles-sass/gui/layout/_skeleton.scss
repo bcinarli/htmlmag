@@ -6,6 +6,12 @@
 .page-wrap {
     position: relative;
     width: 100%;
+    min-height: 100%;
+    margin: 0 auto (-$footer-height-mobile);
+
+    @media screen and (min-width: 600px) {
+        margin-bottom: -$footer-height;
+    }
 }
 
 .page-container,
@@ -14,4 +20,13 @@
     max-width: $base-max-width;
     min-height: 100%;
     margin: auto;
+}
+
+#push {
+    clear: both;
+    //height: $footer-height-mobile;
+
+    @media screen and (min-width: 600px) {
+        height: $footer-height;
+    }
 }

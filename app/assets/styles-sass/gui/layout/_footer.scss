@@ -5,23 +5,20 @@
     ------------------------------------------- **/
 .page-footer {
 	position: relative;
-	height: 65px;
 	background: #6d6d6d;
 	color: $base-tertiary-text-color;
 	font-size: .8em;
+
 	@media screen and (min-width: 600px){
-		height: 65px;
+        height: $footer-height;
 	}
 }
 
 .footer {
+    position: relative;
 	max-width: $base-max-width;
 	margin: 0 auto;
 	padding: 0;
-
-	@media screen and (min-width: 960px){
-		padding: 0;
-	}
 
 	p {
 		margin: 0;
@@ -35,4 +32,19 @@
 		color: $base-tertiary-text-color;
 		text-decoration: underline;
 	}
+
+    @media screen and (min-width: 960px){
+        padding: 0;
+
+        &:after {
+            position: absolute;
+            top: -($footer-height + 2*$base-gutter);
+            right: 110px;
+            @include dims(131px, 91px);
+            background: center no-repeat;
+            background-size: 100%;
+            @include retina-image('logo-gray');
+            content: "";
+        }
+    }
 }
