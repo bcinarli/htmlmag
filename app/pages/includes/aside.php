@@ -5,7 +5,7 @@
  * Sidebar for the htmlmag.com
  */
 ?>
-<aside class="supplementary" role="complementary">
+<aside class="supplementary group" role="complementary">
 	<?php tools::inc('widgets/social-links'); ?>
 	<?php tools::inc('widgets/share-bubbles'); ?>
     <?php tools::inc('widgets/info'); ?>

@@ -7,8 +7,8 @@
 ?>
 
 <div class="widget info-widget">
-	<p>Html Mag is a website dedicated for <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> subjects.</p>
-	<h3>Who is Behind Html Mag?</h3>
-	<p>Most of the contents are derived from the experience and daily workings of <a href="http://bcinarli.com"><strong>Bilal Cinarli</strong></a> who is a <span title="I know there is no such thing :), company policies"><strong>UX Developer*</strong></span> <a href="http://twitter.com/turkcell"><strong>@Turkcell</strong></a> and expert <strong>Frontend Architect</strong>, working in website industry since <strong>2002</strong></p>
-	<p>Also <a href="https://twitter.com/nesrinkalender"><strong>Nesrin Kalender</strong></a>, who is working as a Front-end Developer at <strong>Rafineri</strong>, helps finding content and organizing the Html Mag Events.</p>
+    <p>HTML Magazin sitesi, HTML, CSS ve JavaScript konularında güncel ve araştırma öncelikli içerikler sunmaya adanmıştır. Hazırlanan yazılan Türkçe ve İngilizce karışık olarak sunulmaktadır.</p>
+	<h3>Biz Kimiz?</h3>
+    <p>İçeriklerin büyük kısmı, 2001'den beri web teknolojileri ile geliştirme yapan, arayüz geliştirme alanında <strong>Frontend Architect</strong> olarak uzmanlaşmış ve şuan <a href="http://twitter.com/turkcell"><strong>@Turkcell</strong></a>'de <strong>Senior UX Developer</strong> olarak çalışan ve  <a href="http://bcinarli.com"><strong>Bilal Çınarlı</strong></a>'nın günlük deneyimleri ve araştırmalarından derlenmektedir.</p>
+    <p>İçerik koordinasyonu ve HTML Magazin etkinliklerinin planları ise, <strong>Rafineri</strong>'de <strong>Front-end Developer</strong> olarak çalışan <a href="https://twitter.com/nesrinkalender"><strong>Nesrin Kalender</strong></a> tarafından yapılmaktadır.</p>
 </div>

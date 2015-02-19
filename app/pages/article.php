@@ -15,10 +15,11 @@ html::$lang = $md::getMeta('lang');
 		<article class="article-content">
 			<header class="article-header">
 				<h1 class="article-title"><?php echo html::$title; ?></h1>
-				<div class="article-meta">
-					<span class="article-meta-author">by <span class="author-name"><?php echo html::$author; ?></span></span>
-					<span class="article-meta-date">published on <span class="datetime"><?php echo tools::formatDate(html::$date); ?></span></span>
-				</div>
+                <div class="article-meta">
+                    <span class="article-author"><i class="icon-author"></i> <?php echo html::$author; ?></span>
+                    <span class="article-date"><i class="icon-time"></i> <?php echo tools::formatLocaleDate(html::$date); ?></span>
+                    <span class="article-comments"><i class="icon-comment"></i> <a href="#disqus_thread" data-disqus-identifier="<?php echo html::$slug; ?>"></a></span>
+                </div>
 			</header>
 
 			<div class="article-content group">
@@ -26,7 +27,7 @@ html::$lang = $md::getMeta('lang');
 			</div>
 
 			<footer class="article-footer">
-				<h3>Like the article?</h3>
+				<h3 class="like-article"><i class="icon-share"></i> Sevdiniz mi? O halde paylaşın!</h3>
 				<?php tools::inc('widgets/share.php'); ?>
 			</footer>
 		</article>
