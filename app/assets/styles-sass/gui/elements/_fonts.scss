@@ -4,6 +4,14 @@
     Font Face
     ------------------------------------------- **/
 //
-// Arimo
+// Roboto
 //
-@include font-face('Arimo', 'arimo-regular-webfont');
+@include font-face('Roboto Slab', 'roboto-slab');
+@include font-face('Roboto Slab', 'roboto-slab-bold', bold);
+
+//
+// Open Sans
+//
+@include font-face('OpenSans', 'opensans');
+@include font-face('OpenSans', 'opensans-bold', bold);
+@include font-face('OpenSans', 'opensans-italic', normal, italic);

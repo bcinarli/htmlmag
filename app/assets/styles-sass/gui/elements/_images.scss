@@ -1,0 +1,48 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 	Images
+    ------------------------------------------- **/
+// fluid images
+img {
+	max-width: 100%;
+
+	&[class*="inline-"] {
+		vertical-align: top;
+	}
+
+	&.inline-left {
+		float: left;
+		margin-right: $base-gutter;
+	}
+
+	&.inline-right {
+		float: right;
+		margin-left: $base-gutter;
+	}
+}
+
+// reset fluidity if size added
+img[width],
+img[height] {
+	max-width: none;
+}
+
+// figures and images
+figure {
+	font: {
+		size: .9em;
+		style: italic;
+	}
+
+	> img {
+		display: block;
+	}
+}
+
+
+.credits {
+	font: {
+		size: .8em;
+	}
+}

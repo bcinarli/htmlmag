@@ -1,14 +1,15 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
-    Elements
+    Texts
     ------------------------------------------- **/
-//
-// Font Face
-//
-@import "fonts";
+.note {
+    font: {
+        size: .8em;
+        style: italic;
+    }
 
-//
-// Code
-//
-@import "code";
+    pre + & {
+        margin-top: 0;
+    }
+}

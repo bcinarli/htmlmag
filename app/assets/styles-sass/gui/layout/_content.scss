@@ -1,0 +1,25 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Content
+    ------------------------------------------- **/
+.page-content {
+    padding: $base-gutter;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-content {
+        float: left;
+        width: calc(100% - 380px);
+    }
+
+    .supplementary {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .supplementary {
+        width: 350px;
+    }
+}
