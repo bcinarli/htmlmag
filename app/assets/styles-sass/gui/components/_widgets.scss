@@ -22,6 +22,10 @@
         width: 300px;
         padding-right: $base-gutter;
     }
+    .article-footer .share-widget{
+        position: relative!important;
+        transform: translateY(0)!important;
+    }
 }
 
 .social-links {
