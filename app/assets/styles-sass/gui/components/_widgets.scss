@@ -30,8 +30,12 @@
 
 .share-widget {
     .article-footer & {
-        @include center-vertical();
-        right: 0;
+        padding-bottom: 0;
+
+        @media screen and (min-width: 600px) {
+            @include center-vertical();
+            right: 0;
+        }
     }
 }
 
