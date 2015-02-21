@@ -5,7 +5,11 @@
     ------------------------------------------- **/
 .main-nav {
     @include center-vertical();
-    left: 200px;
+    left: 165px;
+
+    @media screen and (min-width: 321px) {
+        left: 200px;
+    }
 
     &-item {
         padding: 10px;
