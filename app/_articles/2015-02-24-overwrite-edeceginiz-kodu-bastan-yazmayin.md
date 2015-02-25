@@ -22,7 +22,7 @@ Responsive design yaklaşımının hayat bulmasının en önemli aktörü, CSS i
     padding-bottom: 0;
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .article-footer .share-widget {
         position: relative;
         top: auto;
@@ -31,7 +31,7 @@ Responsive design yaklaşımının hayat bulmasının en önemli aktörü, CSS i
 }
 ```
 
-Halbuki, _media query_ içindeki kurgu tersine yapılmış olsa işler daha kolaylaşır. Kodun `max-width: 768px` şeklinde önce büyük ekran, sonra küçük ekran için yazılma kurgusu tersine çevrildiğinde; `min-width:769px` ve üzerindeki genişlikler için, orjinal elemanların __sadece__ değişmesi gereken tanımları yazılmış olur.
+Halbuki, _media query_ içindeki kurgu tersine yapılmış olsa işler daha kolaylaşır. Kodun `max-width: 767px` şeklinde önce büyük ekran, sonra küçük ekran için yazılma kurgusu tersine çevrildiğinde; `min-width:768px` ve üzerindeki genişlikler için, orjinal elemanların __sadece__ değişmesi gereken tanımları yazılmış olur.
 
 ### Sadece İhtiyaca Göre Kod Yazımı
 ``` {.language-css}
@@ -39,7 +39,7 @@ Halbuki, _media query_ içindeki kurgu tersine yapılmış olsa işler daha kola
     padding-bottom: 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .article-footer .share-widget {
         position: absolute;
         top: 50%;
@@ -68,13 +68,13 @@ Yukarıdaki gibi, aynı bloğun farklı genişliklerdeki görünümü dışında
     width: 380px;
  }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .main-content {
         width: 644px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .main-content,
     .supplementary {
         float: none;
