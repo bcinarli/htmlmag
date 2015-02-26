@@ -5,6 +5,7 @@
     ------------------------------------------- **/
 .speaker {
     display: inline-block;
+    margin: 0 2*$base-gutter;
 
     &-photo {
         display: block;
