@@ -1,0 +1,23 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Speakers
+    ------------------------------------------- **/
+.speaker {
+    display: inline-block;
+
+    &-photo {
+        display: block;
+        @include dims(250px);
+        border-radius: 50%;
+    }
+
+    &-name {
+
+    }
+
+    &-title,
+    &-company {
+        display: block;
+    }
+}
