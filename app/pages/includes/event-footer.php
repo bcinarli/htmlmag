@@ -5,13 +5,7 @@
  **/
 ?>		
 		</div><!-- #content -->
-		<div id="push"></div>
 	</div><!-- #wrapper -->
-	<footer id="mastfoot" class="event-page-footer">
-		<div class="footer">
-
-		</div>
-	</footer>
 	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
     <script type="text/javascript">
         (function() {

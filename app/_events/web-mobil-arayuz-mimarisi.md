@@ -58,29 +58,36 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
 <section id="program" class="event-program">
     <h2 class="event-section-title">PROGRAM</h2>
     <ul class="program-list">
-       <li> 09:00 - 09:30  Tanışma & Kahvaltı </li>
-
-       <li> 09:30 – 12:00  Workshop </li>
-
-       <li> 12:00 – 13:30  Öğle Arası </li>
-
-       <li> 13:30 – 14:30  Sunum </li>
-
-       <li> 14:45 – 17:00  Workshop </li>
-
+       <li> 08:30 - 09:00  Tanışma & Kahvaltı </li>
+       <li> 09:00 – 12:00  Workshop </li>
+       <li> 12:00 – 13:15  Öğle Arası </li>
+       <li> 13:15 – 14:15  Sunum </li>
+       <li> 14:30 – 17:00  Workshop </li>
        <li> 17:15 – 17:30  Kapanış  </li>
     </ul>
 </section>
 
 <section id="sponsors" class="event-sponsors">
     <h2 class="event-section-title">SPONSORLAR</h2>
-     <img src="../content/2015/sponsors/hokka-logo.png" />
-     <img src="../content/2015/sponsors/koc-logo.png" />
+    <a href="http://hokkaweb.com/" target="_blank" class="external"><img src="../content/2015/sponsors/hokka-logo.png" /></a>
+    
+    <p>&nbsp;</p>
+    
+    <h2 class="event-section-title">DESTEKLEYENLER</h2>
+    <a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/koc-logo.png" /></a>
 </section>
 
-<section id="register" class="event-registration">
-    <h2>KAYIT</h2>
-    <p>Size özel fiyatları kaçırmayın!</p>
-    <a href="#" class="register-now">HEMEN BİLETİNİZİ ALIN!</a>
-    <img src="../content/2015/footer-htmlmag-logo.png">
+<section id="register" class="event-registration" markdown=1>
+## KAYIT {.event-section-title}
+
+Kayıtlar 1 Mart itibariyle aktif olacaktır.
+
+Türkiye'nin __ilk Arayüz Mimarisi Çalıştayı__'nda yerinizi ayırtmayı unutmayın!
+
+
+[HEMEN BİLETİNİZİ ALIN!](#){.register-now .external}
+
+![HTML Mag][logo-alt]
 </section>
+
+[logo-alt]: ../content/2015/footer-htmlmag-logo.png

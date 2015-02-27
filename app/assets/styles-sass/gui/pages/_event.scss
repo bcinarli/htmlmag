@@ -91,14 +91,10 @@
         }
 
         .register-now {
-            display: inline-block;
-            padding: $base-gutter;
-            border: 1px solid;
-            font-weight: bold;
             color: #fff;
         }
     }
-    
+
     &-description {
         max-width: 800px;
         margin: 0 auto;
@@ -106,6 +102,13 @@
 
     &-section-title {
         margin-bottom: 2*$base-gutter;
+    }
+
+    .register-now {
+        display: inline-block;
+        padding: $base-gutter;
+        border: 1px solid;
+        font-weight: bold;
     }
 }
 
@@ -126,8 +129,8 @@
         color: #fff;
     }
 
-    .event-program{
+    .event-program {
         background-color: #2c6745;
-        color:            #FFFFFF
+        color: #fff;
     }
 }

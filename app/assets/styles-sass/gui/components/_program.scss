@@ -4,14 +4,12 @@
     Program
     ------------------------------------------- **/
 .event-program {
-
     ul {
-        margin:          75px auto;
+        margin: 75px auto;
         list-style-type: none;
-        font-size:       20px;
-        font-family:     "Roboto Slab", Georgia, serif;
-        line-height:     50px;
-        text-transform:  uppercase;
-        letter-spacing:  1px;
+        @include font-size(20px);
+        line-height: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 }
