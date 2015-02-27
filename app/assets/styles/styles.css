@@ -2634,4 +2634,33 @@ hr {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Sponsor
+    ------------------------------------------- **/
+.event-sponsors h2 {
+  color: #2c6745; }
+.event-sponsors img {
+  max-width: 300px;
+  margin: 0 15px; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Registration
+    ------------------------------------------- **/
+.event-registration {
+  color: #2c6745; }
+  .event-registration p {
+    font-size: 24px;
+    margin: 10px 0 0 0; }
+  .event-registration a {
+    padding: 30px;
+    margin: 50px 0;
+    border: 1px solid #2c6745;
+    color: #2c6745;
+    font-size: 24px; }
+  .event-registration img {
+    display: block;
+    margin: 0 auto; }
+
 /*# sourceMappingURL=styles.css.map */
