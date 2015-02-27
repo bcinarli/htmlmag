@@ -44,6 +44,10 @@
     border-color: #99d6ae;
 }
 
+.promo-widget.promo-widget {
+    border-color: lighten($color-tertiary, 10%);
+}
+
 .info-widget.info-widget {
     border-color: lighten($color-primary, 10%);
 }
