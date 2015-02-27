@@ -19,7 +19,7 @@ links:
         <h2 class="event-spot-title">Web ve Mobil Arayüz Mimarisi Çalıştayı</h2>
         <span class="event-separate">ETKİNLİK</span>
         <span class="event-date">28 Mart 2015</span>
-        <img src="/content/2015/koc-inkubasyon.png" />
+        <img src="../content/2015/koc-inkubasyon.png" />
         
         <a href="#" class="register-now">HEMEN KAYIT OLUN!</a>
     </div>
@@ -39,7 +39,7 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
     <h2 class="event-section-title">KONUŞMACILAR</h2>
     
     <span class="speaker">
-        <img src="/content/2015/bilal-cinarli.jpg" class="speaker-photo" />
+        <img src="../content/2015/bilal-cinarli.jpg" class="speaker-photo" />
         
         <h3 class="speaker-name">BİLAL ÇINARLI</h3>
         <span class="speaker-title">Senior UX Developer</span>
@@ -47,7 +47,7 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
     </span>
     
     <span class="speaker">
-        <img src="/content/2015/nesrin-kalender.jpg" class="speaker-photo" />
+        <img src="../content/2015/nesrin-kalender.jpg" class="speaker-photo" />
         
         <h3 class="speaker-name">NESRİN KALENDER</h3>
         <span class="speaker-title">Front-end Developer</span>
@@ -56,6 +56,20 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
 </section>
 
 <section id="program" class="event-program">
+    <h2 class="event-section-title">PROGRAM</h2>
+    <ul class="program-list">
+       <li> 09:00 - 09:30  Tanışma & Kahvaltı </li>
+
+       <li> 09:30 – 12:00  Workshop </li>
+
+       <li> 12:00 – 13:30  Öğle Arası </li>
+
+       <li> 13:30 – 14:30  Sunum </li>
+
+       <li> 14:45 – 17:00  Workshop </li>
+
+       <li> 17:15 – 17:30  Kapanış  </li>
+    </ul>
 </section>
 
 <section id="sponsors" class="event-sponsors">
