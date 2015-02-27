@@ -74,8 +74,8 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
 
 <section id="sponsors" class="event-sponsors">
     <h2 class="event-section-title">SPONSORLAR</h2>
-     <img src="../content/2015/sponsors/koc-logo.png" />
      <img src="../content/2015/sponsors/hokka-logo.png" />
+     <img src="../content/2015/sponsors/koc-logo.png" />
 </section>
 
 <section id="register" class="event-registration">
