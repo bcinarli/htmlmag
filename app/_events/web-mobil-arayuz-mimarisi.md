@@ -45,6 +45,14 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
         <span class="speaker-title">Senior UX Developer</span>
         <span class="speaker-company">Turkcell</span>
     </span>
+
+     <span class="speaker">
+        <img src="../content/2015/adem-ilter.jpg" class="speaker-photo" />
+        
+        <h3 class="speaker-name">ADEM İLTER</h3>
+        <span class="speaker-title">Founder</span>
+        <span class="speaker-company">Interacthings</span>
+    </span>
     
     <span class="speaker">
         <img src="../content/2015/nesrin-kalender.jpg" class="speaker-photo" />
