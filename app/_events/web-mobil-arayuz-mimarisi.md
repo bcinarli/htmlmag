@@ -30,9 +30,11 @@ __HTML Magazin__ Türkiye'nin __ilk__ Web ve Mobil Arayüz Mimarisi Çalıştay�
 
 Etkinlik 28 Mart tarihinde Koç Üniversitesi, Şişli Kuluçka Merkezi'nde gerçekleşecek.
 
-Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve geliştirilebilir arayüz mimarisinin önemli noktalarını işleyecek. Çalıştay kapsamında, CSS duayenlerinden __Adem İlter__ gelişmiş CSS kullanım örneklerinden, __Nesrin Kalender__ de güncell CSS trendlerinden bahsedecek.
+Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve geliştirilebilir arayüz mimarisinin önemli noktalarını işleyecek. Çalıştay kapsamında, CSS duayenlerinden __Adem İlter__ gelişmiş CSS kullanım örneklerinden, __Nesrin Kalender__ de güncel CSS trendlerinden bahsedecek.
 
-Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart tarihinde açılacaktır.
+Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. 
+
+__Kayıtlar 1 Mart tarihinde başlayacaktır.__
 </section>
 
 <section id="speakers" class="event-speakers">
@@ -44,6 +46,10 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
         <h3 class="speaker-name">BİLAL ÇINARLI</h3>
         <span class="speaker-title">Senior UX Developer</span>
         <span class="speaker-company">Turkcell</span>
+        <span class="speaker-links">
+            <a href="https://twitter.com/bcinarli" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/bcinarli" target="_blank"><i class="icon-linkedin"></i></a>
+        </span>
     </span>
 
      <span class="speaker">
@@ -52,6 +58,10 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
         <h3 class="speaker-name">ADEM İLTER</h3>
         <span class="speaker-title">Founder</span>
         <span class="speaker-company">Interacthings</span>
+        <span class="speaker-links">
+            <a href="https://twitter.com/ademilter" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="https://tr.linkedin.com/in/ademilter" target="_blank"><i class="icon-linkedin"></i></a>
+        </span>
     </span>
     
     <span class="speaker">
@@ -60,18 +70,23 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
         <h3 class="speaker-name">NESRİN KALENDER</h3>
         <span class="speaker-title">Front-end Developer</span>
         <span class="speaker-company">Rafineri</span>
+        <span class="speaker-links">
+            <a href="https://twitter.com/nesrinkalender" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="https://tr.linkedin.com/pub/nesrin-kalender/36/16a/a57" target="_blank"><i class="icon-linkedin"></i></a>
         </span>
+    </span>
 </section>
 
 <section id="program" class="event-program">
     <h2 class="event-section-title">PROGRAM</h2>
     <ul class="program-list">
-       <li> 08:30 - 09:00  Tanışma & Kahvaltı </li>
-       <li> 09:00 – 12:00  Workshop </li>
-       <li> 12:00 – 13:15  Öğle Arası </li>
-       <li> 13:15 – 14:15  Sunum </li>
-       <li> 14:30 – 17:00  Workshop </li>
-       <li> 17:15 – 17:30  Kapanış  </li>
+       <li>08:30 - 09:00  Tanışma & Kahvaltı </li>
+       <li>09:00 – 12:00  Workshop (Bilal Çınarlı)</li>
+       <li>12:00 – 13:00  Öğle Arası </li>
+       <li>13:00 – 13:45  Sunum (Nesrin Kalender)</li>
+       <li>14:00 – 16:30  Workshop (Bilal Çınarlı)</li>
+       <li>16:30 – 17:15  Sunum (Adem İlter)</li>
+       <li>17:15 – 17:30  Kapanış  </li>
     </ul>
 </section>
 

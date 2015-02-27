@@ -25,7 +25,22 @@
     }
 
     &-title,
-    &-company {
+    &-company,
+    &-links {
         display: block;
+    }
+
+    &-links {
+        padding-top: $base-gutter/2;
+        @include font-size(20px);
+
+        a {
+            display: inline-block;
+            margin: 0 5px;
+        }
+    }
+
+    a {
+        color: #fff;
     }
 }
