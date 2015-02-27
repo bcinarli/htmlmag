@@ -5,11 +5,18 @@
     ------------------------------------------- **/
 .speaker {
     display: inline-block;
-    margin: 0 2*$base-gutter;
+    margin-bottom: $base-gutter;
+
+    @media screen and (min-width: 480px) {
+        margin: 0 2*$base-gutter;
+    }
 
     &-photo {
-        display: block;
-        @include dims(250px);
+        display: inline-block;
+        @include dims(160px);
+        @media screen and (min-width: 480px) {
+            @include dims(250px);
+        }
         border-radius: 50%;
     }
 

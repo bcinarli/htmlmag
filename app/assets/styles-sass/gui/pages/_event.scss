@@ -25,24 +25,49 @@
     }
 
     &-nav {
-        @include center-vertical();
         width: 100%;
+        @media screen and (min-width: 480px){
+            @include center-vertical();
+            @include font-size(20px);
+        }
 
         a {
             display: inline-block;
-            @include dims(19%, 93px);
-            @include font-size(20px);
             font-weight: bold;
-            line-height: 93px;
             color: #fff;
+
+            @media screen and (min-width: 480px) {
+                @include dims(19%, 93px);
+                line-height: 93px;
+            }
 
             &.link-to-htmlmag {
                 @include dims(131px, 93px);
-                margin: 0 calc(10% - 65px);
                 background: center no-repeat;
                 background-size: 131px 93px;
                 @include retina-image('logo-white');
                 text-indent: -9999px;
+
+                @media screen and (min-width: 480px){
+                    margin: 0 calc(10% - 65px);
+                }
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            a {
+                display: block;
+                margin: 0 $base-gutter 0 150px;
+                text-align: end;
+                @include font-size(16px);
+            }
+
+            a.link-to-htmlmag {
+                position: absolute;
+                top: 10px;
+                left: $base-gutter;
+                margin: 0;
+                text-align: left;
             }
         }
     }
@@ -117,10 +142,15 @@
         background-image: url("../images/web-mobil-arayuz-mimarisi.jpg");
 
         &-title {
-            @include dims(394px, 211px);
+            @include dims(240px, 128px);
             margin: 10px auto;
             background: url("../images/front-end-workshop-badge.png") center no-repeat;
+            background-size: 100%;
             text-indent: -9999px;
+
+            @media screen and (min-width: 480px) {
+                @include dims(394px, 211px);
+            }
         }
     }
 

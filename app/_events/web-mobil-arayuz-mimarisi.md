@@ -67,14 +67,22 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
     </ul>
 </section>
 
-<section id="sponsors" class="event-sponsors">
-    <h2 class="event-section-title">SPONSORLAR</h2>
-    <a href="http://hokkaweb.com/" target="_blank" class="external"><img src="../content/2015/sponsors/hokka-logo.png" /></a>
+<section id="sponsors" class="event-sponsors" markdown=1>
+## SPONSORLAR {.event-section-title}
+<a href="http://hokkaweb.com/" target="_blank" class="external"><img src="../content/2015/sponsors/hokka-logo.png" /></a>
+
+<br />
+
+<a href="http://www.iconpm.com/" target="_blank" class="external"><img src="../content/2015/sponsors/icon-logo.png" height="100" /></a>
     
-    <p>&nbsp;</p>
+<p>&nbsp;</p>
     
-    <h2 class="event-section-title">DESTEKLEYENLER</h2>
-    <a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/koc-logo.png" /></a>
+## DESTEKLEYENLER {.event-section-title}
+<a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/koc-logo.png" height="100" /></a>
+
+<br />
+
+<a href="http://mobilistanbul.com/" target="_blank" class="external"><img src="../content/2015/sponsors/mobil-istanbul-logo.png" width="150" /></a>
 </section>
 
 <section id="register" class="event-registration" markdown=1>

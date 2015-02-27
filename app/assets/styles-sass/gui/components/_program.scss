@@ -4,12 +4,22 @@
     Program
     ------------------------------------------- **/
 .event-program {
+    @media screen and (max-width: 479px) {
+        @include font-size(16px);
+    }
+
     ul {
-        margin: 75px auto;
+        margin: $base-gutter auto;
+        @media screen and (min-width: 480px) {
+            margin-top: 50px;
+        }
+
         list-style-type: none;
-        @include font-size(20px);
-        line-height: 50px;
         text-transform: uppercase;
         letter-spacing: 1px;
+    }
+
+    li {
+        margin-bottom: $base-gutter;
     }
 }
