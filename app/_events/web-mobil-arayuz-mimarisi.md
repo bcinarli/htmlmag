@@ -30,7 +30,7 @@ __HTML Magazin__ Türkiye'nin __ilk__ Web ve Mobil Arayüz Mimarisi Çalıştay�
 
 Etkinlik 28 Mart tarihinde Koç Üniversitesi, Şişli Kuluçka Merkezi'nde gerçekleşecek.
 
-Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve geliştirilebilir arayüz mimarisinin önemli noktalarını işleyecek. Çalıştay kapsamında, sunumlar ile de güncel CSS trendleri ve gelişmiş kullanım örneklerinden bahsedilecek.
+Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve geliştirilebilir arayüz mimarisinin önemli noktalarını işleyecek. Çalıştay kapsamında, CSS duayenlerinden __Adem İlter__ gelişmiş CSS kullanım örneklerinden, __Nesrin Kalender__ de güncell CSS trendlerinden bahsedecek.
 
 Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart tarihinde açılacaktır.
 </section>
@@ -77,16 +77,16 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. Kayıt 1 Mart ta
 
 <section id="sponsors" class="event-sponsors" markdown=1>
 ## SPONSORLAR {.event-section-title}
-<a href="http://hokkaweb.com/" target="_blank" class="external"><img src="../content/2015/sponsors/hokka-logo.png" /></a>
+<a href="http://hokkaweb.com/" target="_blank" class="external"><img src="../content/2015/sponsors/hokka-logo.png" style="max-height: 70px" /></a>
 
 <br />
 
-<a href="http://www.iconpm.com/" target="_blank" class="external"><img src="../content/2015/sponsors/icon-logo.png" height="100" /></a>
+<a href="http://www.iconpm.com/" target="_blank" class="external"><img src="../content/2015/sponsors/icon-logo.png" style="max-height: 60px" /></a>
     
 <p>&nbsp;</p>
     
 ## DESTEKLEYENLER {.event-section-title}
-<a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/koc-logo.png" height="100" /></a>
+<a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/koc-logo.png" style="max-height: 100px" /></a>
 
 <br />
 
