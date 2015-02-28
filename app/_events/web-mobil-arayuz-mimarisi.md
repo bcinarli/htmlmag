@@ -34,7 +34,7 @@ Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve gelişt
 
 Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. 
 
-__Kayıtlar 1 Mart tarihinde başlayacaktır.__
+__Kayıtlar 2 Mart Pazartesi tarihinde başlayacaktır.__
 </section>
 
 <section id="speakers" class="event-speakers">
@@ -111,7 +111,7 @@ __Kayıtlar 1 Mart tarihinde başlayacaktır.__
 <section id="register" class="event-registration" markdown=1>
 ## KAYIT {.event-section-title}
 
-Kayıtlar 1 Mart itibariyle aktif olacaktır.
+Kayıtlar 2 Mart Pazartesi itibariyle aktif olacaktır.
 
 Türkiye'nin __ilk Arayüz Mimarisi Çalıştayı__'nda yerinizi ayırtmayı unutmayın!
 
