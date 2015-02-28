@@ -21,7 +21,7 @@ links:
         <span class="event-date">28 Mart 2015</span>
         <img src="../content/2015/koc-inkubasyon.png" />
         
-        <a href="#" class="register-now">HEMEN KAYIT OLUN!</a>
+        <a href="https://www.eventbrite.com/e/web-ve-mobil-arayuz-mimarisi-workshop-tickets-15878709648" class="register-now external" target="_blank">HEMEN KAYIT OLUN!</a>
     </div>
 </section>
 
@@ -116,7 +116,7 @@ Kayıtlar 2 Mart Pazartesi itibariyle aktif olacaktır.
 Türkiye'nin __ilk Arayüz Mimarisi Çalıştayı__'nda yerinizi ayırtmayı unutmayın!
 
 
-[HEMEN BİLETİNİZİ ALIN!](#){.register-now .external}
+[HEMEN BİLETİNİZİ ALIN!](https://www.eventbrite.com/e/web-ve-mobil-arayuz-mimarisi-workshop-tickets-15878709648){.register-now .external}
 
 ![HTML Mag][logo-alt]
 </section>
