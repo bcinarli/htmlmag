@@ -1,0 +1,28 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Bulletin
+    ------------------------------------------- **/
+.bulletin-widget {
+    label {
+        margin-bottom: 8px;
+    }
+
+    .fields {
+        position: relative;
+    }
+
+    .email {
+        padding: 7px 100px 8px 10px;
+        border-radius: 2px 0 0 2px;
+        @include font-size(16px);
+    }
+
+    .primary-action {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 0;
+        border-radius: 0 2px 2px 0;
+    }
+}

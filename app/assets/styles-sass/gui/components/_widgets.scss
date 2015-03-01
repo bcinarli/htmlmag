@@ -14,6 +14,11 @@
         padding-left: $base-gutter;
         border-left: 10px solid $color-gray;
     }
+
+    &-title {
+        margin-bottom: $base-gutter/2;
+        @include font-size(20px);
+    }
 }
 
 @media screen and (max-width: 1023px) {
