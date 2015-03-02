@@ -32,9 +32,7 @@ Etkinlik 28 Mart tarihinde Koç Üniversitesi, Şişli Kuluçka Merkezi'nde ger�
 
 Gün boyu sürecek çalıştayda, __Bilal Çınarlı__ yönetilebilir ve geliştirilebilir arayüz mimarisinin önemli noktalarını işleyecek. Çalıştay kapsamında, CSS duayenlerinden __Adem İlter__ gelişmiş CSS kullanım örneklerinden, __Nesrin Kalender__ de güncel CSS trendlerinden bahsedecek.
 
-Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı. 
-
-__Kayıtlar 2 Mart Pazartesi tarihinde başlayacaktır.__
+Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı.
 </section>
 
 <section id="speakers" class="event-speakers">
@@ -111,12 +109,11 @@ __Kayıtlar 2 Mart Pazartesi tarihinde başlayacaktır.__
 <section id="register" class="event-registration" markdown=1>
 ## KAYIT {.event-section-title}
 
-Kayıtlar 2 Mart Pazartesi itibariyle aktif olacaktır.
-
 Türkiye'nin __ilk Arayüz Mimarisi Çalıştayı__'nda yerinizi ayırtmayı unutmayın!
 
-
-[HEMEN BİLETİNİZİ ALIN!](https://www.eventbrite.com/e/web-ve-mobil-arayuz-mimarisi-workshop-tickets-15878709648){.register-now .external}
+<div style="max-width: 1200px; margin: 0 auto;">
+<iframe  src="//eventbrite.com/tickets-external?eid=15878709648&ref=etckt" frameborder="0" height="340" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
 
 ![HTML Mag][logo-alt]
 </section>
