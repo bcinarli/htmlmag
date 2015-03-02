@@ -20,11 +20,11 @@
 	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<link rel="author" href="https://plus.google.com/116168797582640048599/posts">
 
-	<meta property="og:locale" content="<?php echo html::$lang != '' ? html::$lang : 'en_US'; ?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
 	<meta property="og:url" content="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<meta property="og:site_name" content="HTML Mag" />
+	<meta property="og:image" content="http://htmlmag.com/app/assets/images/og-image.png" />
 	<meta property="article:publisher" content="https://www.facebook.com/htmlmag" />
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
