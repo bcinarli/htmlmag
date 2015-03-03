@@ -11,5 +11,6 @@
 	<?php tools::inc('widgets/bulletin'); ?>
 	<?php tools::inc('widgets/promo'); ?>
     <?php tools::inc('widgets/info'); ?>
+    <?php tools::inc('widgets/externals'); ?>
 	<?php tools::inc('widgets/twitter'); ?>
 </aside>

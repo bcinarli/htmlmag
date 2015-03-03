@@ -4,5 +4,5 @@
 
 $(function(){
 	$("a.gallery").colorbox();
-	$("a.external").attr('target', '_blank');
+	$("a.external").attr('target', '_blank').attr('rel', 'nofollow');
 });

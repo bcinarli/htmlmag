@@ -18,7 +18,9 @@ html::$lang = $md::getMeta('lang');
                 <div class="article-meta">
                     <span class="article-author"><i class="icon-author"></i> <?php echo html::$author; ?></span>
                     <span class="article-date"><i class="icon-time"></i> <?php echo tools::formatLocaleDate(html::$date); ?></span>
+                    <?php if(html::$comments == 'true'): ?>
                     <span class="article-comments"><i class="icon-comment"></i> <a href="#disqus_thread" data-disqus-identifier="<?php echo html::$slug; ?>"></a></span>
+                    <?php endif; ?>
                 </div>
 			</header>
 
