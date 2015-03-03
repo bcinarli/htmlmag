@@ -4,6 +4,7 @@ slug: namespace-your-events
 title: Namespace Your Events with the help of jQuery
 date: 2015-01-14 13:29:10
 author: Bilal Cinarli
+profile: https://facebook.com/bcinarli
 tags:
 - JavaScript
 - jQuery

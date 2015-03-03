@@ -6,4 +6,6 @@
 
 $lang = array();
 
+$lang['authors']['Bilal Çınarlı'] = 'bcinarli';
+
 $GLOBALS['lang'] = $lang;

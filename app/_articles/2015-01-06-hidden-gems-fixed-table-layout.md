@@ -4,6 +4,7 @@ slug: hidden-gems-fixed-table-layout
 title: Hidden Gems: Fixed Table Layout
 date: 2015-01-06 20:05:00
 author: Bilal Cinarli
+profile: https://facebook.com/bcinarli
 tags:
 - CSS
 - tables

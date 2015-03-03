@@ -4,6 +4,7 @@ slug: anatomy-of-a-jquery-plugin
 title: Anatomy of a jQuery Plugin
 date: 2014-05-12 20:23:10
 author: Bilal Cinarli
+profile: https://facebook.com/bcinarli
 tags:
 - jQuery
 externalJS: //codepen.io/assets/embed/ei.js

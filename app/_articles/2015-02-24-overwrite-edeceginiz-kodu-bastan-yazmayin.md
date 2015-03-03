@@ -4,7 +4,8 @@ slug: overwrite-edeceginiz-kodu-bastan-yazmayin
 title: Overwrite Edeceğiniz Kodu Baştan Yazmayın!
 date: 2015-02-24 19:12:30
 author: Bilal Çınarlı
-lang: tr
+profile: https://facebook.com/bcinarli
+lang: tr_TR
 tags:
 - CSS
 - Code Smart
