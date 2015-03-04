@@ -2,6 +2,14 @@
 
 $articles = array();
 
+$articles[] = array(
+    'slug'    => 'arayuz-gelistirme-ve-mobil-uygulamalar',
+    'title'   => 'Arayüz Geliştirme ve Mobil Uygulamalar',
+    'date'    => '2015-03-04 08:04:12',
+    'author'  => 'Bilal Çınarlı',
+    'excerpt' => 'Mobil uygulamalar şuan hayatımızın bir parçası. Yediğimiz yemekten, attığımız adıma, banka hesaplarımızından dinlediğimiz müziğe kadar günlük hayatımızdaki birçok olayı mobil uygulamalar ile takip ediyoruz. Geliştiriciler de değişen cihaz çeşitliliği, ekran boyutları karşısında taleplere hızlı cevap vermeye, hazırlanan mobil uygulamaların farklı cihazlar ile uyumlu olmasına çalışıyorlar.'
+);
+
 $articles['overwrite-edeceginiz-kodu-bastan-yazmayin'] = array(
     'title'   => 'Overwrite Edeceğiniz Kodu Baştan Yazmayın!',
     'slug'    => 'overwrite-edeceginiz-kodu-bastan-yazmayin',
