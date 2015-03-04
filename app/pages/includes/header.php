@@ -26,7 +26,7 @@
 	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
 	<meta property="og:url" content="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<meta property="og:site_name" content="HTML Mag" />
-    <meta property="og:image" content="<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : 'http://htmlmag.com/app/assets/images/og-image.png'; ?>" />
+    <meta property="og:image" content="http://htmlmag.com<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : '/app/assets/images/og-image.png'; ?>" />
     <?php if(role::is('article')): ?>
 	<meta property="article:publisher" content="https://www.facebook.com/htmlmag" />
 	<meta property="article:author" content="<?php echo html::$meta['profile']; ?>" />
