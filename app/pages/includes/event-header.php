@@ -20,6 +20,15 @@
 	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<link rel="author" href="https://plus.google.com/116168797582640048599/posts">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@htmlmag" />
+    <meta name="twitter:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag">
+    <?php if(html::$description != ''): ?>
+        <meta name="twitter:description" content="<?php echo html::$description; ?>" />
+    <?php endif ?>
+    <meta name="twitter:creator" content="@bcinarli">
+    <meta name="twitter:image" content="http://htmlmag.com<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : '/app/assets/images/og-image.png'; ?>" />
+
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
 	<meta property="og:url" content="http://htmlmag.com<?php echo url::getUrl(); ?>" />
