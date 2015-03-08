@@ -9,6 +9,7 @@ lang: tr_TR
 tags:
 - CSS
 - Code Smart
+description: Karmaşık CSS kurgularında, sürekli overwrite yazılmak zorunda kalınır. Halbuki CSS kurgusu düzgün yapıldığında daha sade ve kolay kontrol edilebilir bir yapıya sahip olursunuz.
 ---
 Günlük hayatımızda mobil cihazların kullanımı arttıkça sayfa/web arayüzleri de kendilerini bu cihazlarda düzgün gözükecek şekilde kurgulanmaya başlandı. Bu kurgularda farklı yaklaşımlar olsa da, kullanılan en popüler yaklaşım dediğimiz sayfa elemanlarının pozisyonlarının ve genişliklerinin ekran/cihaz genişliğine göre değiştirildiği __responsive design[^1]__ yaklaşımıdır.
 
