@@ -21,8 +21,7 @@ description: Web siteleri ve büyük sistemler için Türkiye'de ilk kez düzenl
         <h2 class="event-spot-title">Web ve Mobil Arayüz Mimarisi Çalıştayı</h2>
         <span class="event-separate">ETKİNLİK</span>
         <span class="event-date">28 Mart 2015</span>
-        <img src="../content/2015/koc-inkubasyon.png" />
-        
+        <img src="../content/2015/koc-inkubasyon.png" />        
         <a href="https://www.eventbrite.com/e/web-ve-mobil-arayuz-mimarisi-workshop-tickets-15878709648" class="register-now external" target="_blank">HEMEN KAYIT OLUN!</a>
     </div>
 </section>
@@ -38,11 +37,9 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı.
 </section>
 
 <section id="speakers" class="event-speakers">
-    <h2 class="event-section-title">KONUŞMACILAR</h2>
-    
+    <h2 class="event-section-title">KONUŞMACILAR</h2>    
     <span class="speaker">
-        <img src="../content/2015/bilal-cinarli.jpg" class="speaker-photo" />
-        
+        <img src="../content/2015/bilal-cinarli.jpg" class="speaker-photo" />        
         <h3 class="speaker-name">BİLAL ÇINARLI</h3>
         <span class="speaker-title">Senior UX Developer</span>
         <span class="speaker-company">Turkcell</span>
@@ -51,10 +48,8 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı.
             <a href="https://www.linkedin.com/in/bcinarli" target="_blank"><i class="icon-linkedin"></i></a>
         </span>
     </span>
-
      <span class="speaker">
-        <img src="../content/2015/adem-ilter.jpg" class="speaker-photo" />
-        
+        <img src="../content/2015/adem-ilter.jpg" class="speaker-photo" />        
         <h3 class="speaker-name">ADEM İLTER</h3>
         <span class="speaker-title">Founder</span>
         <span class="speaker-company">Interacthings</span>
@@ -62,11 +57,9 @@ Tamamen HTML ve CSS odaklı etkinliğin kayıtları sınırlı.
             <a href="https://twitter.com/ademilter" target="_blank"><i class="icon-twitter"></i></a>
             <a href="https://tr.linkedin.com/in/ademilter" target="_blank"><i class="icon-linkedin"></i></a>
         </span>
-    </span>
-    
+    </span>    
     <span class="speaker">
-        <img src="../content/2015/nesrin-kalender.jpg" class="speaker-photo" />
-        
+        <img src="../content/2015/nesrin-kalender.jpg" class="speaker-photo" />        
         <h3 class="speaker-name">NESRİN KALENDER</h3>
         <span class="speaker-title">Front-end Developer</span>
         <span class="speaker-company">Rafineri</span>
