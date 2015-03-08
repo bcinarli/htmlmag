@@ -10,6 +10,7 @@ tags:
 - CSS
 - widows
 - orphans
+description: Az kullanılan CSS özelliklerinden olan Widows ve Orphans tanımları aslında ne işe yarıyor? İçeriğinizin, yazı bloklarının daha anlamlı parçalara bölünmesi için bu tanımları kullanabilirsiniz.
 ---
 CSS yazan çoğu kişinin otomatik tamamlamalardan aşina olduğu şeylerden birisi `widows`'dur. `width` yazmak isterken defalarca `widows` yazılmış ama asla nedir bu `widows` bakılmamış, kullanılmamıştır. 
 
