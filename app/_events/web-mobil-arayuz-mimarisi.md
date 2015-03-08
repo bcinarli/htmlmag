@@ -13,6 +13,8 @@ links:
 - HTMLMAG:/:link-to-htmlmag
 - SPONSORLAR:#sponsors
 - KAYIT:#register
+keywords: HTML, CSS, Sass, Scalable CSS, Front-end, Front-end Architecture
+description: Web siteleri ve büyük sistemler için Türkiye'de ilk kez düzenlenen, yönetilebilir ve geliştirilebilir HTML/CSS mimarisi atölyesi.
 ---
 <section class="event-spot">
     <div class="event-spot-content">
