@@ -5,6 +5,7 @@ title: Google Android Logo with pure html and css
 date: 2010-10-18
 author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
+description: Google Android Logo with pure HTML and CSS. Mostly used css transform properties.
 externalCSS: /app/content/2010/android.css
 ---
 ### Update {.update-info}

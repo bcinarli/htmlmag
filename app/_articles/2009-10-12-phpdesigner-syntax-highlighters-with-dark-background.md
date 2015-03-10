@@ -5,6 +5,7 @@ title: phpDesigner syntax highlighters with dark background
 date: 2009-10-12
 author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
+description: A black theme for phpDesigner. Sample views and installation instructions. Feel free to use it.
 ---
 ### Update {.update-info}
 > This article is first published on bcinarli.com <br />
