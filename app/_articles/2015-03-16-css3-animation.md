@@ -10,11 +10,11 @@ tags:
 - CSS3
 - animation
 - cubic
-description: CSS3 animation nasıl kullanılır? Özellikleri nelerdir? 
+description: CSS3 animation nasıl kullanılır? Özellikleri nelerdir? Temel CSS3 animasyon özelliklerini kullarak sayfanızda kolayca ögelerin hareket etmesini sağlayabilirsiniz.
 ---
 CSS3 ile gelen bir çok özellik belirli web üzerinde belirli işlemleri daha kolay yapmamızı sağladı. Özellikle animation ve transition ile daha yumuşak geçişler ve güzel bir görüntü elde edebiliyoruz.
 
-Animation için bilmemiz gereken temel iki madde var. keyframes ve animation property. Sırayla ele alacak olursak keyframes ile başlayalım.
+Animation için bilmemiz gereken temel iki madde var. __keyframes__ ve __animation__ property. Sırayla ele alacak olursak keyframes ile başlayalım.
 
 ##Keyframes
 
@@ -31,7 +31,7 @@ Eğer flash ile uğraştıysanız keyframe kelimesine yabancı değilsiniz demek
 	}
 } 
 
-//Operi, Safari, Chrome
+//Chrome, Opera, Safari
 @-webkit-keyframes helloWorld{
 	0% {
 		background: red;
@@ -41,7 +41,7 @@ Eğer flash ile uğraştıysanız keyframe kelimesine yabancı değilsiniz demek
 	}
 }
 ```
-Yukarıdaki keyframes tanımlamalarında gördüğümüz gibi animasyonun tamamı 100% oluyor ve 0%, 25% gibi değerler ile geçmesi istediğimiz durumu belirtebiliyoruz. Eğer sadece 0% ve 100% kullanıyorsak bunun yerine from - to şeklinde kullanabiliriz. Yukarıdaki örneği ele alacak olursak;
+Yukarıdaki keyframes tanımlamalarında gördüğümüz gibi animasyonun tamamı `100%` oluyor ve `0%`, `25%` gibi değerler ile geçmesi istediğimiz durumu belirtebiliyoruz. Eğer sadece `0%` ve `100%` kullanıyorsak bunun yerine `from` - `to` şeklinde kullanabiliriz. Yukarıdaki örneği ele alacak olursak;
 
 ``` {.language-css}
 @keyframes helloWorld{
@@ -64,23 +64,23 @@ Peki bizim bu animasyon işlemlerimizden elementimiz nasıl haberdar olacak. Bun
 		-webkit-animation: helloWorld 1s;
 	}
 ```
-Buradaki hellowWorld yukarıda keyframes tanımındaki isim. 1s ise bütün bu işlemlerin kaç saniyede olup biteceğini belirtiyor. 
+Buradaki `hellowWorld` yukarıda keyframes tanımındaki isim. `1s` ise bütün bu işlemlerin kaç saniyede olup biteceğini belirtiyor. 
 
 Animation için daha bir çok property bulunuyor, fakat animasyonun çalışması için isim ve süresini belirtmeniz yeterlidir.  Geri kalan kısımlar sizin istekleriniz doğrultusunda değiştirebileceğiniz alanlardır.
 
 ##Animasyon Özellikleri 
 
 ``` {.language-css}	
-	div {
-		animation-name: animasyonadi;
-		animation-duration: 3s; /* animasyon suresi*/
-		animation-timing-function: ease; 
-		animation-iteration-count: 4; /*tekrar sayisi*/ 
-		animation-direction:reverse; /* animasyon yonu belirtebiliyoruz*/
-		animation-play-state: paused; /*runing ve paused değerleri alır animasyonu durdur/devam yapar*/
-		animation-delay: 2s; /*animasyon baslamadan once bekleme suresi*/
-		animation-fill-mode: forwards; /*animasyonun bitiminde nasil davranacagini belirlir*/
-	}
+div {
+    animation-name: animasyonadi;
+    animation-duration: 3s; /* animasyon suresi*/
+    animation-timing-function: ease; 
+    animation-iteration-count: 4; /*tekrar sayisi*/ 
+    animation-direction:reverse; /* animasyon yonu belirtebiliyoruz*/
+    animation-play-state: paused; /*runing ve paused değerleri alır animasyonu durdur/devam yapar*/
+    animation-delay: 2s; /*animasyon baslamadan once bekleme suresi*/
+    animation-fill-mode: forwards; /*animasyonun bitiminde nasil davranacagini belirlir*/
+}
 ```
 
 Bütün bu özellikleri aşağıdaki şekilde de yazabilirsiniz. 
@@ -92,5 +92,10 @@ div{
 ```
 bu sayede kod kalabalığından kurtulabilirsiniz.
 
+## Zıplayan Toplar :)
 
-Örnek animasyon için <a href="http://jsfiddle.net/nesrinkalender/zouwkhrx/" target="_blank" rel="nofollow">tıklayın.</a>
+<iframe width="100%" height="450" src="//jsfiddle.net/nesrinkalender/zouwkhrx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+## Diğer Kaynaklar
+- CSS Animasyon ve kullanım örneklerini bulabileceğiniz Mozilla Geliştiri Portalı [sayfası](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){.external}
+- Toughtbot'un detaylıca örneklendirdiği [yeni başlayanlar için css animasyonları](https://robots.thoughtbot.com/css-animation-for-beginners){.external} yazısı.

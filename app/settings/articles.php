@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'css3-animation',
+    'title'   => 'CSS3 Animation',
+    'date'    => '2015-03-16 22:58:00',
+    'author'  => 'Nesrin Kalender',
+    'excerpt' => 'CSS3 ile gelen bir çok özellik belirli web üzerinde belirli işlemleri daha kolay yapmamızı sağladı. Özellikle animation ve transition ile daha yumuşak geçişler ve güzel bir görüntü elde edebiliyoruz.'
+);
+
+$articles[] = array(
     'slug'    => 'arayuz-gelistirme-ve-mobil-uygulamalar',
     'title'   => 'Arayüz Geliştirme ve Mobil Uygulamalar',
     'date'    => '2015-03-04 08:04:12',
