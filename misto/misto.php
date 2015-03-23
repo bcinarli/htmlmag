@@ -10,8 +10,9 @@ class misto
 	{
 		new url();
 		new router();
+		new device();
 
-		ini_set('session.cookie_domain', '.' . url::getPlainHost());
+		//ini_set('session.cookie_domain', '.' . url::getPlainHost());
 		session_start();
 
 		if (Authentication === true) {
