@@ -47,7 +47,7 @@ class md
 	 */
 	private function is_exists()
 	{
-		$file_path = ABS_PATH . APP_PATH . self::$_file;
+		$file_path = ABS_PATH . POSTS_PATH . self::$_file;
 
 		// check if file exists
 		if (!file_exists($file_path)) {

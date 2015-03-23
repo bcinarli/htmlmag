@@ -5,6 +5,7 @@
  **/
 
 	define('APP_PATH', 'app/');
+	define('POSTS_PATH', '_posts/');
     define('SITE_TITLE', "HTML Mag");
 
     define('Authentication', false);
