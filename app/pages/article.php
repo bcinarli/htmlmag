@@ -4,7 +4,7 @@
  * @link http://bcinarli.com
  **/
 
-$md = new md('_articles/' . router::getMatches(1));
+$md = new md(router::getMatches(1));
 
 html::$class = 'article';
 html::$lang = $md::getMeta('lang');

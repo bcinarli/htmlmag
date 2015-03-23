@@ -3,7 +3,9 @@
  * @author Bilal Cinarli
  * @link http://bcinarli.com
  **/
-$md = new md('_events/' . router::getMatches(1));
+md::$doc_root = '_events';
+
+$md = new md(router::getMatches(1));
 
 html::$class = 'event';
 html::$lang = $md::getMeta('lang');

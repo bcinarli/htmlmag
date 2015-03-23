@@ -4,7 +4,9 @@
  * @link http://bcinarli.com
  **/
 
-$md = new md('_pages/' . router::getMatches(1));
+md::$doc_root = '_pages';
+
+$md = new md(router::getMatches(1));
 
 html::$class = 'page';
 
