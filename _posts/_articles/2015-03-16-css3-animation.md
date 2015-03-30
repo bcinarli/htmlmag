@@ -94,7 +94,7 @@ bu sayede kod kalabalığından kurtulabilirsiniz.
 
 ## Zıplayan Toplar :)
 
-<iframe width="100%" height="450" src="//jsfiddle.net/nesrinkalender/zouwkhrx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="450" src="https://jsfiddle.net/nesrinkalender/zouwkhrx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Diğer Kaynaklar
 - CSS Animasyon ve kullanım örneklerini bulabileceğiniz Mozilla Geliştiri Portalı [sayfası](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){.external}
