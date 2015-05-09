@@ -23,7 +23,7 @@ description: The Frontiers:Mini - Güncel Javascript teknolojileri, HTML/CSS yak
         <span class="event-separate">KONFERANS</span>
         <span class="event-date">13 Haziran 2015</span>
         <img src="../content/2015/bau.png" />        
-        <a href="#" class="register-now" target="_blank">Kayıtlar 12 Mayısta!</a>
+        <a href="#" class="register-now" target="_blank">Kayıtlar 12 Mayıs'ta!</a>
     </div>
 </section>
 
