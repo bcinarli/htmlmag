@@ -5,6 +5,6 @@
  **/
 
 ?>
-<div class="widget promo-widget">
-    <a href="<?php echo url::make_url('etkinlik/web-mobil-arayuz-mimarisi'); ?>"><img src="<?php echo url::base_url('content/2015/arayuz-mimarisi.png'); ?>" title="Web ve Mobil Arayüz Mimarisi Çalıştayı" /></a>
+<div class="widget promo-widget" style="border-color: #1da8e3;">
+    <a href="<?php echo url::make_url('etkinlik/the-frontiers-mini'); ?>"><img src="<?php echo url::base_url('content/2015/frontiers.png'); ?>" title="The Frontiers:Mini Arayüz Konferansı" /></a>
 </div>
