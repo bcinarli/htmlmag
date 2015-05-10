@@ -28,9 +28,9 @@ description: The Frontiers:Mini - Güncel Javascript teknolojileri, HTML/CSS yak
 </section>
 
 <section class="event-description" markdown=1>
-__HTML Magazin__ Türkiye'nin __ilk__ Front-end Konferansı'nı Düzenliyor!
+__HTML Magazin__ Türkiye'nin __ilk Front-end Konferansı'nı__ Düzenliyor! Modern arayüz geliştirme tekniklerinden, __Nodejs__, __Google Closures__ gibi gelişmiş javascript yaklaşımlarına, __CSS3 Layout__ ve __UI Kitlerinden__, __Design Patternleri__ ve __Web tabanlı İşletim sistemlerine__, __Tasarım Yaklaşımlarından__, __Web'in Nereye Gittiğine__ kadar arayüz geliştirmeyi ilgilendiren bir çok konuda konuşmayı sizlerle buluşturuyoruz.
 
-__The Frontiers:Mini__, arayüz geliştirme ile alakalı konuların konuşulacağı, sektör profesyonellerinin bulaşacağı ve fikirlerini paylaşacağı bir __mini__ konferans olarak düzenlenmektedir. 
+__The Frontiers__, arayüz geliştirme ile alakalı konuların konuşulacağı, sektör profesyonellerinin bulaşacağı ve fikirlerini paylaşacağı bir konferans olarak düzenlenmektedir. 
 
 Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda uzman olarak çalışan konuşmacılar, gün boyu kullandıkları teknolojileri, deneyimlerini ve gelecek hakkındaki öngörülerini katılımcılar ile paylaşacaklar.
 </section>
