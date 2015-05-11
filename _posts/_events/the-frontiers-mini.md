@@ -16,6 +16,7 @@ links:
 - KAYIT:#register
 keywords: HTML, CSS, JavaScript, Front-end
 description: The Frontiers:Mini - Güncel Javascript teknolojileri, HTML/CSS yaklaşımları, Bootstrap, Foundation gibi UI Kit'lerin konuşulacağı gün boyu sürecek mini bir konferanstır.
+og_image: /app/assets/images/frontiers-cover.png
 ---
 <section class="event-spot">
     <div class="event-spot-content">
@@ -28,7 +29,7 @@ description: The Frontiers:Mini - Güncel Javascript teknolojileri, HTML/CSS yak
 </section>
 
 <section class="event-description" markdown=1>
-__HTML Magazin__ Türkiye'nin __ilk Front-end Konferansı'nı__ Düzenliyor! Modern arayüz geliştirme tekniklerinden, __Nodejs__, __Google Closures__ gibi gelişmiş javascript yaklaşımlarına, __CSS3 Layout__ ve __UI Kitlerinden__, __Design Patternleri__ ve __Web tabanlı İşletim sistemlerine__, __Tasarım Yaklaşımlarından__, __Web'in Nereye Gittiğine__ kadar arayüz geliştirmeyi ilgilendiren bir çok konuda konuşmayı sizlerle buluşturuyoruz.
+__HTML Magazin__ Türkiye'nin __ilk Front-end Konferansı'nı__ düzenliyor. Modern arayüz geliştirme tekniklerinden, __Nodejs__, __Google Closures__ gibi gelişmiş javascript yaklaşımlarına, __CSS3 Layout__ ve __UI Kitlerinden__, __Design Patternleri__ ve __Web tabanlı İşletim sistemlerine__, __Tasarım Yaklaşımlarından__, __Web'in Nereye Gittiğine__ kadar arayüz geliştirmeyi ilgilendiren bir çok konuda konuşmayı sizlerle buluşturuyoruz.
 
 __The Frontiers__, arayüz geliştirme ile alakalı konuların konuşulacağı, sektör profesyonellerinin bulaşacağı ve fikirlerini paylaşacağı bir konferans olarak düzenlenmektedir. 
 
