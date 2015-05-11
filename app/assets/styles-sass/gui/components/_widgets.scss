@@ -53,6 +53,12 @@
     border-color: lighten($color-tertiary, 10%);
 }
 
+.mobile-promo-widget {
+    @media screen and (min-width: 769px) {
+        display: none;
+    }
+}
+
 .info-widget.info-widget {
     border-color: lighten($color-primary, 10%);
 }
