@@ -24,7 +24,7 @@ og_image: /app/assets/images/frontiers-cover.png
         <span class="event-separate">KONFERANS</span>
         <span class="event-date">13 Haziran 2015</span>
         <img src="../content/2015/bau.png" />        
-        <a href="http://www.eventbrite.com/e/the-frontiersmini-tickets-16922129545" class="register-now external" target="_blank">Kayıt Ol</a>
+        <a href="http://www.eventbrite.com/e/the-frontiersmini-tickets-16922129545" class="register-now external" target="_blank">Hemen Kayıt Ol</a>
     </div>
 </section>
 
@@ -34,6 +34,15 @@ __HTML Magazin__ Türkiye'nin __ilk Front-end Konferansı'nı__ düzenliyor. Mod
 __The Frontiers__, arayüz geliştirme ile alakalı konuların konuşulacağı, sektör profesyonellerinin buluşacağı ve fikirlerini paylaşacağı bir konferans olarak düzenlenmektedir. 
 
 Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda uzman olarak çalışan konuşmacılar, gün boyu kullandıkları teknolojileri, deneyimlerini ve gelecek hakkındaki öngörülerini katılımcılar ile paylaşacaklar.
+
+## Paylaş
+
+<div class="sharing">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="htmlmag" data-hashtags="thefrontiers">Tweet</a>
+    <div class="fb-share-button" data-href="http://htmlmag.com/etkinlik/the-frontiers-mini" data-layout="box_count"></div>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+    <script type="IN/Share" data-counter="top"></script>
+</div>
 </section>
 
 <section id="speakers" class="event-speakers">

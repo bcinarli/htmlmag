@@ -145,6 +145,15 @@
         background-color: #2c6745;
         color: #fff;
     }
+
+    .sharing {
+        padding-top: 20px;
+
+        .fb_iframe_widget {
+            margin: 0 10px;
+            vertical-align: top;
+        }
+    }
 }
 
 #front-end-architecture {
