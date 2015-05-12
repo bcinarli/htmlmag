@@ -22,6 +22,7 @@ if(role::is_homepage() && html::$description == ''){
 	<link rel="bookmark icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="<?php echo url::images('apple-touch-icon.png'); ?>">
 
+    <?php if(!role::is_404()): ?>
 	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<link rel="author" href="https://plus.google.com/116168797582640048599/posts">
 
@@ -49,6 +50,7 @@ if(role::is_homepage() && html::$description == ''){
 	<?php if(html::$externalCSS != ''): ?>
 	<link rel="stylesheet" href="<?php echo html::$externalCSS; ?>" />
 	<?php endif; ?>
+    <?php endif; ?>
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
 <?php tools::inc('widgets/analytics'); ?>

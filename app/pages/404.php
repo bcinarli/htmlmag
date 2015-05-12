@@ -4,8 +4,8 @@
  * @link http://bcinarli.com
  **/
 
-html::$id = 'homepage';
-html::$class = 'homepage';
+html::$id = 'error-404';
+html::$class = 'error-404';
 
 ?>
 <?php tools::inc('includes/header'); ?>

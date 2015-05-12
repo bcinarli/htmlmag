@@ -14,6 +14,7 @@
 		</div>
 	</footer>
 	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
+    <?php if(!role::is_404()): ?>
 	<?php if(html::$externalJS != ''): ?>
 	<script async src="<?php echo html::$externalJS; ?>"></script>
 	<?php endif; ?>
@@ -41,5 +42,6 @@
             }
         }(document,"script","twitter-wjs");
     </script>
+    <?php endif; ?>
 </body>
 </html>

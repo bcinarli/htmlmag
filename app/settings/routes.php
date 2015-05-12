@@ -6,7 +6,7 @@
 
 
     $routes = array();
-    $routes['404'] = array('url' => null, 'page' => '/pages/404.php', 'role' => 404);
+    $routes['404'] = array('url' => null, 'page' => '/pages/404.php', 'role' => '404');
 
     $routes['homepage'] = array('url' => '/', 'page' => '/pages/index.php', 'role' => 'homepage');
 	$routes['feed']  = array('url' => '/feed', 'page' => '/pages/feed.php', 'role' => 'feed');

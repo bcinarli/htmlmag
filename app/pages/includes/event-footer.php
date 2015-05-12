@@ -7,6 +7,7 @@
 		</div><!-- #content -->
 	</div><!-- #wrapper -->
 	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
+    <?php if(!role::is_404()): ?>
     <script type="text/javascript">
         (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -25,5 +26,6 @@
             }
         }(document,"script","twitter-wjs");
     </script>
+    <?php endif; ?>
 </body>
 </html>
