@@ -15,7 +15,7 @@ links:
 - SPONSORLAR:#sponsors
 - KAYIT:#register
 keywords: HTML, CSS, JavaScript, Front-end
-description: The Frontiers:Mini - Güncel Javascript teknolojileri, HTML/CSS yaklaşımları, Bootstrap, Foundation gibi UI Kit'lerin konuşulacağı gün boyu sürecek mini bir konferanstır.
+description: Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda uzman olarak çalışan konuşmacılar, gün boyu kullandıkları teknolojileri, deneyimlerini ve gelecek hakkındaki öngörülerini katılımcılar ile paylaşacaklar.
 og_image: /app/assets/images/frontiers-cover.png
 ---
 <section class="event-spot">
