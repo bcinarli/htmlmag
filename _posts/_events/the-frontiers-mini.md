@@ -43,6 +43,12 @@ Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda 
     <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
     <script type="IN/Share" data-counter="top"></script>
 </div>
+
+## Hemen Kayıt Ol
+
+<div style="max-width: 1200px; margin: 20px auto 0;">
+<iframe  src="//eventbrite.com/tickets-external?eid=16922129545&ref=etckt" frameborder="0" height="340" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+</div>
 </section>
 
 <section id="speakers" class="event-speakers">
