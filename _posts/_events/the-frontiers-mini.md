@@ -22,7 +22,7 @@ og_image: /app/assets/images/frontiers-cover.png
     <div class="event-spot-content">
         <h2 class="event-spot-title">The Frontiers:Mini</h2>
         <span class="event-separate">KONFERANS</span>
-        <span class="event-date">13 Haziran 2015</span>
+        <span class="event-date">20 Haziran 2015</span>
         <img src="../content/2015/bau.png" />        
         <a href="http://www.eventbrite.com/e/the-frontiersmini-tickets-16922129545" class="register-now external" target="_blank">Hemen Kayıt Ol</a>
     </div>
