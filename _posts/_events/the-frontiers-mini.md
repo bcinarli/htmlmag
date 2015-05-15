@@ -171,7 +171,12 @@ Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda 
 
 <section id="sponsors" class="event-sponsors" markdown=1>
 ## SPONSORLAR {.event-section-title}
+
+<a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external"><img src="../content/2015/sponsors/gelecegi-yazanlar.png" style="max-height: 60px" /></a>
+<br />
+<br />
 <a href="http://www.iconpm.com/" target="_blank" class="external"><img src="../content/2015/sponsors/icon-logo.png" style="max-height: 60px" /></a>
+
     
 <p>&nbsp;</p>
     
