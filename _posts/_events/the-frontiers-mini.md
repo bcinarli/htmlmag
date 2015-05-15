@@ -98,6 +98,17 @@ Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda 
     </span>
     
     <span class="speaker">
+        <img src="../content/2015/riza-selcuk-saydam.jpg" class="speaker-photo" />        
+        <h3 class="speaker-name">RIZA SELÇUK SAYDAM</h3>
+        <span class="speaker-title">Product Designer</span>
+        <span class="speaker-company">Facebook</span>
+        <span class="speaker-links">
+            <a href="http://twitter.com/rssems" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="https://www.linkedin.com/profile/view?id=34234005" target="_blank"><i class="icon-linkedin"></i></a>
+        </span>
+    </span>
+    
+    <span class="speaker">
         <img src="../content/2015/gozde-berberoglu.jpg" class="speaker-photo" />        
         <h3 class="speaker-name">GÖZDE BERBEROĞLU</h3>
         <span class="speaker-title">User Interface Developer</span>
@@ -105,17 +116,6 @@ Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda 
         <span class="speaker-links">
             <a href="https://twitter.com/gozdeberberoglu" target="_blank"><i class="icon-twitter"></i></a>
             <a href="https://tr.linkedin.com/in/gozdeberberoglu" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/riza-selcuk-saydam.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">RIZA SELÇUK SAYDAM</h3>
-        <span class="speaker-title">Product Designer</span>
-        <span class="speaker-company">&nbsp;</span>
-        <span class="speaker-links">
-            <a href="http://twitter.com/rssems" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://www.linkedin.com/profile/view?id=34234005" target="_blank"><i class="icon-linkedin"></i></a>
         </span>
     </span>
     
