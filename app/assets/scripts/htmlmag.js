@@ -1137,5 +1137,5 @@ Prism.hooks.add("after-highlight",function(e){var t=e.element.parentNode;if(!t||
 
 $(function(){
     $("a.gallery").colorbox();
-    $("a.external").attr('target', '_blank').attr('rel', 'nofollow');
+    $("a.external").attr("target", "_blank").attr("rel", "nofollow");
 });

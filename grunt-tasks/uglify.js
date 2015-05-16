@@ -4,7 +4,7 @@
 
 module.exports = {
     options: {
-        banner: '/*! Digital Inventory \n' +
+        banner: '/*! HTML Mag \n' +
               ' *  <%= package.description %> \n' +
               ' *  @author <%= package.author %> \n' +
               '<% package.contributors.forEach(function(contributor) { %>' +

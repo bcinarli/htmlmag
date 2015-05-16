@@ -20,8 +20,11 @@
     "Web Technologies"
   ],
   "author": "Bilal Cinarli <bcinarli@gmail.com> (http://bcinarli.com)",
-  "contributors":[
-    {"name": "Nesrin Kalender", "email":"nesrinkalender@gmail.com"}
+  "contributors": [
+    {
+      "name": "Nesrin Kalender",
+      "email": "nesrinkalender@gmail.com"
+    }
   ],
   "license": "Apache v2",
   "bugs": {
@@ -36,6 +39,14 @@
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
     "load-grunt-config": "^0.17.1"
   }
 }
