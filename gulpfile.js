@@ -15,7 +15,14 @@ var jshint = require('gulp-jshint'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     header = require('gulp-header'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
+    browserSync = require('browser-sync').create();
+
+var fileNames = {
+    "js"     : pkg.name + '.js',
+    "jsMin" : pkg.name + '.min.js',
+    "cssDev": 'styles.dev.css'
+};
 
 var banner = [
     '/*! HTML Mag \n',
@@ -44,7 +51,7 @@ gulp.task('sass', function() {
         }))
         .pipe(gulp.dest('app/assets/styles'))
         .pipe(sass())
-        .pipe(rename('styles.dev.css'))
+        .pipe(rename(fileNames.cssDev))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('app/assets/styles'));
 });
@@ -56,13 +63,21 @@ gulp.task('scripts', function() {
         'bower_components/jquery-colorbox/jquery.colorbox.js',
         'app/assets/scripts/vendors/prism.min.js',
         'app/assets/scripts/app/_app.js'
-        ])
-        .pipe(concat('htmlmag.js'))
+    ])
+        .pipe(concat(fileNames.js))
         .pipe(gulp.dest('app/assets/scripts'))
-        .pipe(rename('htmlmag.min.js'))
+        .pipe(rename(fileNames.jsMin))
         .pipe(uglify())
         .pipe(header(banner, {pkg: pkg}))
         .pipe(gulp.dest('app/assets/scripts'));
+});
+
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        proxy    : 'http://os/htmlmag/',
+        files    : ['app/assets/styles/*.css', 'app/assets/scripts/<%= pkg.name %>.min.js', 'app/assets/images/*'],
+        watchTask: true
+    });
 });
 
 // Watch Files For Changes

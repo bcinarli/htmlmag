@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/htmlmag/htmlmag",
   "devDependencies": {
+    "browser-sync": "^2.7.1",
     "grunt": "^0.4.5",
     "grunt-browser-sync": "^2.1.3",
     "grunt-contrib-concat": "^0.5.1",
