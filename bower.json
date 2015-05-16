@@ -24,6 +24,7 @@
   "dependencies": {
     "caffeine": "latest",
     "jquery": "~2.1.3",
+    "jquery-colorbox": "~1.6.1",
     "melange": "latest"
   }
 }
