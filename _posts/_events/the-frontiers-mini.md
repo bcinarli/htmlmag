@@ -16,7 +16,7 @@ links:
 - KAYIT:#register
 keywords: HTML, CSS, JavaScript, Front-end
 description: Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda uzman olarak çalışan konuşmacılar, gün boyu kullandıkları teknolojileri, deneyimlerini ve gelecek hakkındaki öngörülerini katılımcılar ile paylaşacaklar.
-og_image: /app/assets/images/frontiers-cover.png
+og_image: /app/assets/images/frontiers-cover-20-june.png
 ---
 <section class="event-spot">
     <div class="event-spot-content">
@@ -171,21 +171,36 @@ Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda 
 
 <section id="sponsors" class="event-sponsors" markdown=1>
 ## SPONSORLAR {.event-section-title}
-
-<a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external"><img src="../content/2015/sponsors/gelecegi-yazanlar.png" style="max-height: 60px" /></a>
-<br />
-<br />
-<a href="http://www.iconpm.com/" target="_blank" class="external"><img src="../content/2015/sponsors/icon-logo.png" style="max-height: 60px" /></a>
+<p>
+    <a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external sponsor-logo gy-logo">
+        <img src="../content/2015/sponsors/gelecegi-yazanlar.png" />
+    </a>
+</p>
+<p>
+    <a href="http://tazebt.com/" target="_blank" class="external sponsor-logo taze-logo">
+        <img src="../content/2015/sponsors/taze-logo.png" />
+    </a>
+</p>
+<p>
+    <a href="http://www.iconpm.com/" target="_blank" class="external sponsor-logo icon-logo">
+        <img src="../content/2015/sponsors/icon-logo.png" />
+    </a>
+</p>
 
     
 <p>&nbsp;</p>
     
 ## DESTEKLEYENLER {.event-section-title}
-<a href="http://incubation.ku.edu.tr/tr/" target="_blank" class="external"><img src="../content/2015/sponsors/bau-alt.png" style="max-height: 100px" /></a>
-
-<br />
-
-<a href="http://mobilistanbul.com/" target="_blank" class="external"><img src="../content/2015/sponsors/mobil-istanbul-logo.png" width="150" /></a>
+<p>
+    <a href="http://www.bahcesehir.edu.tr/" target="_blank" class="external sponsor-logo bau-logo">
+        <img src="../content/2015/sponsors/bau-alt.png" />
+    </a>
+</p>
+<p>
+    <a href="http://mobilistanbul.com/" target="_blank" class="external sponsor-logo mobilistanbul-logo">
+        <img src="../content/2015/sponsors/mobil-istanbul-logo.png" />
+    </a>
+</p>
 </section>
 
 <section id="register" class="event-registration" markdown=1>
