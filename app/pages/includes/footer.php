@@ -13,7 +13,7 @@
 			<p>Güncellemelerden ve yeni içeriklerden haberdar olmak için bizi<a href="http://twitter.com/htmlmag">Twitter'da takip edin</a> ya da RSS okuyucunuz için <a href="http://feeds.feedburner.com/htmlmag">RSS Feed</a>imizi ekleyin.</p>
 		</div>
 	</footer>
-	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
+	<script src="<?php echo url::scripts('htmlmag.min.js'); ?>"></script>
     <?php if(!role::is_404()): ?>
 	<?php if(html::$externalJS != ''): ?>
 	<script async src="<?php echo html::$externalJS; ?>"></script>

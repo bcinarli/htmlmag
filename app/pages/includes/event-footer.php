@@ -6,7 +6,7 @@
 ?>		
 		</div><!-- #content -->
 	</div><!-- #wrapper -->
-	<script src="<?php echo url::scripts('app-min.js'); ?>"></script>
+	<script src="<?php echo url::scripts('htmlmag.min.js'); ?>"></script>
     <?php if(!role::is_404()): ?>
     <script type="text/javascript">
         (function() {

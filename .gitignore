@@ -83,3 +83,9 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+
+### Sass template
+.sass-cache
+*.css.map
+
+

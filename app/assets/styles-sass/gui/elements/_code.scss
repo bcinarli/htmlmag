@@ -3,17 +3,19 @@
 /** -------------------------------------------
  	Coding sample styles
     ------------------------------------------- **/
-$langs: css, sass, less, stylus, javascript, php, coffeescript, sql;
+$langs: css, sass, scss, less, stylus, javascript, php, coffeescript, sql;
 
 %lang {
     position: absolute;
-    top: -.6em;
-    right: -.6em;
-    padding: .3em .5em;
+    top: 0;
+    right: 0;
+    padding: 6px;
     background: #666;
+    @include font-size(14px);
     font-weight: normal;
+    line-height: 1;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-shadow: none;
 }
 
@@ -30,24 +32,23 @@ code {
     }
     line-height: 1;
 
-    pre[class*="language-"] & {
-        position: relative;
+    pre & {
         display: block;
         border: 0;
-        line-height: 1.4;
-
-        @each $i in $langs {
-            &.#{$i}:after {
-                @extend %lang;
-                content: "#{$i}";
-            }
-        }
     }
 }
 
 pre[class*="language-"] {
+    position: relative;
     padding: .5em;
     border: 1px solid #ddd;
     border-radius: 3px;
     background: #f8f8f8;
+
+    @each $i in $langs {
+        &.#{$i}:after {
+            @extend %lang;
+            content: "#{$i}";
+        }
+    }
 }
