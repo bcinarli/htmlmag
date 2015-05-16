@@ -39,7 +39,12 @@ gulp.task('lint', function() {
 gulp.task('sass', function() {
     return gulp.src('app/assets/styles-sass/*.scss')
         .pipe(sourcemaps.init())
+        .pipe(sass({
+            outputStyle: 'compressed'
+        }))
+        .pipe(gulp.dest('app/assets/styles'))
         .pipe(sass())
+        .pipe(rename('styles.dev.css'))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('app/assets/styles'));
 });
