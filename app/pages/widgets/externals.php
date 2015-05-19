@@ -9,6 +9,10 @@
 
     <ol class="external-contents">
         <li class="external-contents">
+            <a href="<?php echo url::make_url('article/mobiletkinlik'); ?>">indir.com Mobil Etkinlik 2015</a>
+            <p>indir.com'un düzenlediği Mobil Yarışma'nın ödül töreni tüm gün sürecek mobil etkinlik ve konuşmalar ile yapılacak.</p>
+        </li>
+        <li class="external-contents">
             <a href="<?php echo url::make_url('article/uxalive'); ?>">UX Alive! - Smart Responsive Design Patterns & Front-End Techniques</a>
             <p>Bölgenin en büyük UX konferansında, Vitaly Friedman'ın atölyesi için kayıt yaptırabilirsiniz.</p>
         </li>
