@@ -35,6 +35,12 @@ __The Frontiers__, arayüz geliştirme ile alakalı konuların konuşulacağı, 
 
 Yurtdışında ve Türkiye'de arayüz tasarım ve arayüz geliştirme konusunda uzman olarak çalışan konuşmacılar, gün boyu kullandıkları teknolojileri, deneyimlerini ve gelecek hakkındaki öngörülerini katılımcılar ile paylaşacaklar.
 
+## Mekan
+Bahçeşehir Üniversite Beşiktaş Kampüsü<br />
+Fazıl Say Salonu<br />
+20 Haziran 2015<br />
+09:00 - 17:00
+
 ## Paylaş
 
 <div class="sharing">
