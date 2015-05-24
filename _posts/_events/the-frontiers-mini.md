@@ -107,7 +107,7 @@ Fazıl Say Salonu<br />
         <img src="../content/2015/riza-selcuk-saydam.jpg" class="speaker-photo" />        
         <h3 class="speaker-name">RIZA SELÇUK SAYDAM</h3>
         <span class="speaker-title">Product Designer</span>
-        <span class="speaker-company">Facebook</span>
+        <span class="speaker-company"><em>joining</em> Facebook</span>
         <span class="speaker-links">
             <a href="http://twitter.com/rssems" target="_blank"><i class="icon-twitter"></i></a>
             <a href="https://www.linkedin.com/profile/view?id=34234005" target="_blank"><i class="icon-linkedin"></i></a>
