@@ -20,14 +20,14 @@ App Store'un 11 Temmuz 2008'de kullanıma açılıp, geliştiricilerin kendi uyg
 
 <figure markdown="1">
 ![Dünya’da Farklı Platformlardan Web Erişimi][mobile-world]
-<span class="credits">http://gs.statcounter.com/#desktop+mobile+tablet-comparison-ww-yearly-2009-2015</span>
+<span class="credits">Kaynak: [Stat Counter](http://gs.statcounter.com/#desktop+mobile+tablet-comparison-ww-yearly-2009-2015){.external}</span>
 </figure>
 
 Hızlı bağlantıların Türkiye'ye biraz geç gelmesinin etkisi ile ilk başlarda, mobil cihazlardan web erişimi dünyaya göre daha az iken, son 2 yılda ivmelenen penetrasyon ile, Mayıs 2015 itibariyle, web erişimi __dünya ortalamasının %4__ kadar üzerine çıkmış durumda.
 
 <figure markdown="1">
 ![Türkiye'de Farklı Platformlardan Web Erişimi][mobile-turkey]
-<span class="credits">http://gs.statcounter.com/#desktop+mobile+tablet-comparison-TR-yearly-2009-2015</span>
+<span class="credits">Kaynak: [Stat Counter](http://gs.statcounter.com/#desktop+mobile+tablet-comparison-TR-yearly-2009-2015){.external}</span>
 </figure>
 
 ## Ne kadar mobiliz?
@@ -69,7 +69,7 @@ Genel olarak bakıldığında, mobil site mi yoksa mobil uygulama mı tercihi da
 Her zaman güncel içerik, bir sefer geliştirip farklı cihaz ve platformlarda kullanabilme, arama motoru optimizasyonu gibi avantajları göz önüne alındığında, mobil siteleri önümüzdeki dönemlerde hala görmeye devam edeceğiz. Özellikle haber, alışveriş, eğlence gibi içeriklere yoğunlaşan veya kurumsal bilgilendirme ve blog şeklinde yayın yapan sitelerde uygulamadan çok mobil web sitesi vazgeçilmez bir ihtiyaç olmaya devam edecek.
 
 [^1]: Bunun için bir uygulama var.
-[^2]: http://www.clickz.com/clickz/column/2388915/why-mobile-web-still-matters-in-2015
+[^2]: [Why mobile web still matters in 2015](http://www.clickz.com/clickz/column/2388915/why-mobile-web-still-matters-in-2015){.external}
 
 [mobile-world]: ../content/2015/mobile-world-percentage.png
 [mobile-turkey]: ../content/2015/mobile-turkey-percentage.png
