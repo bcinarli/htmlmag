@@ -1,7 +1,7 @@
 ---
 comments: true
 slug: mobil-websitesine-ihtiyac-var-mi
-title: Mobil Websitesine İhtiyaç Var mı?
+title: Mobil Web Sitesine İhtiyaç Var mı?
 date: 2015-05-26 17:58:00
 author: Bilal Çınarlı
 profile: https://www.facebook.com/bcinarli
@@ -11,12 +11,12 @@ tags:
 - responsive
 description: Günümüzde mobil üzerinden yapılacak bir çok işlem için bir uygulama hazırlanıyor. Peki hala mobil için web sitesine ihtiyacımız var mı?
 ---
-Bazıları için akıllı telefonların gelişmesi ile ortaya çıktığı düşünülse de, Mobil web siteleri 2000li yılların başından beri varlar. İlk başlarda wap, ya da ilk mobil tarayıcıya sahip telefonlar için 320px genişliğine sahip basit arayüzler halindeyken, cihazların gelişmi ve iPhone ile başlayan akıllı telefon devrimi ile normal işlevselliğe ve görünüme sahip hale geldiler.
+Bazıları için akıllı telefonların gelişmesi ile ortaya çıktığı düşünülse de, Mobil web siteleri 2000li yılların başından beri varlar. İlk başlarda wap, ya da ilk mobil tarayıcıya sahip telefonlar için 320px genişliğine sahip basit arayüzler halindeyken, cihazların gelişimi ve iPhone ile başlayan akıllı telefon devrimi ile normal işlevselliğe ve görünüme sahip hale geldiler.
 
-App Store'un 11 Temmuz 2008'de kullanıma açılıp geliştiricilerin kendi uygulamalarını satma imkanını sağlamasından sonra, "_Ohh, there is an App for this_"[^1] deyişiyle, zamanla, nasıl olsa herşey için bir uygulama yapılıyor, artık gerçekten "mobil websitesine ihtiyaç var mı?" sorgulamasını yapmaya başladık.
+App Store'un 11 Temmuz 2008'de kullanıma açılıp, geliştiricilerin kendi uygulamalarını satma imkanını sağlamasından sonra, "_Ohh, there is an App for this_"[^1] şeklinde popülerleşen deyiş, zamanla bize "nasıl olsa herşey için bir uygulama yapılıyor, artık gerçekten mobil web sitesine ihtiyaç var mı?" sorgulamasını yapmaya yöneltti.
 
 ## Mobil'de nereye gidiyoruz?
-Ülkemizde 3G'nin kullanılmaya başladığı 2009 ortası ve akıllı telefon satışlarının 2010 itibariyle artmasını baz alarak, hem dünya hem de Türkiye için mobilden web erişimin oranlarının __5 yıl__ gibi bir zaman diliminde, __toplam erişimin %35i__ civarına ulaştığını görüyoruz.
+Ülkemizde 3G'nin kullanılmaya başlandığı 2009 ortası ve akıllı telefon satışlarının 2010 itibariyle artmasını baz alarak, hem dünya hem de Türkiye için mobilden web erişimin oranlarının __5 yıl__ gibi bir zaman diliminde, __toplam erişimin %35i__ civarına ulaştığını görüyoruz.
 
 <figure markdown="1">
 ![Dünya’da Farklı Platformlardan Web Erişimi][mobile-world]
@@ -31,14 +31,14 @@ Hızlı bağlantıların Türkiye'ye biraz geç gelmesinin etkisi ile ilk başla
 </figure>
 
 ## Ne kadar mobiliz?
-Son yapılan araştırmalar ise, insanlar günlük ihtiyaçlarının çoğu zaman yarısını bilgisayarları ile kalan yarısını da mobil cihazları ile gerçekleştirmekte. Bu durumunun ne kadar gerçekçi olduğunu saptamak için, Clickz.com sitesi Haziran 2014 ile Kasım 2014 arasında Amerika'da popüler sitelerin trafiklerinin analiz sonuçları[^2] da bu yaklaşık __%50 oranını__ gösteriyor. Clickz'in yayınları grafiklerde, __Google__, __Amazon__, __NY Times__ gibi büyük sitelerin ziyaretçi oranlarının da mobil ve masa üstü olarak neredeyse yarı yarıya olduğu açıkça görülüyor.
+Son yapılan araştırmalara göre insanlar günlük ihtiyaçlarının çoğu zaman yarısını bilgisayarları ile kalan yarısını da mobil cihazları ile gerçekleştirmekte. Bu durumunun ne kadar gerçekçi olduğunu saptamak için, Clickz.com sitesi Haziran 2014 ile Kasım 2014 arasında Amerika'da popüler sitelerin trafiklerini analiz etmiş. Yapılan 6 aylık incelemenin sonuçları[^2] da __%50 oranını__ doğrular şekilde çıkmış. Clickz'in yayınları grafiklerde, __Google__, __Amazon__, __NY Times__ gibi büyük sitelerin ziyaretçi oranlarının da mobil ve masaüstü olarak neredeyse yarı yarıya olduğu açıkça görülüyor.
 
 <figure markdown="1">
 ![Google.com mobil/masaüstü ziyaretçi oranları][clickz-google]
 <span class="credits">Kaynak: clickz.com</span>
 </figure>
 
-Google.com için araştırma yapılan dönemde, Mobil ziyaretçi oranı __%48__, mobil için ortalama oturum süresi 6 dakika ve 5 sayfa gösterimi şeklinde olmuş. Masaüstünden yapılan ziyaretlerin oturum süresi ise ortalam 21 dakika ve 16 sayfa gösterimi şeklinde gerçekleşmiş. Hem masaüstü hem de mobil cihazdan ziyaretlere baktığımızda, geçirilen süreye göre gösterilen sayfa sayısı hemen hemen aynı durumda. 
+Google.com için araştırma yapılan dönemde, Mobil ziyaretçi oranı __%48__, mobil için ortalama 6 dakika oturum süresi ve 5 sayfa gösterimi şeklinde olmuş. Masaüstünden yapılan ziyaretlerin oturum süresi ise ortalama 21 dakika ve 16 sayfa gösterimi şeklinde gerçekleşmiş. Hem masaüstü hem de mobil cihazdan ziyaretlere baktığımızda, geçirilen süreye göre gösterilen sayfa sayısı hemen hemen aynı durumda. 
 
 <figure markdown="1">
 ![Amazon.com mobil/masaüstü ziyaretçi oranları][clickz-amazon]
@@ -59,14 +59,14 @@ NY Times için ise durum biraz daha farklı. Halen sitenin büyük ziyaretçi or
 Click.com'un bu araştırması sadece bu 3 siteyle sınırlı kalmamış. Yemek ve eğlence sektörü ile alakalı siteler de incelenmiş ve buralarda da sitelerde Mobil olarak görüntülenme oranlarının her geçen gün arttığını gözlemlemişler.
 
 ## Mobil siteye ihtiyaç var mı?
-Genel olarak bakıldığında, mobil site mi yoksa mobil uygulama mı tercihi daha çok verdiğiniz içerik ve hizmetle doğrudan orantılı. Kullanıcılar daha genel konular için mobil tarayıcı ile websitesini kullanırken, daha özelleşmiş işler ve kişiselleştirme için uygulamayı kullanmayı tercih ediyor.
+Genel olarak bakıldığında, mobil site mi yoksa mobil uygulama mı tercihi daha çok verdiğiniz içerik ve hizmetle doğrudan orantılı. Kullanıcılar daha genel konular için mobil tarayıcı ile web sitesini kullanırken, daha özelleşmiş işler ve kişiselleştirme için uygulamayı kullanmayı tercih ediyor.
 
 <figure markdown="1">
 ![İçerik türüne göre mobil tercihi][mobile-choices]
 <span class="credits">Arama, alışveriş, youtube tarzı eğlence siteleri gibi ziyaretlerde kullanıcılar daha çok tarayıcıyı tercih ediyor</span>
 </figure>
 
-Her zaman güncel içerik, bir sefer geliştirip farklı cihaz ve platformlarda kullanabilme, arama motoru optimizasyonu gibi avantajları göz önüne alındığında, mobil siteye önümüzdeki dönemlerde hala görmeye devam edeceğiz. Özellikle haber, alışveriş, eğlence gibi içeriklere yoğunlaşan ve ya kurumsal bilgilendirme ve blog şeklinde yayın yapan sitelerde uygulamadan çok mobil web sitesi vazgeçilmez bir ihtiyaç olmaya devam edecek.
+Her zaman güncel içerik, bir sefer geliştirip farklı cihaz ve platformlarda kullanabilme, arama motoru optimizasyonu gibi avantajları göz önüne alındığında, mobil siteleri önümüzdeki dönemlerde hala görmeye devam edeceğiz. Özellikle haber, alışveriş, eğlence gibi içeriklere yoğunlaşan veya kurumsal bilgilendirme ve blog şeklinde yayın yapan sitelerde uygulamadan çok mobil web sitesi vazgeçilmez bir ihtiyaç olmaya devam edecek.
 
 [^1]: Bunun için bir uygulama var.
 [^2]: http://www.clickz.com/clickz/column/2388915/why-mobile-web-still-matters-in-2015

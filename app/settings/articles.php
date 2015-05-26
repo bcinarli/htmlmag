@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'mobil-websitesine-ihtiyac-var-mi',
+    'title'   => 'Mobil Web Sitesine İhtiyaç Var mı?',
+    'date'    => '2015-05-26 17:58:00',
+    'author'  => 'Bilal Çınarlı',
+    'excerpt' => 'Bazıları için akıllı telefonların gelişmesi ile ortaya çıktığı düşünülse de, Mobil web siteleri 2000li yılların başından beri varlar. İlk başlarda wap, ya da ilk mobil tarayıcıya sahip telefonlar için 320px genişliğine sahip basit arayüzler halindeyken, cihazların gelişimi ve iPhone ile başlayan akıllı telefon devrimi ile normal işlevselliğe ve görünüme sahip hale geldiler.'
+);
+
+$articles[] = array(
     'slug'    => 'css3-animation',
     'title'   => 'CSS3 Animation',
     'date'    => '2015-03-16 22:58:00',
