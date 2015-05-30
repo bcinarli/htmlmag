@@ -172,7 +172,26 @@ Fazıl Say Salonu<br />
 
 <section id="program" class="event-program">
     <h2 class="event-section-title">PROGRAM</h2>
-    <p>Program ve konuşma detayları güncellendikçe eklenecektir.</p>
+        <ul class="program-list">
+           <li>08:50 - 09:50  Kayıtlar & Tanışma </li>
+           <li>09:50 – 10:00  Açılış & Hoşgeldiniz (Nesrin Kalender)</li>
+           <li>10:00 – 10:30  Keynote (Hasan Yalçın) </li>
+           <li>10:30 – 11:00  Cihazlar ve Web Tabanlı İşletim Sistemleri (Oytun Eren Şengül)</li>
+           <li>11:00 – 11:15  Ara</li>
+           <li>11:15 – 11:45  Content Aware Front-end (Gözde Berberoğlu)</li>
+           <li>11:45 – 12:15  Kullanıcı Deneyimi İçin Animasyon (Yalçın Geçkin)</li>
+           <li>12:15 – 13:15  Öğle Arası</li>
+           <li>13:15 – 13:45  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? (Volkan Özçelik)</li>
+           <li>13:45 – 14:15  Google Clousure (Armağan Amcalar)</li>
+           <li>14:15 – 14:30  Ara</li>
+           <li>14:30 – 15:00  A/B Testing (Rıza Selçuk Saydam)</li>
+           <li>15:00 – 15:30  Arayüz Frameworklerinin Karanlık Yüzü (Bilal Çınarlı)</li>
+           <li>15:30 – 15:45  Ara</li>
+           <li>15:45 – 16:15  A Developer's View: Patterns to Make Life Easier (Barış Güler)</li>
+           <li>16:15 – 16:45  Flux/React ve Modern Front-End JS Mimarisi (Rameş Aliyev)</li>
+           <li>16:55 – 17:25  Modern CSS Layout (Burak Can)</li>
+           <li>17:25 – 17:30  Kapanış (Nesrin Kalender & Bilal Çınarlı)</li>
+        </ul>
 </section>
 
 <section id="sponsors" class="event-sponsors" markdown=1>
