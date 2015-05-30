@@ -68,6 +68,10 @@ Genel olarak bakıldığında, mobil site mi yoksa mobil uygulama mı tercihi da
 
 Her zaman güncel içerik, bir sefer geliştirip farklı cihaz ve platformlarda kullanabilme, arama motoru optimizasyonu gibi avantajları göz önüne alındığında, mobil siteleri önümüzdeki dönemlerde hala görmeye devam edeceğiz. Özellikle haber, alışveriş, eğlence gibi içeriklere yoğunlaşan veya kurumsal bilgilendirme ve blog şeklinde yayın yapan sitelerde uygulamadan çok mobil web sitesi vazgeçilmez bir ihtiyaç olmaya devam edecek.
 
+## Diğer Kaynaklar
+- indir.com Mobil Etkinlik "[Mobil'de Web](https://speakerdeck.com/bcinarli/mobilde-web){.external}" sunumu
+- Mobil Web App ve Mobil Web Site [avantaj/dezavantajları](http://www.hswsolutions.com/services/mobile-web-development/mobile-website-vs-apps/){.external}
+
 [^1]: Bunun için bir uygulama var.
 [^2]: [Why mobile web still matters in 2015](http://www.clickz.com/clickz/column/2388915/why-mobile-web-still-matters-in-2015){.external}
 
