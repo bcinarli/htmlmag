@@ -59,115 +59,115 @@ Fazıl Say Salonu<br />
 
 <section id="speakers" class="event-speakers">
     <h2 class="event-section-title">KONUŞMACILAR</h2>
-    <span class="speaker">
-        <img src="../content/2015/hasan-yalcin.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">HASAN YALÇIN</h3>
-        <span class="speaker-title">Senior UI/UX Designer</span>
-        <span class="speaker-company">Tasarımcının El Çantası</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/hasanyalcin" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/in/hasanyalcin" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
+<span class="speaker">
+    <img src="../content/2015/hasan-yalcin.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">HASAN YALÇIN</h3>
+    <span class="speaker-title">Senior UI/UX Designer</span>
+    <span class="speaker-company">Tasarımcının El Çantası</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/hasanyalcin" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/in/hasanyalcin" target="_blank"><i class="icon-linkedin"></i></a>
     </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/volkan-ozcelik.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">VOLKAN ÖZÇELİK</h3>
+    <span class="speaker-title">Technical Lead</span>
+    <span class="speaker-company">Cisco</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/linkibol" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/volkanozcelik" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/armagan-amcalar.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">ARMAĞAN AMCALAR</h3>
+    <span class="speaker-title">Chief Software Architect</span>
+    <span class="speaker-company">Startup Kitchen</span>
+    <span class="speaker-links">
+        <a href="http://twitter.com/aamcalar" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/in/armaganamcalar" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span> 
+
+<span class="speaker">
+    <img src="../content/2015/oytun-sengul.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">OYTUN EREN ŞENGÜL</h3>
+    <span class="speaker-title" title="Business & Communications Director">Business & Comm. Director</span>
+    <span class="speaker-company">Userspots</span>
+    <span class="speaker-links">
+        <a href="http://twitter.com/OytunatLinux" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/in/oytuneren" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/riza-selcuk-saydam.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">RIZA SELÇUK SAYDAM</h3>
+    <span class="speaker-title">Product Designer</span>
+    <span class="speaker-company"><em>joining</em> Facebook</span>
+    <span class="speaker-links">
+        <a href="http://twitter.com/rssems" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/profile/view?id=34234005" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/gozde-berberoglu.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">GÖZDE BERBEROĞLU</h3>
+    <span class="speaker-title">User Interface Developer</span>
+    <span class="speaker-company">Doğuş Yayın Grubu</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/gozdeberberoglu" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/in/gozdeberberoglu" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/yalcin-geckin.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">YALÇIN GEÇKİN</h3>
+    <span class="speaker-title">Senior UX Designer</span>
+    <span class="speaker-company">Turkcell</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/yalcingeckin" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/profile/view?id=139387624" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/baris-guler.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">BARIŞ GÜLER</h3>
+    <span class="speaker-title">Front-end Team Lead</span>
+    <span class="speaker-company">Markafoni</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/hwclass" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/pub/bar%C4%B1%C5%9F-g%C3%BCler/69/18a/3b9/en" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
+
+<span class="speaker">
+    <img src="../content/2015/rames-aliyev.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">RAMEŞ ALİYEV</h3>
+    <span class="speaker-title">JavaScript Developer</span>
+    <span class="speaker-company">Arneca</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/ramesaliyev" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://tr.linkedin.com/in/ramesaliyev/en" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
     
-    <span class="speaker">
-        <img src="../content/2015/volkan-ozcelik.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">VOLKAN ÖZÇELİK</h3>
-        <span class="speaker-title">Technical Lead</span>
-        <span class="speaker-company">Cisco</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/linkibol" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/volkanozcelik" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
+<span class="speaker">
+    <img src="../content/2015/bilal-cinarli.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">BİLAL ÇINARLI</h3>
+    <span class="speaker-title">Senior UX Developer</span>
+    <span class="speaker-company">Turkcell</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/bcinarli" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/bcinarli" target="_blank"><i class="icon-linkedin"></i></a>
     </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/armagan-amcalar.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">ARMAĞAN AMCALAR</h3>
-        <span class="speaker-title">Chief Software Architect</span>
-        <span class="speaker-company">Startup Kitchen</span>
-        <span class="speaker-links">
-            <a href="http://twitter.com/aamcalar" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/in/armaganamcalar" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span> 
-    
-    <span class="speaker">
-        <img src="../content/2015/oytun-sengul.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">OYTUN EREN ŞENGÜL</h3>
-        <span class="speaker-title" title="Business & Communications Director">Business & Comm. Director</span>
-        <span class="speaker-company">Userspots</span>
-        <span class="speaker-links">
-            <a href="http://twitter.com/OytunatLinux" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/in/oytuneren" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/riza-selcuk-saydam.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">RIZA SELÇUK SAYDAM</h3>
-        <span class="speaker-title">Product Designer</span>
-        <span class="speaker-company"><em>joining</em> Facebook</span>
-        <span class="speaker-links">
-            <a href="http://twitter.com/rssems" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://www.linkedin.com/profile/view?id=34234005" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/gozde-berberoglu.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">GÖZDE BERBEROĞLU</h3>
-        <span class="speaker-title">User Interface Developer</span>
-        <span class="speaker-company">Doğuş Yayın Grubu</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/gozdeberberoglu" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/in/gozdeberberoglu" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/yalcin-geckin.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">YALÇIN GEÇKİN</h3>
-        <span class="speaker-title">Senior UX Designer</span>
-        <span class="speaker-company">Turkcell</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/yalcingeckin" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://www.linkedin.com/profile/view?id=139387624" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/baris-guler.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">BARIŞ GÜLER</h3>
-        <span class="speaker-title">Front-end Team Lead</span>
-        <span class="speaker-company">Markafoni</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/hwclass" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/pub/bar%C4%B1%C5%9F-g%C3%BCler/69/18a/3b9/en" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-    
-    <span class="speaker">
-        <img src="../content/2015/rames-aliyev.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">RAMEŞ ALİYEV</h3>
-        <span class="speaker-title">JavaScript Developer</span>
-        <span class="speaker-company">Arneca</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/ramesaliyev" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://tr.linkedin.com/in/ramesaliyev/en" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
-        
-    <span class="speaker">
-        <img src="../content/2015/bilal-cinarli.jpg" class="speaker-photo" />        
-        <h3 class="speaker-name">BİLAL ÇINARLI</h3>
-        <span class="speaker-title">Senior UX Developer</span>
-        <span class="speaker-company">Turkcell</span>
-        <span class="speaker-links">
-            <a href="https://twitter.com/bcinarli" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/bcinarli" target="_blank"><i class="icon-linkedin"></i></a>
-        </span>
-    </span>
+</span>
 </section>
 
 <section id="program" class="event-program">
