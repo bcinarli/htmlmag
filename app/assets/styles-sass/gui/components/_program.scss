@@ -17,6 +17,13 @@
         list-style-type: none;
         text-transform: uppercase;
         letter-spacing: 1px;
+
+        #the-frontiers-mini & {
+            max-width: 960px;
+            text-align: left;
+            text-transform: none;
+        }
+
     }
 
     li {
