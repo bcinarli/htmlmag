@@ -197,39 +197,38 @@ Fazıl Say Salonu<br />
 <section id="sponsors" class="event-sponsors" markdown=1>
 ## SPONSORLAR {.event-section-title}
 <p>
-    <a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external sponsor-logo gy-logo">
+    <a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external company-logo gy-logo">
         <img src="../content/2015/sponsors/gelecegi-yazanlar.png" />
     </a>
 </p>
 <p>
-    <a href="http://tazebt.com/" target="_blank" class="external sponsor-logo taze-logo">
+    <a href="http://tazebt.com/" target="_blank" class="external company-logo taze-logo">
         <img src="../content/2015/sponsors/taze-logo.png" />
     </a>
 </p>
 <p>
-    <a href="http://www.iconpm.com/" target="_blank" class="external sponsor-logo icon-logo">
+    <a href="http://www.iconpm.com/" target="_blank" class="external company-logo icon-logo">
         <img src="../content/2015/sponsors/icon-logo.png" />
     </a>
 </p>
 
 ## MEDYA SPONSORLARI {.event-section-title}
 <p>
-    <a href="http://shiftdelete.net/" target="_blank" class="external sponsor-logo sdn-logo">
+    <a href="http://shiftdelete.net/" target="_blank" class="external company-logo sdn-logo">
         <img src="../content/2015/sponsors/sdn.png" />
     </a>
 </p>
 
-    
 <p>&nbsp;</p>
     
 ## DESTEKLEYENLER {.event-section-title}
 <p>
-    <a href="http://www.bahcesehir.edu.tr/" target="_blank" class="external sponsor-logo bau-logo">
+    <a href="http://www.bahcesehir.edu.tr/" target="_blank" class="external company-logo bau-logo">
         <img src="../content/2015/sponsors/bau-alt.png" />
     </a>
 </p>
 <p>
-    <a href="http://mobilistanbul.com/" target="_blank" class="external sponsor-logo mobilistanbul-logo">
+    <a href="http://mobilistanbul.com/" target="_blank" class="external company-logo mobilistanbul-logo">
         <img src="../content/2015/sponsors/mobil-istanbul-logo.png" />
     </a>
 </p>

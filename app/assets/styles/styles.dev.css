@@ -2733,9 +2733,11 @@ hr {
 .event-sponsors h2 {
   color: #2c6745; }
 
-.sponsor-logo {
+.sponsor-logo,
+.company-logo {
   margin-bottom: 40px; }
-  .sponsor-logo img {
+  .sponsor-logo img,
+  .company-logo img {
     max-height: 60px; }
 
 .taze-logo img,
