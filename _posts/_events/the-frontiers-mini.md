@@ -168,6 +168,17 @@ Fazıl Say Salonu<br />
         <a href="https://www.linkedin.com/in/bcinarli" target="_blank"><i class="icon-linkedin"></i></a>
     </span>
 </span>
+    
+<span class="speaker">
+    <img src="../content/2015/burak-can.jpg" class="speaker-photo" />        
+    <h3 class="speaker-name">BURAK CAN</h3>
+    <span class="speaker-title">Front-end Developer</span>
+    <span class="speaker-company">Protel</span>
+    <span class="speaker-links">
+        <a href="https://twitter.com/neoberg" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://www.linkedin.com/profile/view?id=160722991" target="_blank"><i class="icon-linkedin"></i></a>
+    </span>
+</span>
 </section>
 
 <section id="program" class="event-program">
