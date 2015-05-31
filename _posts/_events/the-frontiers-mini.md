@@ -198,24 +198,24 @@ Fazıl Say Salonu<br />
 ## SPONSORLAR {.event-section-title}
 <p>
     <a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external company-logo gy-logo">
-        <img src="../content/2015/sponsors/gelecegi-yazanlar.png" />
+        <img src="../content/2015/sponsors/gelecegi-yazanlar.png" alt="Geleceği Yazanlar" />
     </a>
 </p>
 <p>
     <a href="http://tazebt.com/" target="_blank" class="external company-logo taze-logo">
-        <img src="../content/2015/sponsors/taze-logo.png" />
+        <img src="../content/2015/sponsors/taze-logo.png" alt="Taze" />
     </a>
 </p>
 <p>
     <a href="http://www.iconpm.com/" target="_blank" class="external company-logo icon-logo">
-        <img src="../content/2015/sponsors/icon-logo.png" />
+        <img src="../content/2015/sponsors/icon-logo.png" alt="ICON Algı Yönetimi ve Bilişim Sistemleri" />
     </a>
 </p>
 
 ## MEDYA SPONSORLARI {.event-section-title}
 <p>
     <a href="http://shiftdelete.net/" target="_blank" class="external company-logo sdn-logo">
-        <img src="../content/2015/sponsors/sdn.png" />
+        <img src="../content/2015/sponsors/sdn.png" alt="ShiftDelete.net" />
     </a>
 </p>
 
@@ -224,12 +224,12 @@ Fazıl Say Salonu<br />
 ## DESTEKLEYENLER {.event-section-title}
 <p>
     <a href="http://www.bahcesehir.edu.tr/" target="_blank" class="external company-logo bau-logo">
-        <img src="../content/2015/sponsors/bau-alt.png" />
+        <img src="../content/2015/sponsors/bau-alt.png" alt="Bahçeşehir Üniversitesi" />
     </a>
 </p>
 <p>
     <a href="http://mobilistanbul.com/" target="_blank" class="external company-logo mobilistanbul-logo">
-        <img src="../content/2015/sponsors/mobil-istanbul-logo.png" />
+        <img src="../content/2015/sponsors/mobil-istanbul-logo.png" alt="Mobil İstanbul" />
     </a>
 </p>
 </section>
