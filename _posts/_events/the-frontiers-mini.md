@@ -212,6 +212,13 @@ Fazıl Say Salonu<br />
     </a>
 </p>
 
+## MEDYA SPONSORLARI {.event-section-title}
+<p>
+    <a href="http://shiftdelete.net/" target="_blank" class="external sponsor-logo sdn-logo">
+        <img src="../content/2015/sponsors/sdn.png" />
+    </a>
+</p>
+
     
 <p>&nbsp;</p>
     
