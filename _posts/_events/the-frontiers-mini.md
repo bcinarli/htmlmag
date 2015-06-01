@@ -208,27 +208,27 @@ Fazıl Say Salonu<br />
 <section id="sponsors" class="event-sponsors" markdown=1>
 ## SPONSORLAR {.event-section-title}
 <p>
-    <a href="http://gelecegiyazanlar.turkcell.com.tr/" target="_blank" class="external company-logo gy-logo">
+    <a href="http://gelecegiyazanlar.turkcell.com.tr/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo gy-logo">
         <img src="../content/2015/sponsors/gelecegi-yazanlar.png" alt="Geleceği Yazanlar" />
     </a>
 </p>
 <p>
-    <a href="http://tazebt.com/" target="_blank" class="external company-logo taze-logo inline-logo">
+    <a href="http://tazebt.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo taze-logo inline-logo">
         <img src="../content/2015/sponsors/taze-logo.png" alt="Taze" />
     </a>
     
-    <a href="http://www.iconpm.com/" target="_blank" class="external company-logo icon-logo inline-logo">
+    <a href="http://www.iconpm.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo icon-logo inline-logo">
         <img src="../content/2015/sponsors/icon-logo.png" alt="ICON Algı Yönetimi ve Bilişim Sistemleri" />
     </a>
 </p>
 
 ## MEDYA SPONSORLARI {.event-section-title}
 <p id="media-sponsors">
-    <a href="http://shiftdelete.net/" target="_blank" class="external company-logo sdn-logo inline-logo">
+    <a href="http://shiftdelete.net/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo sdn-logo inline-logo">
         <img src="../content/2015/sponsors/sdn.png" alt="ShiftDelete.net" />
     </a>
     
-    <a href="http://www.webmasto.com/" target="_blank" class="external company-logo wm-logo inline-logo">
+    <a href="http://www.webmasto.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo wm-logo inline-logo">
         <img src="../content/2015/sponsors/webmasto-logo.png" alt="WebMasto" />
     </a>
 </p>
@@ -242,7 +242,7 @@ Fazıl Say Salonu<br />
     </a>
 </p>
 <p>
-    <a href="http://mobilistanbul.com/" target="_blank" class="external company-logo mobilistanbul-logo">
+    <a href="http://mobilistanbul.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo mobilistanbul-logo">
         <img src="../content/2015/sponsors/mobil-istanbul-logo.png" alt="Mobil İstanbul" />
     </a>
 </p>
