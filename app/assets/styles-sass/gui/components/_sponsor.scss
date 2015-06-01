@@ -12,10 +12,17 @@
 .sponsor-logo,
 .company-logo {
     margin-bottom: 2*$base-gutter;
+    vertical-align: middle;
 
     img {
+        display: block;
         max-height: 60px;
     }
+}
+
+.inline-logo {
+    margin-right: $base-gutter;
+    margin-left: $base-gutter;
 }
 
 .taze-logo,
