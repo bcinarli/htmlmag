@@ -193,7 +193,7 @@ Fazıl Say Salonu<br />
            <li>11:45 – 12:15  Kullanıcı Deneyimi İçin Animasyon (Yalçın Geçkin)</li>
            <li>12:15 – 13:15  Öğle Arası</li>
            <li>13:15 – 13:45  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? (Volkan Özçelik)</li>
-           <li>13:45 – 14:15  Google Clousure (Armağan Amcalar)</li>
+           <li>13:45 – 14:15  Frontend'in Gölgelerde Yaşayan Efendisi: Google Closure (Armağan Amcalar)</li>
            <li>14:15 – 14:30  Ara</li>
            <li>14:30 – 15:00  A/B Testing (Rıza Selçuk Saydam)</li>
            <li>15:00 – 15:30  Arayüz Frameworklerinin Karanlık Yüzü (Bilal Çınarlı)</li>
