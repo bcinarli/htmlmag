@@ -200,7 +200,7 @@ Fazıl Say Salonu<br />
            <li>15:30 – 15:45  Ara</li>
            <li>15:45 – 16:15  A Developer's View: Patterns to Make Life Easier (Barış Güler)</li>
            <li>16:15 – 16:45  Flux/React ve Modern Front-End JS Mimarisi (Rameş Aliyev)</li>
-           <li>16:55 – 17:25  Modern CSS Layout (Burak Can)</li>
+           <li>16:55 – 17:25  Modern CSS Layouts (Burak Can)</li>
            <li>17:25 – 17:30  Kapanış (Nesrin Kalender & Bilal Çınarlı)</li>
         </ul>
 </section>
