@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * HTML Magazine Theme
  * @author Bilal Cinarli
@@ -266,19 +265,7 @@
  * Fontface
  */
 /**
-  * Font Icon
-  */
-/**
  * Font-Size callback
- */
-/**
- * Disable Select
- * It is useful for mobil applications
- * Prevents text selection when swipe or double click
- * http://caniuse.com/#search=user-select
- * https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
- * Formal syntax: none | text | all | element
- * Current spec, all vendors need prefixing
  */
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -332,33 +319,8 @@
  *
  * Outputs CSS3 transition code with defined prefixes
  * http://caniuse.com/#search=transition
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
- * Formal syntax: [ none | <single-transition-property> ] || <time> || <timing-function> || <time>
  * current spec, older Android browsers and Safari 5.1 need -webkit
- */
-/**
- * CSS Transition Delay
- * Outputs CSS3 transition-delay code with defined pferixes
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
- * Formal syntax: <time>#
- */
-/**
- * CSS Transition Duration
- * Outputs CSS3 transition-duration code with defined pferixes
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration
- * Formal syntax: <time>#
- */
-/**
- * CSS Transition Property
- * Outputs CSS3 transition-property code with defined pferixes
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property
- * Formal syntax: none | <single-transition-property>#  [ ‘,’ <single-transition-property># ]*
- */
-/**
- * CSS Transition Timing
- * Outputs CSS3 transition-timing-function code with defined pferixes
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
- * Formal syntax: <timing-function>#
+ * You can use standart CSS box shadow definition
  */
 /**
  * App Transition
@@ -374,9 +336,6 @@
  *
  * Outputs CSS3 tranform code with defined prefixes
  * http://caniuse.com/#search=transform
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transform
- * Formal syntax: none | <transform-function>+
- * For transform functions see: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function
  * current spec, Safari, Android browser and IE9 need vendor prefix
  */
 /**
@@ -384,208 +343,7 @@
  *
  * Outputs CSS3 tranform-origin code with defined prefixes
  * http://caniuse.com/#search=transform
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
- * Formal syntax: [ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] && [ <percentage> | <length> | top | center | bottom ] ] <length>?
  * current spec, Safari, Android browser and IE9 need vendor prefix
- */
-/**
- * CSS Transform Style
- *
- * Outputs CSS3 tranform-style code with defined prefixes
- * http://caniuse.com/#search=transform
- * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
- * Formal syntax: flat | preserve-3d | inherit
- * current spec, IE is not supported, webkit browsers need prefixing
- */
-/* @author Bilal Cinarli */
-/** -------------------------------------------
-    Animation Related Mixins
-    ------------------------------------------- **/
-/**
- * CSS Animation
- *
- * Outputs CSS3 animation code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation
- * Formal syntax: <single-animation-name> || <time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state>
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Delay
- *
- * Outputs CSS3 animation-delay code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay
- * Formal syntax: <time>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Direction
- *
- * Outputs CSS3 animation-direction code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction
- * Formal syntax: <single-animation-direction>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Duration
- *
- * Outputs CSS3 animation-duration code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration
- * Formal syntax: <time>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Fill Mode
- *
- * Outputs CSS3 animation-fill-mode code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
- * Formal syntax: <single-animation-fill-mode>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Iteration Count
- *
- * Outputs CSS3 animation-iteration-count code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count
- * Formal syntax: <single-animation-iteration-count>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Name
- *
- * Outputs CSS3 animation-name code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
- * Formal syntax: <single-animation-name>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Play State
- *
- * Outputs CSS3 animation-play-state code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state
- * Formal syntax: <single-animation-play-state>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Animation Timing Function
- *
- * Outputs CSS3 animation-timing-function code with defined prefixes
- * http://caniuse.com/#search=css3%20animation
- * https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
- * Formal syntax: <single-animation-timing-function>#
- * current spec, webkit browsers need prefixing
- */
-/**
- * CSS Keyframes
- *
- * Outputs CSS3 keyframes code with defined prefixes
- * http://caniuse.com/#search=keyframes
- * https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
- * @keyframes <identifier> {
- * 	[ [ from | to | <percentage> ] [, from | to | <percentage> ]* block ]*
- * }
- * current spec, webkit browsers need prefixing
- */
-/* @author Bilal Cinarli */
-/** -------------------------------------------
-    Columns Related Mixins
-    ------------------------------------------- **/
-/**
- * CSS Columns
- *
- * Outputs CSS3 Columns with defined prefixes
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/columns
- * Formal syntax: <'column-width'> || <'column-count'>
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Count
- *
- * Outputs CSS3 Column Count
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-count
- * Formal syntax: <number> | auto
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Width
- *
- * Outputs CSS3 Column Width
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-width
- * Formal syntax: <length> | auto
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Gap
- *
- * Outputs CSS3 Column Gap
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
- * Formal syntax: <length> | normal
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Rule
- *
- * Outputs CSS3 Column Rule, shorthand definition for column rule styles
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule
- * Formal syntax: <'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Rule Color
- *
- * Outputs CSS3 Column Rule Color
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color
- * Formal syntax: <color>
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Rule Style
- *
- * Outputs CSS3 Column Rule Style
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style
- * Formal syntax: <style>
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Rule Width
- *
- * Outputs CSS3 Column Rule Width
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width
- * Formal syntax: <br-width>
- * Available values: thin || medium || thick || number px || number em
- * current spec, except IE, all browsers need vendor prefix either -moz or -webkit
- */
-/**
- * CSS Column Span
- *
- * Outputs CSS3 Column Span
- * http://caniuse.com/#search=column
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-span
- * Formal syntax: none | all
- * Currently, except firefox, all vendors supporting this feature. Webkit browsers need prefix
- */
-/**
- * CSS Column Fill
- *
- * Outputs CSS3 Column Fill
- * https://developer.mozilla.org/en-US/docs/Web/CSS/column-fill
- * Formal syntax: auto | balance
- * Currently only firefox supports
  */
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -628,33 +386,6 @@
  * Uses margin: 0 auto; when $type defined as "static"
  * By default it uses the 
  */
-/* @author Bilal Cinarli */
-/** -------------------------------------------
-    Common Break Points
-    ------------------------------------------- **/
-/**
- * Mobile phones / smaller screens portrait mode
- *
- */
-/**
- * Mobile phones / smaller screens landscape mode
- *
- */
-/**
- * Tablets / medium sized screens portrait mode
- *
- */
-/**
- * Tablets / medium sized screens landscape mode
- *
- */
-/**
- * Common desktop/laptops
- */
-/**
- * Widescreens
- *
- */
 /** -------------------------------------------
     Melange
     ------------------------------------------- **/
@@ -673,14 +404,6 @@
 /** -------------------------------------------
     Variables Container
     ------------------------------------------- **/
-/* @author Bilal Cinarli */
-/** -------------------------------------------
-    Internal Variables
-    ------------------------------------------- **/
-/**
-  * Here are some internal variables that are not used in styling
-  * but for optimization calculations or controlling certain options
-  */
 /* @author Bilal Cinarli */
 /** -------------------------------------------
     System supports
@@ -1218,6 +941,12 @@ table, th, td {
   display: table;
   clear: both; }
 
+/**
+ * Hides the element
+ */
+.hide {
+  display: none; }
+
 /* @author Bilal Cinarli */
 /**
  * Not real functions of mixins but set of definitions for resetting or reformatting an element
@@ -1293,7 +1022,7 @@ fieldset, .form-elements {
 /**
  * Mixin for width calculations
  *
- * @param $fragment: defines how many fragments in one row and calculates the fragment width
+ * @param $column: defines how many chunks in one row and calculates the chunk width
  * @param $namespace prefix for classes in order to use different names for different parts
  *
  * @depends $numbers: number-to-name conversion list for human readable class names
@@ -1308,40 +1037,43 @@ fieldset, .form-elements {
 /**
  * Half
  */
-.one-half, .two-quarters, .four-eighths, .five-tenths, .six-twelfths {
+.one-half {
   width: 50%; }
 
 /**
  * Thirds
  */
-.one-thirds, .one-third, .four-twelfths {
+.one-thirds, .one-third {
   width: 33.33333%; }
 
-.two-thirds, .eight-twelfths {
+.two-thirds {
   width: 66.66667%; }
 
 /**
  * Quarters
  */
-.one-quarters, .one-quarter, .two-eighths, .three-twelfths {
+.one-quarters, .one-quarter {
   width: 25%; }
 
-.three-quarters, .six-eighths, .nine-twelfths {
+.two-quarters {
+  width: 50%; }
+
+.three-quarters {
   width: 75%; }
 
 /**
  * Fifths
  */
-.one-fifths, .one-fifth, .two-tenths {
+.one-fifths, .one-fifth {
   width: 20%; }
 
-.two-fifths, .four-tenths {
+.two-fifths {
   width: 40%; }
 
-.three-fifths, .six-tenths {
+.three-fifths {
   width: 60%; }
 
-.four-fifths, .eight-tenths {
+.four-fifths {
   width: 80%; }
 
 /**
@@ -1350,11 +1082,20 @@ fieldset, .form-elements {
 .one-eighths, .one-eighth {
   width: 12.5%; }
 
+.two-eighths {
+  width: 25%; }
+
 .three-eighths {
   width: 37.5%; }
 
+.four-eighths {
+  width: 50%; }
+
 .five-eighths {
   width: 62.5%; }
+
+.six-eighths {
+  width: 75%; }
 
 .seven-eighths {
   width: 87.5%; }
@@ -1365,11 +1106,26 @@ fieldset, .form-elements {
 .one-tenths, .one-tenth {
   width: 10%; }
 
+.two-tenths {
+  width: 20%; }
+
 .three-tenths {
   width: 30%; }
 
+.four-tenths {
+  width: 40%; }
+
+.five-tenths {
+  width: 50%; }
+
+.six-tenths {
+  width: 60%; }
+
 .seven-tenths {
   width: 70%; }
+
+.eight-tenths {
+  width: 80%; }
 
 .nine-tenths {
   width: 90%; }
@@ -1383,11 +1139,26 @@ fieldset, .form-elements {
 .two-twelfths {
   width: 16.66667%; }
 
+.three-twelfths {
+  width: 25%; }
+
+.four-twelfths {
+  width: 33.33333%; }
+
 .five-twelfths {
   width: 41.66667%; }
 
+.six-twelfths {
+  width: 50%; }
+
 .seven-twelfths {
   width: 58.33333%; }
+
+.eight-twelfths {
+  width: 66.66667%; }
+
+.nine-twelfths {
+  width: 75%; }
 
 .ten-twelfths {
   width: 83.33333%; }
@@ -1672,36 +1443,32 @@ label,
 input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"],
 textarea,
 .text-field {
+  -webkit-appearance: none;
   outline: 0;
   padding: 5px;
   border: 1px solid #c6c6c6;
   color: inherit;
   font-size: 1rem;
   font-weight: normal; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus,
+  input[type="text"]:focus, input[type="text"]:active, input[type="password"]:focus, input[type="password"]:active, input[type="datetime"]:focus, input[type="datetime"]:active, input[type="datetime-local"]:focus, input[type="datetime-local"]:active, input[type="date"]:focus, input[type="date"]:active, input[type="month"]:focus, input[type="month"]:active, input[type="time"]:focus, input[type="time"]:active, input[type="week"]:focus, input[type="week"]:active, input[type="number"]:focus, input[type="number"]:active, input[type="email"]:focus, input[type="email"]:active, input[type="url"]:focus, input[type="url"]:active, input[type="search"]:focus, input[type="search"]:active, input[type="tel"]:focus, input[type="tel"]:active, input[type="color"]:focus, input[type="color"]:active,
   textarea:focus,
-  .text-field:focus, input[type="text"]:active, input[type="password"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="date"]:active, input[type="month"]:active, input[type="time"]:active, input[type="week"]:active, input[type="number"]:active, input[type="email"]:active, input[type="url"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="color"]:active,
   textarea:active,
+  .text-field:focus,
   .text-field:active {
-    border-color: #8c8c8c;
+    border-color: #676767;
     background: #fff; }
-  input[readonly][type="text"], input[readonly][type="password"], input[readonly][type="datetime"], input[readonly][type="datetime-local"], input[readonly][type="date"], input[readonly][type="month"], input[readonly][type="time"], input[readonly][type="week"], input[readonly][type="number"], input[readonly][type="email"], input[readonly][type="url"], input[readonly][type="search"], input[readonly][type="tel"], input[readonly][type="color"],
+  input[type="text"][readonly], input[type="text"].readonly, input[type="password"][readonly], input[type="password"].readonly, input[type="datetime"][readonly], input[type="datetime"].readonly, input[type="datetime-local"][readonly], input[type="datetime-local"].readonly, input[type="date"][readonly], input[type="date"].readonly, input[type="month"][readonly], input[type="month"].readonly, input[type="time"][readonly], input[type="time"].readonly, input[type="week"][readonly], input[type="week"].readonly, input[type="number"][readonly], input[type="number"].readonly, input[type="email"][readonly], input[type="email"].readonly, input[type="url"][readonly], input[type="url"].readonly, input[type="search"][readonly], input[type="search"].readonly, input[type="tel"][readonly], input[type="tel"].readonly, input[type="color"][readonly], input[type="color"].readonly,
   textarea[readonly],
-  [readonly].text-field, input.readonly[type="text"], input.readonly[type="password"], input.readonly[type="datetime"], input.readonly[type="datetime-local"], input.readonly[type="date"], input.readonly[type="month"], input.readonly[type="time"], input.readonly[type="week"], input.readonly[type="number"], input.readonly[type="email"], input.readonly[type="url"], input.readonly[type="search"], input.readonly[type="tel"], input.readonly[type="color"],
   textarea.readonly,
-  .readonly.text-field {
+  .text-field[readonly],
+  .text-field.readonly {
     cursor: default;
     border-color: #c6c6c6;
     background-color: #f9f9f9; }
-  input.item-error[type="text"], input.item-error[type="password"], input.item-error[type="datetime"], input.item-error[type="datetime-local"], input.item-error[type="date"], input.item-error[type="month"], input.item-error[type="time"], input.item-error[type="week"], input.item-error[type="number"], input.item-error[type="email"], input.item-error[type="url"], input.item-error[type="search"], input.item-error[type="tel"], input.item-error[type="color"],
+  input[type="text"].item-error, input[type="password"].item-error, input[type="datetime"].item-error, input[type="datetime-local"].item-error, input[type="date"].item-error, input[type="month"].item-error, input[type="time"].item-error, input[type="week"].item-error, input[type="number"].item-error, input[type="email"].item-error, input[type="url"].item-error, input[type="search"].item-error, input[type="tel"].item-error, input[type="color"].item-error,
   textarea.item-error,
-  .item-error.text-field {
+  .text-field.item-error {
     border-color: #e87352; }
-
-input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"],
-textarea,
-.text-field {
-  -webkit-appearance: none; }
 
 /**
  * Checkable (checkbox, radio) field styles
@@ -1745,95 +1512,54 @@ textarea {
  * it is cross browser and meaningful. Also ".button" class is added in order to
  * get button-like elements
  */
+[class*="-action"],
 button,
-input[type="submit"],
-input[type="reset"],
-input.button, .button, [class*="-action"]:not([class*="-actions"]) {
-  -webkit-apperance: none;
-  -moz-apperance: none;
-  apperance: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+.button {
+  -webkit-appearence: none;
   display: inline-block;
   cursor: pointer;
-  padding: 6px 15px;
-  background: #c6c6c6;
+  padding: 0.7em 1em;
+  background: #f9f9f9;
+  color: #676767;
+  font-weight: bold;
   line-height: normal;
-  color: #8c8c8c; }
-  button:disabled,
-  input[type="submit"]:disabled,
-  input[type="reset"]:disabled, .button:disabled, [class*="-action"]:disabled:not([class*="-actions"]), button.disabled,
-  input.disabled[type="submit"],
-  input.disabled[type="reset"], .disabled.button, .disabled[class*="-action"]:not([class*="-actions"]) {
-    cursor: default;
-    background: #ececec; }
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  white-space: normal; }
+  [class*="-action"]:hover, [class*="-action"]:focus, [class*="-action"]:active,
   button:hover,
-  input[type="submit"]:hover,
-  input[type="reset"]:hover, .button:hover, [class*="-action"]:hover:not([class*="-actions"]) {
-    color: #8c8c8c;
-    background-color: #b3b3b3; }
+  button:focus,
   button:active,
-  input[type="submit"]:active,
-  input[type="reset"]:active, .button:active, [class*="-action"]:active:not([class*="-actions"]) {
-    -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
-    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3); }
-
-/**
- * Native button elements
- * Input button elements
- */
-button,
-input[type="submit"],
-input[type="reset"],
-input.button {
-  border: transparent; }
-
-/**
- * Anchor and other elements
- */
-.button {
-  text-align: center; }
-  .button, .button:hover, .button:focus, .button:active {
+  .button:hover,
+  .button:focus,
+  .button:active {
     text-decoration: none; }
+  [class*="-action"]:disabled, .disabled[class*="-action"],
+  button:disabled,
+  button.disabled,
+  .button:disabled,
+  .button.disabled {
+    cursor: default;
+    background: #f9f9f9; }
 
-/** 
- * Action Buttons
- * specificity increased in order to overwrite [class*="-action"]:not([class*="-actions"])
- * without using !important rule. By this, it can easily modified `.some-class .primary-action` selector
- */
-.primary-action.primary-action {
+.primary-action {
   background-color: #c54846;
   color: #fff; }
-  .primary-action.primary-action:hover {
-    background-color: #ae3837;
-    color: #fff; }
 
-.secondary-action.secondary-action {
+.secondary-action {
   background-color: #1da8e3;
   color: #fff; }
-  .secondary-action.secondary-action:hover {
-    background-color: #188fc2;
-    color: #fff; }
 
-.tertiary-action.tertiary-action {
+.tertiary-action {
   background-color: #ffb400;
   color: #fff; }
-  .tertiary-action.tertiary-action:hover {
-    background-color: #d99900;
-    color: #fff; }
 
-.cancel-action.cancel-action,
-input[type="reset"] {
+.cancel-action {
   background-color: #e87352;
   color: #fff; }
-  .cancel-action.cancel-action:hover,
-  input[type="reset"]:hover {
-    background-color: #e45830;
-    color: #fff; }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -2417,7 +2143,7 @@ pre.line-numbers > code {
 
 .article-meta {
   font-size: 0.77778rem;
-  color: #8c8c8c; }
+  color: #676767; }
   .article-header .article-meta {
     margin: 20px 0; }
   .article-meta [class^="article-"] {
@@ -2427,7 +2153,7 @@ pre.line-numbers > code {
     font-size: 1.11111rem;
     vertical-align: middle; }
   .article-meta a {
-    color: #8c8c8c; }
+    color: #676767; }
 
 .article-footer {
   position: relative;
@@ -2614,15 +2340,17 @@ pre.line-numbers > code {
   background: none;
   color: #000; }
   #the-frontiers-mini .event-program li {
-    border-bottom: 1px solid #ccc;
-    line-height: 55px;
-    margin-bottom: 0px;
-    padding: 0px 10px; }
+    border-bottom: 1px solid #c6c6c6;
+    line-height: 2rem;
+    margin-bottom: 0;
+    padding: 5px 10px; }
     #the-frontiers-mini .event-program li span {
-      color: #7a7a7a; }
+      color: #676767; }
   #the-frontiers-mini .event-program .break {
     text-align: center;
-    background: #f7f7f7; }
+    background: #f9f9f9; }
+#the-frontiers-mini .event-sponsors {
+  background-color: #f9f9f9; }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
