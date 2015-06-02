@@ -184,24 +184,24 @@ Fazıl Say Salonu<br />
 <section id="program" class="event-program">
     <h2 class="event-section-title">PROGRAM</h2>
         <ul class="program-list">
-           <li>08:50 - 09:50  Kayıtlar & Tanışma </li>
-           <li>09:50 – 10:00  Açılış & Hoşgeldiniz (Nesrin Kalender)</li>
-           <li>10:00 – 10:30  Keynote (Hasan Yalçın) </li>
-           <li>10:30 – 11:00  Cihazlar ve Web Tabanlı İşletim Sistemleri (Oytun Eren Şengül)</li>
-           <li>11:00 – 11:15  Ara</li>
-           <li>11:15 – 11:45  Content Aware Front-end (Gözde Berberoğlu)</li>
-           <li>11:45 – 12:15  Kullanıcı Deneyimi İçin Animasyon (Yalçın Geçkin)</li>
-           <li>12:15 – 13:15  Öğle Arası</li>
-           <li>13:15 – 13:45  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? (Volkan Özçelik)</li>
-           <li>13:45 – 14:15  Frontend'in Gölgelerde Yaşayan Efendisi: Google Closure (Armağan Amcalar)</li>
-           <li>14:15 – 14:30  Ara</li>
-           <li>14:30 – 15:00  A/B Testing (Rıza Selçuk Saydam)</li>
-           <li>15:00 – 15:30  Arayüz Frameworklerinin Karanlık Yüzü (Bilal Çınarlı)</li>
-           <li>15:30 – 15:45  Ara</li>
-           <li>15:45 – 16:15  A Developer's View: Patterns to Make Life Easier (Barış Güler)</li>
-           <li>16:15 – 16:45  Flux/React ve Modern Front-End JS Mimarisi (Rameş Aliyev)</li>
-           <li>16:55 – 17:25  Modern CSS Layouts (Burak Can)</li>
-           <li>17:25 – 17:30  Kapanış (Nesrin Kalender & Bilal Çınarlı)</li>
+           <li class="break"><span>08:50 - 09:50</span>  Kayıtlar & Tanışma </li>
+           <li><span>09:50 – 10:00</span>  Açılış & Hoşgeldiniz<br> Nesrin Kalender</li>
+           <li><span>10:00 – 10:30</span>  Keynote <br>Hasan Yalçın</li>
+           <li><span>10:30 – 11:00</span>  Cihazlar ve Web Tabanlı İşletim Sistemleri <br>Oytun Eren Şengül</li>
+           <li class="break"><span>11:00 – 11:15</span>  Ara</li>
+           <li><span>11:15 – 11:45</span>  Content Aware Front-end <br> Gözde Berberoğlu</li>
+           <li><span>11:45 – 12:15</span>  Kullanıcı Deneyimi İçin Animasyon <br>Yalçın Geçkin</li>
+           <li class="break"><span>12:15 – 13:15</span>  Öğle Arası</li>
+           <li><span>13:15 – 13:45</span>  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? <br> Volkan Özçelik</li>
+           <li><span>13:45 – 14:15</span>  Frontend'in Gölgelerde Yaşayan Efendisi: Google Closure <br>Armağan Amcalar</li>
+           <li class="break"><span>14:15 – 14:30</span>  Ara</li>
+           <li><span>14:30 – 15:00</span>  A/B Testing <br>Rıza Selçuk Saydam</li>
+           <li><span>15:00 – 15:30</span>  Arayüz Frameworklerinin Karanlık Yüzü <br>Bilal Çınarlı</li>
+           <li class="break"><span>15:30 – 15:45</span>  Ara</li>
+           <li><span>15:45 – 16:15</span>  A Developer's View: Patterns to Make Life Easier <br>Barış Güler</li>
+           <li><span>16:15 – 16:45</span>  Flux/React ve Modern Front-End JS Mimarisi <br>Rameş Aliyev</li>
+           <li><span>16:55 – 17:25</span>  Modern CSS Layouts <br>Burak Can</li>
+           <li><span>17:25 – 17:30</span>  Kapanış <br>Nesrin Kalender & Bilal Çınarlı</li>
         </ul>
 </section>
 
