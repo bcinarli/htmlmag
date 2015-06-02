@@ -194,4 +194,25 @@
     .event-page-header {
         background-color: $color-secondary;
     }
+
+    .event-program {
+        background: none;
+        color:#000;  
+
+        li {
+            border-bottom: 1px solid #ccc;
+            line-height: 55px;
+            margin-bottom: 0px;
+            padding:0px 10px;
+
+            span {
+                color:#7a7a7a;
+            }
+        }
+
+        .break {
+            text-align: center;
+            background: #f7f7f7;
+        }
+    }
 }
