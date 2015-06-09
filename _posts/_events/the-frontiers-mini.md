@@ -189,7 +189,7 @@ Fazıl Say Salonu<br />
            <li><span>10:00 – 10:30</span>  Keynote <br>Hasan Yalçın</li>
            <li><span>10:30 – 11:00</span>  Cihazlar ve Web Tabanlı İşletim Sistemleri <br>Oytun Eren Şengül</li>
            <li class="break"><span>11:00 – 11:15</span>  Ara</li>
-           <li><span>11:15 – 11:45</span>  Content Aware Front-end <br> Gözde Berberoğlu</li>
+           <li><span>11:15 – 11:45</span>  Context Aware Front-end <br> Gözde Berberoğlu</li>
            <li><span>11:45 – 12:15</span>  Kullanıcı Deneyimi İçin Animasyon <br>Yalçın Geçkin</li>
            <li class="break"><span>12:15 – 13:15</span>  Öğle Arası</li>
            <li><span>13:15 – 13:45</span>  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? <br> Volkan Özçelik</li>
@@ -206,15 +206,17 @@ Fazıl Say Salonu<br />
 </section>
 
 <section id="sponsors" class="event-sponsors" markdown=1>
+## ANA SPONSOR {.event-section-title}
+<p>
+    <a href="http://ticimax.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo ticimax-logo">
+        <img src="../content/2015/sponsors/ticimax-logo.png" alt="Ticimax E-Ticaret" />
+    </a>
+</p>
+
 ## SPONSORLAR {.event-section-title}
 <p>
     <a href="http://gelecegiyazanlar.turkcell.com.tr/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo gy-logo">
         <img src="../content/2015/sponsors/gelecegi-yazanlar.png" alt="Geleceği Yazanlar" />
-    </a>
-</p>
-<p>
-    <a href="http://ticimax.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo gy-logo">
-        <img src="../content/2015/sponsors/ticimax-logo.png" alt="Ticimax E-Ticaret" />
     </a>
 </p>
 <p>
