@@ -213,6 +213,11 @@ Fazıl Say Salonu<br />
     </a>
 </p>
 <p>
+    <a href="http://ticimax.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo gy-logo">
+        <img src="../content/2015/sponsors/ticimax-logo.png" alt="Ticimax E-Ticaret" />
+    </a>
+</p>
+<p>
     <a href="http://tazebt.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo taze-logo inline-logo">
         <img src="../content/2015/sponsors/taze-logo.png" alt="Taze" />
     </a>
