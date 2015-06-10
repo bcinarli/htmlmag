@@ -238,6 +238,10 @@ Fazıl Say Salonu<br />
     <a href="http://www.webmasto.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo wm-logo inline-logo">
         <img src="../content/2015/sponsors/webmasto-logo.png" alt="WebMasto" />
     </a>
+    
+    <a href="http://www.indir.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo indircom-logo inline-logo" rel="nofollow">
+            <img src="../content/2015/sponsors/indircom-logo.png" alt="indir.com" />
+        </a>
 </p>
 
 <p>&nbsp;</p>
