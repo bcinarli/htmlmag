@@ -95,8 +95,8 @@ Fazıl Say Salonu<br />
 <span class="speaker">
     <img src="../content/2015/oytun-sengul.jpg" class="speaker-photo" />        
     <h3 class="speaker-name">OYTUN EREN ŞENGÜL</h3>
-    <span class="speaker-title" title="Business & Communications Director">Business & Comm. Director</span>
-    <span class="speaker-company">Userspots</span>
+    <span class="speaker-title">General Manager</span>
+    <span class="speaker-company">ShiftDelete.Net</span>
     <span class="speaker-links">
         <a href="http://twitter.com/OytunatLinux" target="_blank"><i class="icon-twitter"></i></a>
         <a href="https://tr.linkedin.com/in/oytuneren" target="_blank"><i class="icon-linkedin"></i></a>
