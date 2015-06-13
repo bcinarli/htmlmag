@@ -186,7 +186,7 @@ Fazıl Say Salonu<br />
         <ul class="program-list">
            <li class="break"><span>08:50 - 09:50</span>  Kayıtlar & Tanışma </li>
            <li><span>09:50 – 10:00</span>  Açılış & Hoşgeldiniz<br> Nesrin Kalender</li>
-           <li><span>10:00 – 10:30</span>  Keynote <br>Hasan Yalçın</li>
+           <li><span>10:00 – 10:30</span>  Nesnelerin İnterneti ve Gelecek Vizyonu <br>Hasan Yalçın</li>
            <li><span>10:30 – 11:00</span>  Cihazlar ve Web Tabanlı İşletim Sistemleri <br>Oytun Eren Şengül</li>
            <li class="break"><span>11:00 – 11:15</span>  Ara</li>
            <li><span>11:15 – 11:45</span>  Context Aware Front-end <br> Gözde Berberoğlu</li>
