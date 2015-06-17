@@ -190,7 +190,7 @@ Fazıl Say Salonu<br />
            <li><span>10:30 – 11:00</span>  Cihazlar ve Web Tabanlı İşletim Sistemleri <br>Oytun Eren Şengül</li>
            <li class="break"><span>11:00 – 11:15</span>  Ara</li>
            <li><span>11:15 – 11:45</span>  Context Aware Front-end <br> Gözde Berberoğlu</li>
-           <li><span>11:45 – 12:15</span>  Kullanıcı Deneyimi İçin Animasyon <br>Yalçın Geçkin</li>
+           <li><span>11:45 – 12:15</span>  Daha İyi Bir Kullanıcı Deneyimi için Animasyon Kullanımı <br>Yalçın Geçkin</li>
            <li class="break"><span>12:15 – 13:15</span>  Öğle Arası</li>
            <li><span>13:15 – 13:45</span>  Node.JS Uygulamamı Nasıl Ölçeklendirebilirim? <br> Volkan Özçelik</li>
            <li><span>13:45 – 14:15</span>  Frontend'in Gölgelerde Yaşayan Efendisi: Google Closure <br>Armağan Amcalar</li>
@@ -201,7 +201,7 @@ Fazıl Say Salonu<br />
            <li><span>15:45 – 16:15</span>  A Developer's View: Patterns to Make Life Easier <br>Barış Güler</li>
            <li><span>16:15 – 16:45</span>  Flux/React ve Modern Front-End JS Mimarisi <br>Rameş Aliyev</li>
            <li><span>16:55 – 17:25</span>  Modern CSS Layouts <br>Burak Can</li>
-           <li><span>17:25 – 17:30</span>  Kapanış <br>Nesrin Kalender & Bilal Çınarlı</li>
+           <li><span>17:25 – 17:30</span>  Kapanış</li>
         </ul>
 </section>
 
