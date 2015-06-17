@@ -229,6 +229,12 @@ Fazıl Say Salonu<br />
     </a>
 </p>
 
+<p>
+    <a href="http://ustunozgur.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo mobilistanbul-logo">
+        <img src="../content/2015/sponsors/ustun-ozgur-logo.jpg" alt="Üstün Özgür Software" />
+    </a>
+</p>
+
 ## MEDYA SPONSORLARI {.event-section-title}
 <p id="media-sponsors">
     <a href="http://shiftdelete.net/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo sdn-logo inline-logo">
