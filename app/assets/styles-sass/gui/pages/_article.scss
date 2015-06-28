@@ -6,13 +6,19 @@
 .article-content {
 	margin-bottom: 2em;
 
-    p:first-child {
+    > p:first-child {
         font-family: $font-family-roboto;
         @include font-size(20px);
     }
 
 	blockquote {
 		position: relative;
+        margin: .5em 0 1em;
+        padding: 1em 1.5em;
+        border: 1px dashed $color-light-text;
+        background: $color-light-gray;
+        @include font-size(16px);
+        font-style: italic;
 
         &:before,
         &:after {
@@ -77,13 +83,6 @@
 	font-weight: bold;
 
 	+ blockquote {
-		margin: .5em 0 1em;
-		padding: 1em 1.5em;
-		border: 1px dashed $color-light-text;
-		background: $color-light-gray;
-		@include font-size(16px);
-        font-style: italic;
-
         p:only-child {
             margin: 0;
         }

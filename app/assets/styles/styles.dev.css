@@ -2118,11 +2118,17 @@ pre.line-numbers > code {
     ------------------------------------------- **/
 .article-content {
   margin-bottom: 2em; }
-  .article-content p:first-child {
+  .article-content > p:first-child {
     font-family: "Roboto Slab", Georgia, serif;
     font-size: 1.11111rem; }
   .article-content blockquote {
-    position: relative; }
+    position: relative;
+    margin: .5em 0 1em;
+    padding: 1em 1.5em;
+    border: 1px dashed #999;
+    background: #f9f9f9;
+    font-size: 0.88889rem;
+    font-style: italic; }
     .article-content blockquote:before, .article-content blockquote:after {
       position: absolute;
       height: 19px;
@@ -2165,15 +2171,8 @@ pre.line-numbers > code {
 .update-info {
   color: #2b2b2b;
   font-weight: bold; }
-  .update-info + blockquote {
-    margin: .5em 0 1em;
-    padding: 1em 1.5em;
-    border: 1px dashed #999;
-    background: #f9f9f9;
-    font-size: 0.88889rem;
-    font-style: italic; }
-    .update-info + blockquote p:only-child {
-      margin: 0; }
+  .update-info + blockquote p:only-child {
+    margin: 0; }
 
 .lightbox ul {
   margin-left: -10%;
