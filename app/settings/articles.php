@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1',
+    'title'   => 'Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 1)',
+    'date'    => '2015-06-28 22:37:17',
+    'author'  => 'Barış Güler',
+    'excerpt' => 'Günümüzde “<strong>Javascript...</strong>” ile başlayan hiçbir başlığın popüler olmadığını göremediğimiz bir zaman dilimindeyiz. Günde en az 10 (on) adet yeni yazı ile karşılaşıp her birinden kah modüler Javascript programlamaya, kah yeni bir library ya da framework’e ya da yeni bir yaklaşıma doğru yeni yelkenler açıyoruz. Bu da topluluğun gelişimi ve geliştirmenin geleceğinin daha da kolaylaştığı ve yazılım geliştiricilerinin ortak bir dil ve kültür geliştirmesi açısından ayrıca bir önem taşıyor.'
+);
+
+$articles[] = array(
     'slug'    => 'mobil-websitesine-ihtiyac-var-mi',
     'title'   => 'Mobil Web Sitesine İhtiyaç Var mı?',
     'date'    => '2015-05-26 17:58:00',
