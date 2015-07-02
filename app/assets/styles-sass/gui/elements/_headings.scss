@@ -18,3 +18,12 @@ h1, h2, h3, h4, h5, h6 {
 		margin-top: .3em;
 	}
 }
+
+.sub-text {
+    margin-left: 2*$base-gutter;
+
+    + ul {
+        list-style: none;
+        margin-left: 2 * $base-gutter;
+    }
+}
