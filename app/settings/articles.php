@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2',
+    'title'   => 'Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 2)',
+    'date'    => '2015-07-02 13:43:17',
+    'author'  => 'Barış Güler',
+    'excerpt' => 'Her bir soruna farklı yönlerden yaklaşımlar geliştirmenin bir diğer adına tasarım kalıbı diyebiliriz. Bunun belirleyicisi geliştiricinin kendisi olmalıdır çünkü karşılaştığı sorunu en iyi bilen o olduğunu kabul ediyoruz. Peki tasarım kalıplarının aklımızda tutmamız gereken anahtar noktaları nelerdir dersek şu maddeleri düşünebiliriz...'
+);
+
+$articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1',
     'title'   => 'Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 1)',
     'date'    => '2015-06-28 22:37:17',
