@@ -9,8 +9,19 @@ lang: tr_TR
 tags:
 - javascript
 - design patterns
+related:
+- Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 1) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
 ---
 ![js][]
+
+<blockquote markdown=1>
+Bu yazı, __Tasarım Kalıpları__ dizinin ilk yazısıdır. Dizinin diğer yazılarına aşağıdaki içindekiler kısmından ulaşabilirsiniz.
+
+### İçindekiler
+
+1. Bölüm 1: Tasarım Kalıpları - Sorunlar ve İlkeler
+2. [Bölüm 2: Tasarım Kalıpları Nedir?](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2)
+</blockquote>
 
 Günümüzde “__Javascript...__” ile başlayan hiçbir başlığın popüler olmadığını göremediğimiz bir zaman dilimindeyiz. Günde en az 10 (on) adet yeni yazı ile karşılaşıp her birinden kah modüler Javascript programlamaya, kah yeni bir library ya da framework’e ya da yeni bir yaklaşıma doğru yeni yelkenler açıyoruz. Bu da topluluğun gelişimi ve geliştirmenin geleceğinin daha da kolaylaştığı ve yazılım geliştiricilerinin ortak bir dil ve kültür geliştirmesi açısından ayrıca bir önem taşıyor.
 
