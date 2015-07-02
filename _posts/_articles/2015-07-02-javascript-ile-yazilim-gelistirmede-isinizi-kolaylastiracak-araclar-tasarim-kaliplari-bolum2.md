@@ -23,7 +23,7 @@ Bu yazı, __Tasarım Kalıpları__ dizinin 2. yazısıdır. Dizinin diğer yazı
 2. Bölüm 2: Tasarım Kalıpları Nedir?
 </blockquote>
 
-Tasarım Kalıpları Nedir?
+## Tasarım Kalıpları Nedir?
 
 > “In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), a [design pattern](http://en.wikipedia.org/wiki/Design_pattern) is a general reusable solution to a commonly occurring problem within a given context in software design.” - Wikipedia
 
@@ -80,6 +80,9 @@ Genel olarak tasarım kalıplarının tipleri üzerine bir ön fikir edindikten 
 ## Kullanışlı Tasarım Kalıpları
 
 ### Singleton {#singleton}
+
+![singleton][]
+
 Sadece tek bir instance’ın bütün bir proje döngüsü içerisinde varolacağı varsayılan bir tasarım kalıbını tanımlıyor. Buna göre; bir singleton tipinde bir nesne referansımızı nasıl yöneteceğimizi de tanımlamış oluyoruz : Context sathında sadece tek bir referans ile istenilen işlemleri bu instance’ın içerdiği metod / fonksiyonlar ile gerçekleştirebilir, referans sabitlere ya da değişkenlere ulaşabilir ve güncelleyebiliriz.
 
 ``` {.language-javascript}
@@ -122,12 +125,14 @@ configInstance = null;
 
 $(‘.error).html(config.messages.errors.default);
 ```
+<span class="credits">Kaynak: [Singleton Gist]</span>
 
 Örnekte bir adet IIFE içerisinde tanımladığımız bir nesnemsi bulunuyor. Bunu context’e dahil ettiğimiz base.js dosyası içerisinde bir instance üzerinden bir başka instance’a set edip aracı olan configInstance referansını yokediyoruz. Artık elimizde bütün proje genelinde kullanabileceğimiz genel metod ve sabit / değişkenleri tanımladığımız bir config referansımız bulunuyor. Kaynak nesnemizi istediğimiz gibi tasarlayabiliriz; başta da dediğimiz gibi, bu tamamen yazılım geliştiricinin hayal gücüne kalmış bir konu.
 
-Daha ileri ölçüde bir pratik edinmek isteyen geliştirici arkadaşlar için, kolay implemente edilebilir bir örneğe şuradan ulaşabilirler : [https://github.com/hwclass/jquery.initialize](). Bu jQuery plugin’i istediğiniz bir HTML elementini referans alarak kendi context’i içerisinde element ve event yönetimini sağlayabildiği yapılar yaratmanıza olanak sağlıyor. Böylece her element instance’ınız aslında bir singleton’a denk geliyor.
+Daha ileri ölçüde bir pratik edinmek isteyen geliştirici arkadaşlar için, kolay implemente edilebilir bir örneğe şuradan ulaşabilirler : [https://github.com/hwclass/jquery.initialize](https://github.com/hwclass/jquery.initialize). Bu jQuery plugin’i istediğiniz bir HTML elementini referans alarak kendi context’i içerisinde element ve event yönetimini sağlayabildiği yapılar yaratmanıza olanak sağlıyor. Böylece her element instance’ınız aslında bir singleton’a denk geliyor.
 
 ### Module / Revealing Module Tasarım Kalıbı {#revealing-module}
+![module][]
 Global scope içerisinde yer almasını istemediğiniz ve kendinden mesul kod blokları yaratmanızı sağlayan bir tasarım kalıbı olan modül tasarım kalıbı ile birbirinden bağımsız fonksiyonellikler tanımlayıp kolaylıkla yönetebilirsiniz. Revealing versiyonu ise sadece küçük bir ayrıntı olarak, modülün kendi context’i içerisinde yapıyor olduğu tanımlamaları global context’e aktarım noktasında küçük bir fark yaratıyor : return ile geri döndürdüğümüz metodları private scope’un kendisinden alıyor. Şimdi modül kalıbına bir örnek üzerinden gözatabiliriz.
 
 ``` {.language-javascript}
@@ -206,10 +211,12 @@ register.module(new Module('testModule', function () {
 // Ve bu modülü ismini vererek çalıştırıyoruz
 init.module(‘testModule’);
 ```
+<span class="credits">Kaynak: [Module / Revealing Module Gist]</span>
 
-Referans bir github reposu için şu linke gözatabilirsiniz : [https://github.com/hwclass/modulr](). Bu örnekte, modüller ayrı dosyalar halinde ayrılmış biçimde HTML dosyanızın HEAD tag’leri arasına ekleniyor ve istenildiği yerde çalıştırılabilen modüller olarak projenize dahil oluyorlar.
+Referans bir github reposu için şu linke gözatabilirsiniz : [https://github.com/hwclass/modulr]. Bu örnekte, modüller ayrı dosyalar halinde ayrılmış biçimde HTML dosyanızın HEAD tag’leri arasına ekleniyor ve istenildiği yerde çalıştırılabilen modüller olarak projenize dahil oluyorlar.
 
 ### Mediator Tasarım Kalıbı {#mediator}
+![mediator][]
 Şöyle düşünelim; bir havaalanındasınız ve uçakların hangi saat aralığında piste inip diğer uçuş için yolcularını alarak havalanacağının yönetilmesi gerekiyor. Bunu gerçek bir yazılım projesi olarak ele alarak uçuş kulesini konumlandıracağınız tasarım kalıbı Mediator tasarım kalıbı olabilir. Bütün modüllerinizin kendisini ataçladığı ve çalışmayı (ya da havaalanı örneğinden hareketle) havalanmayı beklediği bir yapıda bütün yönetimi merkezi anlamda bu kalıp ile gerçekleştirebilirsiniz. Yukarıdaki module / module revealing örneğimizi biraz farklılaştırarak bu kalıbı simüle edebiliriz.
 
 ``` {.language-javascript}
@@ -281,6 +288,8 @@ Mediator.module.start('testModule');
 Mediator.module.stop('testModule');
 ```
 
+Buna göre Mediator.module.attach metodu, bir modül adı ve onun context’ini belirliyorken, start ve stop metodları ilgili modüllerin istenilen view içerisinde çalışıp durdurulmasını sağlıyor. Merkezi olarak kontrolün neredeyse tamamen geliştiricinin elinde olduğu bu tasarım kalıbı oldukça yaygın kullanılıyor. Örnek bir repo için şuna gözatabilirsiniz : [Bağcılar]
+
 ### Publish/Subscribe Tasarım Kalıbı {#publish-subscribe}
 Mediator kalıbına ademi-merkeziyetçi alternatifi olarak kullanılan bu pattern’da hava gidip gelen event topic’leri bulunuyor. Bunlara bağlanan her blok ilgili datayı alıyor; bağlanmayanlar için aynı şey sözkonusu olmadığı gibi, aslında Mediator yaklaşımına göre daha tight-coupled bir tercih ancak özellikle event-based bir uygulama üzerinde çalışıyor ve fonksiyonel bir geliştirme perspektifini tercih edecekseniz kullanması faydalı olacaktır. Bunun için de gazete aboneliğini örnek verebiliriz. Abone olan üyelere her sabah gelen gazeteyi publish edilen data olarak düşünürsek herhalde üyeleri de subscribe olan context’ler olarak düşünmemiz önünde bir engel bulunmuyor.
 
@@ -334,8 +343,10 @@ subscribe('productsFetchedEvent', function (data) {
    console.log('Published data : ' + data.desc);
 });
 ```
+<span class="credits">Kaynak: [Publish/Subscribe Gist]</span>
 
 ### Mixin Tasarım Kalıbı {#mixin}
+![mixin][]
 Bir nesne üzerinde sonradan kullanılması olası işlerlikleri nasıl kazandırırız diye düşünürsek aklımıza bu tasarım kalıbı geliyor. Javascript’in bir güzelliği olarak düşünebileceğimiz havada nesne yaratıp istediğimiz gibi kullanma niteliği bizim bunu gerçeklememize de izin veriyor. Buna göre şöyle bir örnek ne tür bir kullanımı olduğuna dair bize fikir verecektir. 
 
 
@@ -409,10 +420,12 @@ person.getName(); // logs Tacchinardi
 
 person.getAge(); // logs 33 
 ```
+<span class="credits">Kaynak: [Mixin Gist]</span>
 
 Bütün bu örnekleri daha pratik olması açısından ve farklı tasarım kalıpları üzerinden tekrar ele alabiliriz. Örneğin, herkesin yavaş yavaş hayatına giren ve aşina olduğu modül pattern’ları bulunuyor. Bunları inceleyebiliriz:
 
 ### MV* Tasarım Kalıbı {.mvw}
+![mvc][]
 Günümüzün popüler tanımı olarak MV*, aslında uzun senelerdir yazılım geliştiricilerinin yardımına koşmuş ve geliştirme süreçlerinde tercih edilen bir tasarım kalıbı olmuştur. Javascript kütüphane ve çatılarının da çoğalması ve çeşitlenmesiyle bu kavram istemci-taraflı Javascript geliştiricilerinin de gündemine girdi ve özellikle Angular, Backbone ve Knockout gibi araçlarla giderek ismini etrafa yaydı.
 
 ``` {.language-javascript}
@@ -434,7 +447,20 @@ ko.applyBindings(viewModel);
  */
 <span data-bind="text : testText"></span>
 ```
+<span class="credits">Kaynak: [MV* Gist]</span>
 
 Proje içerisine yerleşimi itibariyle Model - View - Whatever olarak isimlendirebileceğimiz bu tasarım kalıbının birkaç alt biçimi var. Bunlardan birisi MVC. Controller olan katman data ve view katmanlarını bağlayan ara bir katman olarak varoluyor. Aynı şekilde Controller’ı bir Presenter olarak replace edilmesi sözkonusu olan MVP ve Knockout kütüphanesi ile üne kavuşan MVVM tasarım kalıpları da bulunuyor. Kullanım kolaylığı ve giriş seviesindeki öğrenme eğrisinin düşük oluşu nedeniyle tercih edilen bu tasarım kalıbı ile özellikle istemci-taraflı çatılar sayesinde geliştiriciler yeni bir yaklaşım ile buluşmuş oldular. 
 
 [js]: ../content/2015/javascript-logo.png
+[singleton]: ../content/2015/singleton-scheme.png
+[mediator]: ../content/2015/mediator-scheme.png
+[module]: ../content/2015/module-scheme.png
+[mixin]: ../content/2015/mixin-scheme.png
+[mvc]: ../content/2015/mvc-scheme.png
+
+[Singleton Gist]: https://gist.github.com/hwclass/3cab5a6b4cc906d6969a {.external}
+[Module / Revealing Module Gist]: https://gist.github.com/hwclass/335610035971df6ba1c8 {.external}
+[Bağcılar]: https://github.com/hwclass/bagcilar {.external}
+[Publish/Subscribe Gist]: https://gist.github.com/hwclass/72406ac02564473ac599 {.external}
+[Mixin Gist]: https://gist.github.com/hwclass/e60bb31d069213db5b81 {.external}
+[MV* Gist]: https://gist.github.com/hwclass/ca8014001c855d4d24b2 {.external}
