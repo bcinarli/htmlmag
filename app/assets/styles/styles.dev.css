@@ -2117,7 +2117,8 @@ pre.line-numbers > code {
  	Articles
     ------------------------------------------- **/
 .article-content {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  word-break: break-word; }
   .article-content > p:first-child {
     font-family: "Roboto Slab", Georgia, serif;
     font-size: 1.11111rem; }

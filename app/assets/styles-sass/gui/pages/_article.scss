@@ -5,6 +5,7 @@
     ------------------------------------------- **/
 .article-content {
 	margin-bottom: 2em;
+    word-break: break-word;
 
     > p:first-child {
         font-family: $font-family-roboto;
