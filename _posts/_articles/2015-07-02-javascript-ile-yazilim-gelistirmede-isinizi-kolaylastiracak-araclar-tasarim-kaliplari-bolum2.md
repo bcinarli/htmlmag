@@ -288,7 +288,7 @@ Mediator.module.start('testModule');
 Mediator.module.stop('testModule');
 ```
 
-Buna göre Mediator.module.attach metodu, bir modül adı ve onun context’ini belirliyorken, start ve stop metodları ilgili modüllerin istenilen view içerisinde çalışıp durdurulmasını sağlıyor. Merkezi olarak kontrolün neredeyse tamamen geliştiricinin elinde olduğu bu tasarım kalıbı oldukça yaygın kullanılıyor. Örnek bir repo için şuna gözatabilirsiniz : [Bağcılar]
+Buna göre Mediator.module.attach metodu, bir modül adı ve onun context’ini belirliyorken, start ve stop metodları ilgili modüllerin istenilen view içerisinde çalışıp durdurulmasını sağlıyor. Merkezi olarak kontrolün neredeyse tamamen geliştiricinin elinde olduğu bu tasarım kalıbı oldukça yaygın kullanılıyor. Örnek bir repo için şuna gözatabilirsiniz : [Bağcılar.js]
 
 ### Publish/Subscribe Tasarım Kalıbı {#publish-subscribe}
 Mediator kalıbına ademi-merkeziyetçi alternatifi olarak kullanılan bu pattern’da hava gidip gelen event topic’leri bulunuyor. Bunlara bağlanan her blok ilgili datayı alıyor; bağlanmayanlar için aynı şey sözkonusu olmadığı gibi, aslında Mediator yaklaşımına göre daha tight-coupled bir tercih ancak özellikle event-based bir uygulama üzerinde çalışıyor ve fonksiyonel bir geliştirme perspektifini tercih edecekseniz kullanması faydalı olacaktır. Bunun için de gazete aboneliğini örnek verebiliriz. Abone olan üyelere her sabah gelen gazeteyi publish edilen data olarak düşünürsek herhalde üyeleri de subscribe olan context’ler olarak düşünmemiz önünde bir engel bulunmuyor.
@@ -460,7 +460,7 @@ Proje içerisine yerleşimi itibariyle Model - View - Whatever olarak isimlendir
 
 [Singleton Gist]: https://gist.github.com/hwclass/3cab5a6b4cc906d6969a {.external}
 [Module / Revealing Module Gist]: https://gist.github.com/hwclass/335610035971df6ba1c8 {.external}
-[Bağcılar]: https://github.com/hwclass/bagcilar {.external}
+[Bağcılar.js]: https://github.com/hwclass/bagcilar {.external}
 [Publish/Subscribe Gist]: https://gist.github.com/hwclass/72406ac02564473ac599 {.external}
 [Mixin Gist]: https://gist.github.com/hwclass/e60bb31d069213db5b81 {.external}
 [MV* Gist]: https://gist.github.com/hwclass/ca8014001c855d4d24b2 {.external}
