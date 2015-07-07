@@ -10,9 +10,6 @@ html::$class = 'homepage';
 ?>
 <?php tools::inc('includes/header'); ?>
 	<div id="main" class="main-content">
-        <?php //if(device::isMobile() || device::isTablet()): ?>
-        <?php tools::inc('widgets/mobile-promo'); ?>
-        <?php //endif; ?>
 		<div class="articles group">
 			<?php foreach($GLOBALS['articles'] as $article): ?>
 				<article class="summary">
