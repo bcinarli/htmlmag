@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3',
+    'title'   => 'Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3)',
+    'date'    => '2015-07-08 08:22:20',
+    'author'  => 'Barış Güler',
+    'excerpt' => 'Günlük hayatımızda bilerek, ya da farkında olmadan kullandığımız bir çok tasarım kalıbı bulunuyor. AMD (require.js), CommonJS ve hatta jQuery için kullandığımız kalıpları inceleyelim...'
+);
+
+$articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2',
     'title'   => 'Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2)',
     'date'    => '2015-07-02 13:43:17',
