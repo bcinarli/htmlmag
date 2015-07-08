@@ -1,0 +1,14 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Tables
+    ------------------------------------------- **/
+table {
+    @include font-size(.85rem);
+}
+
+tbody {
+    tr:nth-child(odd){
+        background-color: $color-light-gray;
+    }
+}
