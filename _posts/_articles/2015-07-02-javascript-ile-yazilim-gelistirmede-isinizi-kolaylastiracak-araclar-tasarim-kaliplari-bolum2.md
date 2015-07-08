@@ -1,7 +1,7 @@
 ---
 comments: true
 slug: javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
-title: Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 2)
+title: Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2)
 date: 2015-07-02 13:47:17
 author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
@@ -10,7 +10,8 @@ tags:
 - javascript
 - design patterns
 related:
-- Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
+- Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 1) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
+- Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3
 ---
 ![js][]
 
@@ -21,6 +22,7 @@ Bu yazı, __Tasarım Kalıpları__ dizinin 2. yazısıdır. Dizinin diğer yazı
 
 1. [Bölüm 1: Tasarım Kalıpları - Sorunlar ve İlkeler](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1)
 2. Bölüm 2: Tasarım Kalıpları Nedir?
+3. [Bölüm 3: Tasarım Kalıplarının Kullanımı](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3)
 </blockquote>
 
 ## Tasarım Kalıpları Nedir?

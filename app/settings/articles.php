@@ -4,7 +4,7 @@ $articles = array();
 
 $articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2',
-    'title'   => 'Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 2)',
+    'title'   => 'Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2)',
     'date'    => '2015-07-02 13:43:17',
     'author'  => 'Barış Güler',
     'excerpt' => 'Her bir soruna farklı yönlerden yaklaşımlar geliştirmenin bir diğer adına tasarım kalıbı diyebiliriz. Bunun belirleyicisi geliştiricinin kendisi olmalıdır çünkü karşılaştığı sorunu en iyi bilen o olduğunu kabul ediyoruz. Peki tasarım kalıplarının aklımızda tutmamız gereken anahtar noktaları nelerdir dersek şu maddeleri düşünebiliriz...'
@@ -12,7 +12,7 @@ $articles[] = array(
 
 $articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1',
-    'title'   => 'Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar: Tasarım Kalıpları (Bölüm 1)',
+    'title'   => 'Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 1)',
     'date'    => '2015-06-28 22:37:17',
     'author'  => 'Barış Güler',
     'excerpt' => 'Günümüzde “<strong>Javascript...</strong>” ile başlayan hiçbir başlığın popüler olmadığını göremediğimiz bir zaman dilimindeyiz. Günde en az 10 (on) adet yeni yazı ile karşılaşıp her birinden kah modüler Javascript programlamaya, kah yeni bir library ya da framework’e ya da yeni bir yaklaşıma doğru yeni yelkenler açıyoruz. Bu da topluluğun gelişimi ve geliştirmenin geleceğinin daha da kolaylaştığı ve yazılım geliştiricilerinin ortak bir dil ve kültür geliştirmesi açısından ayrıca bir önem taşıyor.'
