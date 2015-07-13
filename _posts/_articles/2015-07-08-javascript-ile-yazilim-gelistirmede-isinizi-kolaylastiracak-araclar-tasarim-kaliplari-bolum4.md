@@ -266,4 +266,18 @@ Bu ya da başka konular ile ilgili bana aşağıdaki iletişim kanallarından da
 
 Bu yazıyı yazmamda beni teşvik eden HTMLMag ekibine ve üretirken bana yardımcı olan [Spotify listeme](https://open.spotify.com/user/hwclass/playlist/3HEeoeMf9lXkSFdONCbUAi){.external} de teşekkürü borç bilirim. 
 
+## Yazı Dizisi Boyunca Faydalanılan Kaynaklar
+- [Addy Osmani](http://addyosmani.com/){.external}
+- [NCZOnline](http://nczonline.net/){.external}
+- [Javascript Design Patterns](https://carldanley.com/javascript-design-patterns/){.external}
+- [Javascript Patterns](https://github.com/shichuan/javascript-patterns){.external}
+- [Design Patterns](http://www.dofactory.com/javascript/design-patterns){.external}
+- [Design Patterns](https://sourcemaking.com/design_patterns/){.external}
+- [Javascript Modules: The ES6 Way](http://24ways.org/2014/javascript-modules-the-es6-way/){.external}
+- [How Browsers Work](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/){.external}
+- [Building Decoupled Large Scale Applications Using Javascript and jQuery](https://speakerdeck.com/addyosmani/building-decoupled-large-scale-applications-using-javascript-and-jquery){.external}
+- [Essential Javascript Links](https://github.com/ericelliott/essential-javascript-links){.external}
+- [Inheritance](http://zipcon.net/~swhite/docs/computers/languages/object_oriented_JS/inheritance.html){.external}
+- [Software Development Antipatterns](https://sourcemaking.com/antipatterns/software-development-antipatterns){.external}
+
 [js]: ../content/2015/javascript-logo.png
