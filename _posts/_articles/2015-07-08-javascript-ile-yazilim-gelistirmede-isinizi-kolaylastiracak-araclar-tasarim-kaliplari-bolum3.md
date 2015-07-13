@@ -12,6 +12,7 @@ tags:
 related:
 - Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
 - Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
+- Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
 og_image: /content/2015/javascript-logo.png
 ---
 ![js][]
@@ -24,6 +25,7 @@ Bu yazı, __Tasarım Kalıpları__ dizinin 3. yazısıdır. Dizinin diğer yazı
 1. [Bölüm 1: Tasarım Kalıpları - Sorunlar ve İlkeler](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1)
 2. [Bölüm 2: Tasarım Kalıpları Nedir?](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2)
 3. Bölüm 3: Tasarım Kalıplarının Kullanımı
+4. [Bölüm 4: Tasarım Kalıplarını Uygulamak için Öneriler](/article/javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4)
 </blockquote>
 
 ## Gerçek Hayatta Tasarım Kalıpları
