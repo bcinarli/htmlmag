@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4',
+    'title'   => 'Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4)',
+    'date'    => '2015-07-13 13:44:30',
+    'author'  => 'Barış Güler',
+    'excerpt' => 'Teoride hepsi bir yere oturuyor. Özellike karşılaştığımız sorunun tespitinden sonraki aşamada, yani entegrasyon aşamasında oldukça eğlenceli saatler geçireceğinizi düşünüyorum. Ancak bunların hemen öyle olduğu gibi implemente etmemizin belli başlı sakıncaları bulunuyor. Özellikle zaten varolan bir kaynak kodu üzerinde böyle bir işe girişecekseniz iyi düşünüp geliştirmenizi önce projelendirmelisiniz...'
+);
+
+$articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3',
     'title'   => 'Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3)',
     'date'    => '2015-07-08 08:22:20',
