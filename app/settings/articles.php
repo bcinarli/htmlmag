@@ -3,6 +3,14 @@
 $articles = array();
 
 $articles[] = array(
+    'slug'    => 'naming-in-css',
+    'title'   => 'CSS Tanımlarını İsimlendirme - Temel Kavramlar',
+    'date'    => '2015-07-20 10:26:45',
+    'author'  => 'Bilal Çınarlı',
+    'excerpt' => 'Diğer bütün yazılım geliştirme sistemleri gibi, arayüz geliştirme için de isimlendirme kritik bir öneme sahiptir. Hem tanımların tekrar kullanılabilirliğini arttırabilme hem de geliştirmeyi kolaylaştırma ihtimalleri göz önüne alındığında üzerinde durulması gereken bir konu olarak öne çıkmaktadır.'
+);
+
+$articles[] = array(
     'slug'    => 'javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4',
     'title'   => 'Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4)',
     'date'    => '2015-07-13 13:44:30',
