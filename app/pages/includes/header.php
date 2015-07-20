@@ -39,6 +39,9 @@ if(role::is_homepage() && html::$description == ''){
 	<meta property="og:locale" content="<?php echo html::$lang != '' ? html::$lang : 'en_US'; ?>" />
 	<meta property="og:type" content="<?php echo role::is('article') ? 'article' : 'website'; ?>" />
 	<meta property="og:title" content="<?php echo html::$title != '' ? html::$title . ' | ' : ''; ?>HTML Mag" />
+	<?php if(isset(html::$meta['og_description'])): ?>
+	<meta property="og:description" content="<?php echo html::$meta['og_description']; ?>" />
+	<?php endif; ?>
 	<meta property="og:url" content="http://htmlmag.com<?php echo url::getUrl(); ?>" />
 	<meta property="og:site_name" content="HTML Mag" />
     <meta property="og:image" content="http://htmlmag.com<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : '/app/assets/images/og-image.png'; ?>" />
