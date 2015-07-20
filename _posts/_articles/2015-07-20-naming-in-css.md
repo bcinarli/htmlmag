@@ -10,7 +10,8 @@ tags:
 - css
 - temel kavramlar
 - arayüz mimarisi
-og_image: /content/2015/css3-logo.png
+og_image: /content/2015/css3-logo-og-image.png
+og_description: Diğer bütün yazılım geliştirme sistemleri gibi, arayüz geliştirme için de isimlendirme kritik bir öneme sahiptir. Hem tanımların tekrar kullanılabilirliğini arttırabilme hem de geliştirmeyi kolaylaştırma ihtimalleri göz önüne alındığında üzerinde durulması gereken bir konu olarak öne çıkmaktadır.
 ---
 ![css][]
 
