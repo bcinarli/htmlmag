@@ -9,6 +9,10 @@
 
     <ol class="external-contents">
         <li class="external-contents">
+            <a href="<?php echo url::make_url('article/free-for-all'); ?>">JS Ninjas - Free For All</a>
+            <p>Konferanstan daha etkileşimli, Meetup'tan daha sert etkinlik Free For All. Bir moderatör, birkaç anlatıcı, birçok konu, onlarca tartışmacı...</p>
+        </li>
+        <li class="external-contents">
             <a href="<?php echo url::make_url('article/mobiletkinlik'); ?>">indir.com Mobil Etkinlik 2015</a>
             <p>indir.com'un düzenlediği Mobil Yarışma'nın ödül töreni tüm gün sürecek mobil etkinlik ve konuşmalar ile yapılacak.</p>
         </li>
