@@ -206,13 +206,6 @@ Fazıl Say Salonu<br />
 </section>
 
 <section id="sponsors" class="event-sponsors" markdown=1>
-## ANA SPONSOR {.event-section-title}
-<p>
-    <a href="http://ticimax.com/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo ticimax-logo">
-        <img src="../content/2015/sponsors/ticimax-logo.png" alt="Ticimax E-Ticaret" />
-    </a>
-</p>
-
 ## SPONSORLAR {.event-section-title}
 <p>
     <a href="http://gelecegiyazanlar.turkcell.com.tr/?utm_source=thefrontiers&utm_medium=article&utm_content=logolink&utm_campaign=event_sponsor" target="_blank" class="external company-logo gy-logo">
