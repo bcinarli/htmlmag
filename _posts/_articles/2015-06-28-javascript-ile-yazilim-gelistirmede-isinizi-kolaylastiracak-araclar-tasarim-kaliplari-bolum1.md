@@ -35,7 +35,9 @@ Bütün bunların yoğunluğunda yazılım geliştirmenin de bir kültür olduğ
 
 Tasarım Kalıpları da bu tür sorunlara hem çare olmak hem de yöntemsel açıdan sürekli karşılaşılan problemlere ortak bir çözüm platformu oluşturmak için senelerdir varolan yaklaşım kalıpları olarak varlar.
 
->“I like my code to be elegant and efficient. The logic should be __straightforward__ and make it hard for bugs to hide, the dependencies minimal to ease maintenance, __error handling complete according to an articulated strategy__, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code __does one thing well__.” - Bjarne Stroustrup (C++’ın Yaratıcısı)
+> I like my code to be elegant and efficient. The logic should be __straightforward__ and make it hard for bugs to hide, the dependencies minimal to ease maintenance, __error handling complete according to an articulated strategy__, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code __does one thing well__. 
+> 
+> -- Bjarne Stroustrup (C++’ın Yaratıcısı)
 
 Tasarım Kalıpları’nın gerekliliklerine ve nasıl şeyler olduklarına dair bilgi vermeye başlamadan önce yazılım geliştirme öncesinde, esnasında ve sonrasında ne tür sorunlar ile karşılaştığımızın bir üzerinden geçmemizde fayda var. Sorunu iyi tanımlarsak çözüme de bir o kadar yakınlaşırız.
 
@@ -80,7 +82,7 @@ Sizinle birlikte geliştirme yapan çalışma arkadaşlarınızın da bu tür ya
 Her zaman bildiğimiz ve uyguladığımız yöntemin en iyi yöntem olduğu yönünde bir fikrimiz olabilir. Burada farklı bir boyut getirmek için şöyle diyebiliriz : eğer yönteminiz işe yarıyorsa, emin olun daha iyisi vardır. Bunun için sürekli araştırma halinde olun ve süreçlerinizi nasıl daha iyi ve efektif hale getirebileceğinizi tıpkı ayrıca bir “__proje__”ymişçesine derinlemesine irdeleyin, inceleyin ve uygulayın.
 
 
-## Notlar:
+### Notlar
 
 * Bu makalede serisindeki bazı kelimeleri özellikle orjinal kullanılan İngilizce haliyle kullanmaya çalıştım çünkü gerçekten Türkçe’ye çevrilmesi sırasında çok ciddi anlam kaymaları yaşanabiliyor.
 * Her bir başlığın ne olduğunu ayrıntısıyla anlatmam mümkün olmadığı ve yazının konusu daha çok Tasarım Kalıpları olduğu için bu sınırlar içerisinde kalmaya çalıştım.

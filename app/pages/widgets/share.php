@@ -14,8 +14,4 @@
 	<span class="facebook-sharing">
 		<fb:like layout="button_count" action="like" show_faces="false" share="true"></fb:like>
 	</span>
-
-    <span class="google-sharing">
-        <div class="g-plusone" data-size="medium"></div>
-    </span>
 </div>

@@ -14,8 +14,4 @@
 	<span class="facebook-sharing">
 		<fb:like layout="box_count" action="like" show_faces="false" href="http://htmlmag.com"></fb:like>
 	</span>
-
-    <span class="google-sharing">
-        <div class="g-plusone" data-size="tall" data-href="http://htmlmag.com"></div>
-    </span>
 </div>

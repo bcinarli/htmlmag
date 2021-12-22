@@ -41,9 +41,9 @@
 	<div id="wrapper" class="event-page-wrap">
 		<header class="event-page-header">
             <div class="event-page-container">
-                <nav class="event-nav group">
+                <nav class="event-nav">
                     <?php echo navigation::getNav('event_nav', 'output=""&wrap=""'); ?>
                 </nav>
             </div>
 		</header>
-		<div id="content" class="event-page-content group">
+		<div id="content" class="event-page-content">

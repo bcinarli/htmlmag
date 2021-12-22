@@ -3,11 +3,32 @@
  * @author Bilal Cinarli
  * Hand Coded with love
  */
-*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+/* variables ==> */
+:root {
+    --background-color: #222;
+    --background-color-alt: #333;
+    --text-color: #e5e5e5;
+    --link-color: #89ddff;
+}
+/* <== variables */
+/* theme switch ==> */
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #fff;
+        --background-color-alt: #e5e5e5;
+        --text-color: #1b1b1b;
+        --link-color: #f78c6c;
+    }
+}
+/* <== theme switch */
+
+/* reset most of the thing ==> */
+*:where(:not(iframe, canvas, img, svg, video, div, header, footer, aside, nav):not(svg *, symbol *)) {
     all: unset;
     display: revert;
 }
-
+/* <== reset most of the thing */
+/* add some meaningful defaults ==> */
 *,
 *::before,
 *::after {
@@ -16,4 +37,144 @@
 
 img {
     max-width: 100%;
+}
+/* <== add some meaningful defaults */
+/** general page skeleton ==> **/
+html, body {
+    font: 22px/1.4 'Titillium Web', sans-serif;
+}
+
+html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body {
+    min-height: 100vh;
+}
+
+.page-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-header {
+    height: 100px;
+}
+
+.page-content {
+    flex-grow: 1;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+/** <== general page skeleton **/
+/** text styles ==> **/
+h1, h2, h3, h4, h5, h6, blockquote {
+    font-family: 'Tinos', serif;
+}
+
+a {
+    cursor: pointer;
+    color: var(--link-color);
+}
+
+p , ul, ol {
+    margin-top: 1.5rem;
+}
+
+p a,
+sup a {
+    padding: 4px; /* enlarge click area for fingers */
+}
+
+blockquote {
+    position: relative;
+    width: 50%;
+    border-left: 8px solid;
+    margin: 1rem 0 0 1rem;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    background-color: var(--background-color-alt);
+    font-style: italic;
+    font-size: 1.25rem;
+    float: right;
+}
+
+blockquote:before {
+    content: "\201C";
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    font-weight: bold;
+}
+
+pre[class*=language-] {
+    margin: 1.5rem 0 0;
+    font-size: 0.75rem;
+}
+
+sup {
+    position: relative;
+    top: -0.25rem;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+    font-weight: bold;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+
+.article-title {
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.article-content h2 {
+    font-size: 1.75rem;
+}
+
+.article-content h3 {
+    font-size: 1.5rem;
+}
+
+p + h2,
+p + h3,
+ul + h3 {
+    margin-top: 1.5rem;
+}
+
+h2 + p,
+h3 + p,
+h3 + ul,
+li p,
+.footnotes ol {
+    margin-top: 0.25rem;
+}
+
+/** <== text styles **/
+
+.supplementary {
+    display: none;
 }

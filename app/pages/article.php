@@ -24,14 +24,9 @@ html::$lang = $md::getMeta('lang');
                 </div>
 			</header>
 
-			<div class="article-content group">
+			<div class="article-content">
 				<?php $md::printContent(); ?>
 			</div>
-
-			<footer class="article-footer">
-				<h3 class="like-article"><i class="icon-share"></i> Sevdiniz mi? O halde paylaşın!</h3>
-				<?php tools::inc('widgets/share.php'); ?>
-			</footer>
 		</article>
 
 		<?php if(html::$comments == 'true'): ?>

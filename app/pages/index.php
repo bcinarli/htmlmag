@@ -10,7 +10,7 @@ html::$class = 'homepage';
 ?>
 <?php tools::inc('includes/header'); ?>
 	<div id="main" class="main-content">
-		<div class="articles group">
+		<div class="articles">
 			<?php foreach($GLOBALS['articles'] as $article): ?>
 				<article class="summary">
 					<h2 class="article-title"><a href="<?php echo url::make_url('article/' . $article['slug']); ?>"><?php echo $article['title']; ?></a></h2>

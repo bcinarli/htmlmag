@@ -18,13 +18,16 @@ if(role::is_homepage() && html::$description == ''){
 
 	<link rel="alternate" type="application/rss+xml" title="HTML Mag &raquo; Feed" href="http://feeds.feedburner.com/htmlmag" />
 
-	<link rel="stylesheet" href="<?php echo url::styles('styles.css'); ?>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo url::styles('prism.min.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo url::styles('styles.css'); ?>" />
 	<link rel="bookmark icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="<?php echo url::images('apple-touch-icon.png'); ?>">
 
     <?php if(!role::is_404()): ?>
 	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
-	<link rel="author" href="https://plus.google.com/116168797582640048599/posts">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@htmlmag" />
@@ -56,13 +59,14 @@ if(role::is_homepage() && html::$description == ''){
     <?php endif; ?>
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
-<?php tools::inc('widgets/analytics'); ?>
+<?php $_ENV['APP_ENV'] !== 'local' && tools::inc('widgets/analytics'); ?>
 	<div id="wrapper" class="page-wrap">
-		<header class="page-header">
-            <div class="page-container">
+		<header id="masthead" class="page-header">
+            <div class="content-container">
                 <a href="<?php echo url::homepage(); ?>/"><h1 class="page-heading"><?php echo SITE_TITLE; ?></h1></a>
 
                 <?php include "navigation.php"; ?>
             </div>
 		</header>
-		<div id="content" class="page-content group">
+		<div id="content" class="page-content">
+            <div class="content-container">
