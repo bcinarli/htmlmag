@@ -97,7 +97,7 @@ class url
 		}
 
 		self::$_url = str_replace($h, '', trim($_SERVER['REQUEST_URI']));
-		self::$_url = str_replace('?' . $_SERVER['QUERY_STRING'], '', self::$_url);
+		self::$_url = str_replace('?' . (isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : ''), '', self::$_url);
 
 		return self::$_url;
 	}

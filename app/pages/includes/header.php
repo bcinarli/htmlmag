@@ -59,7 +59,7 @@ if(role::is_homepage() && html::$description == ''){
     <?php endif; ?>
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
-<?php $_ENV['APP_ENV'] !== 'local' && tools::inc('widgets/analytics'); ?>
+<?php (isset($_ENV['APP_ENV']) && $_ENV['APP_ENV'] !== 'local') && tools::inc('widgets/analytics'); ?>
 	<div id="wrapper" class="page-wrap">
 		<header id="masthead" class="page-header">
             <div class="content-container">
