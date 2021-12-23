@@ -21,6 +21,4 @@ html::$class = 'error-404';
 		<?php endforeach; ?>
 		</ul>
 	</div>
-
-<?php tools::inc('includes/aside'); ?>
 <?php tools::inc('includes/footer');

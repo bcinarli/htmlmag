@@ -4,6 +4,6 @@
  * @link http://bcinarli.com
  **/
 ?>
-			<nav class="main-nav group">
-				<?php echo navigation::getNav('main_nav', 'output=""&wrap=""'); ?>
+			<nav class="main-nav">
+				<?php navigation::getNav('main_nav', 'output=""&wrap=""'); ?>
 			</nav>

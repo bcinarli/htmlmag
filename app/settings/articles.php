@@ -51,14 +51,6 @@ $articles[] = array(
 );
 
 $articles[] = array(
-    'slug'    => 'css3-animation',
-    'title'   => 'CSS3 Animation',
-    'date'    => '2015-03-16 22:58:00',
-    'author'  => 'Nesrin Kalender',
-    'excerpt' => 'CSS3 ile gelen bir çok özellik belirli web üzerinde belirli işlemleri daha kolay yapmamızı sağladı. Özellikle animation ve transition ile daha yumuşak geçişler ve güzel bir görüntü elde edebiliyoruz.'
-);
-
-$articles[] = array(
     'slug'    => 'arayuz-gelistirme-ve-mobil-uygulamalar',
     'title'   => 'Arayüz Geliştirme ve Mobil Uygulamalar',
     'date'    => '2015-03-04 08:04:12',
@@ -72,14 +64,6 @@ $articles['overwrite-edeceginiz-kodu-bastan-yazmayin'] = array(
     'date'    => '2015-02-24 19:12:30',
     'author'  => 'Bilal Çınarlı',
     'excerpt' => 'Çoğu zaman CSS kodlaması yaparken, media queryler farklı çözünürlükler için kolayca tanım yapmamızı sağlar. Gün sonunda ise, dikkatsizlik ya da yanlış kurgu yüzünden, yaptığımız tanımları ya tekrar tekrar farklı şekilde yine yapmış, ya da sürekli daha önce yaptığımız bir tanımı <em>sıfırlamak</em>, <em>orjinaline</em> döndürmek için ek kod yazmış oluruz.'
-);
-
-$articles['gizli-cevherler-widows-orphans'] = array(
-    'title'   => 'Gizli Cevherler: Widows & Orphans',
-    'slug'    => 'gizli-cevherler-widows-orphans',
-    'date'    => '2015-02-10 17:47:00',
-    'author'  => 'Nesrin Kalender',
-    'excerpt' => 'CSS yazan çoğu kişinin otomatik tamamlamalardan aşina olduğu şeylerden birisi <code>widows</code>\'dur. <code>width</code> yazmak isterken defalarca <code>widows</code> yazılmış ama asla nedir bu <code>widows</code> bakılmamış, kullanılmamıştır.'
 );
 
 $articles['namespace-your-events'] = array(

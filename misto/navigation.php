@@ -48,7 +48,7 @@ class navigation
                 $nav .= ' id="' . $options['id'] . '"';
             }
 
-            $nav .= ' class="' . $options['class'] . ' group">';
+            $nav .= ' class="' . $options['class'] . '">';
         }
 
         foreach ($navigation as $value) {

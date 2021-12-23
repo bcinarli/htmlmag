@@ -11,11 +11,12 @@ class misto
 		new url();
 		new router();
 		new device();
+        (new Misto\Env)->load();
 
 		//ini_set('session.cookie_domain', '.' . url::getPlainHost());
 		session_start();
 
-		if (Authentication === true) {
+		if (defined('Authentication') && Authentication === true) {
 			$this->force_directory_authentication();
 		}
 

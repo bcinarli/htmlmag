@@ -15,7 +15,7 @@
 		    require_once $namespaced;
 	    }
 
-	    // vendor namespaced clasess
+	    // vendor namespaced classes
 	    if(file_exists($vendornamespaced)){
 		    require_once $vendornamespaced;
 	    }

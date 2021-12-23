@@ -19,6 +19,4 @@ html::$class = 'page';
 		<?php tools::inc('widgets/disqus'); ?>
 		<?php endif; ?>
 	</div>
-
-<?php tools::inc('includes/aside'); ?>
 <?php tools::inc('includes/footer');
