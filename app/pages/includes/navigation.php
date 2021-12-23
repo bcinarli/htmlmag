@@ -5,5 +5,5 @@
  **/
 ?>
 			<nav class="main-nav">
-				<?php echo navigation::getNav('main_nav', 'output=""&wrap=""'); ?>
+				<?php navigation::getNav('main_nav', 'output=""&wrap=""'); ?>
 			</nav>

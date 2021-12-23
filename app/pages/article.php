@@ -35,6 +35,4 @@ html::$lang = $md::getMeta('lang');
 		</div>
 		<?php endif; ?>
 	</div>
-
-<?php tools::inc('includes/aside'); ?>
 <?php tools::inc('includes/footer');

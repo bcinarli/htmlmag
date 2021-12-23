@@ -27,7 +27,7 @@ if(role::is_homepage() && html::$description == ''){
 	<link rel="apple-touch-icon" href="<?php echo url::images('apple-touch-icon.png'); ?>">
 
     <?php if(!role::is_404()): ?>
-	<link rel="canonical" href="http://htmlmag.com<?php echo url::getUrl(); ?>" />
+	<link rel="canonical" href="https://htmlmag.com<?php echo url::getUrl(); ?>" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@htmlmag" />
@@ -36,7 +36,7 @@ if(role::is_homepage() && html::$description == ''){
     <meta name="twitter:description" content="<?php echo html::$description; ?>" />
     <?php endif ?>
     <meta name="twitter:creator" content="@bcinarli">
-    <meta name="twitter:image" content="http://htmlmag.com<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : '/app/assets/images/og-image.png'; ?>" />
+    <meta name="twitter:image" content="https://htmlmag.com<?php echo isset(html::$meta['og_image']) ? html::$meta['og_image'] : '/app/assets/images/og-image.png'; ?>" />
 
 	<meta property="fb:app_id" content="937041086326922" />
 	<meta property="og:locale" content="<?php echo html::$lang != '' ? html::$lang : 'en_US'; ?>" />
@@ -63,9 +63,9 @@ if(role::is_homepage() && html::$description == ''){
 	<div id="wrapper" class="page-wrap">
 		<header id="masthead" class="page-header">
             <div class="content-container">
-                <a href="<?php echo url::homepage(); ?>/"><h1 class="page-heading"><?php echo SITE_TITLE; ?></h1></a>
+                <a href="<?php echo url::homepage(); ?>/" class="page-heading"><h1 class="page-headline"><?php echo HEADLINE; ?></h1></a>
 
-                <?php include "navigation.php"; ?>
+                <a href="https://twitter.com/htmlmag" target="_blank" class="header-social-links"><i class="icon-twitter"></i> @htmlmag</a>
             </div>
 		</header>
 		<div id="content" class="page-content">

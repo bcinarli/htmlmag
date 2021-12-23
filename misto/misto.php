@@ -16,7 +16,7 @@ class misto
 		//ini_set('session.cookie_domain', '.' . url::getPlainHost());
 		session_start();
 
-		if (Authentication === true) {
+		if (defined('Authentication') && Authentication === true) {
 			$this->force_directory_authentication();
 		}
 
