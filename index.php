@@ -2,7 +2,7 @@
     define('ABS_PATH', dirname(__file__) . '/');
     include(ABS_PATH . 'settings.php');
 
-    function __autoload($class)
+    spl_autoload_register(function ($class)
     {
 	    $classname = strtolower($class);
 	    $namespaced = ABS_PATH . str_replace('\\', '/', $class) . '.php';
@@ -29,6 +29,6 @@
 	    else if(file_exists($mistoClass)){
 		    require_once $mistoClass;
 	    }
-    }
+    });
 
     new misto;
