@@ -1,15 +1,25 @@
 .page-wrap {
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .page-header {
+  width: 100%;
+  max-width: 1040px;
   padding: 2rem 0;
+}
+
+.icon-twitter svg {
+  width: 2rem;
 }
 
 .page-content {
   flex-grow: 1;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .page-heading {
@@ -32,14 +42,22 @@
 }
 
 .page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   margin-top: 2rem;
   padding: 2rem 0;
   font-size: 0.75rem;
   background-color: var(--background-color-alt);
 }
 
+.footer-content {
+  max-width: 1040px;
+}
+
 @media screen and (max-width: 1039px) {
-   .page-header {
+  .page-header {
     text-align: center;
   }
 
@@ -50,7 +68,7 @@
 }
 
 @media screen and (min-width: 1040px) {
-  .page-header > div {
+  .page-header {
     display: flex;
     align-items: center;
     justify-content: space-between;

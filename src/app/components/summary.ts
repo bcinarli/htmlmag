@@ -1,6 +1,9 @@
 import { applyStyles, html } from '../../lib/renderer';
 
 import styles from './summary.module.scss';
+import Calendar from '../icons/calendar';
+import Author from '../icons/author';
+import Comment from '../icons/comment';
 
 const css = applyStyles(styles);
 
@@ -19,9 +22,10 @@ const Summary = ({ slug, title, date, excerpt, author }: SummaryType) => {
           <a href="/article/${slug}">${title}</a>
         </h2>
         <div class="${css('article-meta')}">
-          <span class="${css('article-date')}"><i class="icon-date"></i> ${date}</span>
-          <span class="article-comments"
-            ><i class="icon-comment"></i> <a href="/article/${slug}#disqus_thread" data-disqus-identifier="${slug}"></a
+          <span class="${css('article-date')}"><span class="icon">${Calendar()}</span> ${date}</span>
+          <span class="article-comments">
+            <span class="icon">${Comment()}</span>
+            <a href="/article/${slug}#disqus_thread" data-disqus-identifier="${slug}"></a
           ></span>
         </div>
       </header>
@@ -29,7 +33,9 @@ const Summary = ({ slug, title, date, excerpt, author }: SummaryType) => {
       <p class="excerpt">${excerpt}</p>
 
       <footer class="${css('article-meta')}">
-        <span class="${css('article-author')}"><i class="${css('icon-author')}"></i> ${author}</span>
+        <span class="${css('article-author')}"
+          ><span class="icon ${css('icon-author')}">${Author()}</span> ${author}</span
+        >
       </footer>
     </article>
   `;

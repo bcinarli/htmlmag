@@ -36,6 +36,10 @@ a {
 p {
   margin-bottom: 1rem;
 
+  &:only-child {
+    margin-bottom: 0;
+  }
+
   a {
     text-decoration: underline;
   }
@@ -120,8 +124,14 @@ sup {
   font-size: 0.75rem;
 }
 
-.content-container {
-  width: 100%;
-  max-width: 1040px;
-  margin: 0 auto;
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0.5rem;
+
+  svg {
+    display: inline-block;
+    width: 1rem;
+    fill: var(--text-color);
+  }
 }
