@@ -41,6 +41,85 @@ p {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  font-family: 'Tinos', serif;
+}
+
+a {
+  cursor: pointer;
+  color: var(--link-color);
+}
+
+p,
+ul,
+ol,
+blockquote + h2,
+blockquote + h3 {
+  margin-top: 1.5rem;
+}
+
+p:only-child,
+ul:only-child,
+ol:only-child {
+  margin-top: 0;
+}
+
+p a,
+sup a {
+  padding: 4px; /* enlarge click area for fingers */
+}
+
+blockquote {
+  position: relative;
+  border-left: 8px solid;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 3rem;
+  background-color: var(--background-color-alt);
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p:last-child:not(:only-child) {
+  font-weight: bold;
+}
+
+pre[class*='language-'] {
+  margin: 1.5rem 0 0;
+  font-size: 0.75rem;
+}
+
+code {
+  padding: 0.2rem 0.5rem;
+  background-color: var(--background-color-alt);
+  font-family: monospace;
+}
+
+sup {
+  position: relative;
+  top: -0.25rem;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
 .content-container {
   width: 100%;
   max-width: 1040px;

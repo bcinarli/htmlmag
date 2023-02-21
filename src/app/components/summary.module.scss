@@ -1,0 +1,33 @@
+.summary {
+  margin-top: 4rem;
+
+  .article-header {
+    text-align: center;
+  }
+
+  .article-title {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .article-meta {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .article-date:after {
+    content: '•';
+    display: inline-block;
+    margin: 0 0.25rem;
+  }
+
+  .article-author {
+    width: 100%;
+    font-size: 0.9rem;
+
+    .icon-author {
+      font-size: 2rem;
+      vertical-align: middle;
+    }
+  }
+}
