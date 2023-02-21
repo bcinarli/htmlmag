@@ -162,7 +162,7 @@ sup {
     content: "";
     width: 131px;
     height: 92px;
-    background: center left  no-repeat url('../images/logo@2x.png');
+    background: center left  no-repeat url('../../../public/assets/images/logo@2x.png');
     background-size: 131px 92px;
     filter: invert(var(--image-invert-value, 100%));
 }

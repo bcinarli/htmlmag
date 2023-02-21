@@ -1,0 +1,62 @@
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-header {
+  padding: 2rem 0;
+}
+
+.page-content {
+  flex-grow: 1;
+}
+
+.page-heading {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.page-heading:before {
+  content: '';
+  width: 131px;
+  height: 92px;
+  background: center left no-repeat url('/assets/images/logo@2x.png');
+  background-size: 131px 92px;
+  //filter: invert(var(--image-invert-value, 100%));
+}
+
+.page-headline {
+  font-size: 1.5rem;
+}
+
+.page-footer {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  font-size: 0.75rem;
+  background-color: var(--background-color-alt);
+}
+
+@media screen and (max-width: 1039px) {
+   .page-header {
+    text-align: center;
+  }
+
+  .page-heading {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .page-header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-heading:before {
+    margin-right: 2rem;
+  }
+}

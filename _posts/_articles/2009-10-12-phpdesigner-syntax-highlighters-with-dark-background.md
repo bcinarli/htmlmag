@@ -73,7 +73,7 @@ I think there is a little bug for syntax separators' colors. While working only 
 
 ## Installation
 
-First download the style [files](/content/downloads/phpdesigner_syntax.rar). Then unrar them. Open phpDesigner preferences screen (hit Ctrl+E while phpDesigner is open). Click the Syntax Highlighters from tree menu. You will see a folder button on the right, hit it. A folder will open. Copy your extracted file, and paste them to the opened folder. with this, you changed the file types syntax colors. For changing the editor's background color, click the Editor menu in the Preferences window. You can change the editor fonts, gutter fonts and editor's color from this menu.
+First download the style [files](/public/downloads/phpdesigner_syntax.rar). Then unrar them. Open phpDesigner preferences screen (hit Ctrl+E while phpDesigner is open). Click the Syntax Highlighters from tree menu. You will see a folder button on the right, hit it. A folder will open. Copy your extracted file, and paste them to the opened folder. with this, you changed the file types syntax colors. For changing the editor's background color, click the Editor menu in the Preferences window. You can change the editor fonts, gutter fonts and editor's color from this menu.
 
 [php]: /content/2009/phpdesigner/php.png "PHP file syntax color sample" {.gallery}
 [html]: /content/2009/phpdesigner/html.png "HTML file screenshot" {.gallery}

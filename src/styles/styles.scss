@@ -1,0 +1,48 @@
+@import 'variables';
+
+*:where(:not(iframe, canvas, img, svg, video, div, header, footer, aside, nav, strong):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: 22px/1.4 'Titillium Web', sans-serif;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
