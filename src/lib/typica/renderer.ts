@@ -15,8 +15,8 @@ class Renderer {
         this.props = { ...this.props, ...props };
     }
 
-    update() {
-        const html = this.render();
+    async update() {
+        const html = await this.render();
         this.domUpdate(html);
     }
 
@@ -44,8 +44,8 @@ class Renderer {
         this.props.root.appendChild(fragment);
     }
 
-    render(): string {
-        return this.props.app()
+    async render() {
+        return await this.props.app()
     }
 }
 

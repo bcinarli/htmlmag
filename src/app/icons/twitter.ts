@@ -1,4 +1,4 @@
-import { html } from '../../lib/renderer';
+import { html } from '../../lib/typica';
 
 const Twitter = () => {
   return html`

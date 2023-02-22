@@ -6,10 +6,7 @@ date: 2015-07-20 10:26:45
 author: Bilal Çınarlı
 profile: https://www.facebook.com/bcinarli
 lang: tr_TR
-tags:
-- css
-- temel kavramlar
-- arayüz mimarisi
+tags: css, temel kavramlar, arayüz mimarisi
 og_image: /content/2015/css3-logo-og-image.png
 og_description: Diğer bütün yazılım geliştirme sistemleri gibi, arayüz geliştirme için de isimlendirme kritik bir öneme sahiptir. Hem tanımların tekrar kullanılabilirliğini arttırabilme hem de geliştirmeyi kolaylaştırma ihtimalleri göz önüne alındığında üzerinde durulması gereken bir konu olarak öne çıkmaktadır.
 ---
@@ -110,4 +107,4 @@ Kolay bulunabilen, gündelik kodlama dili içerisinde sık kullanılan ve metafo
 [^2]: Birileri ne zaman bir şeyin yanlış olduğunu veya kendileri için anlamlı olmadığını söylüyorsa, hemem hemen her zaman haklıdırlar.
 [^3]: Bir nesneyi düşündüğünüzde, ilk başta kelimeler olmadan düşünürsünüz. Ne zaman bu düşündüğünüz nesneyi anlatmak isterseniz, bu nesneye birebir anlatan kelimeleri bulana kadar _ava çıkarsınız._ 
 
-[css]: ../content/2015/css3-logo.png
+[css]: /images/2015/css3-logo.png

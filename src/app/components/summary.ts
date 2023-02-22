@@ -1,4 +1,4 @@
-import { applyStyles, html } from '../../lib/renderer';
+import { applyStyles, html } from '../../lib/typica';
 
 import styles from './summary.module.scss';
 import Calendar from '../icons/calendar';

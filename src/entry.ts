@@ -1,4 +1,4 @@
-import { Renderer } from './lib/renderer';
+import { Renderer } from './lib/typica';
 import './styles/styles.scss';
 import App from './app';
 

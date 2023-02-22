@@ -11,8 +11,13 @@
   padding: 2rem 0;
 }
 
-.icon-twitter svg {
-  width: 2rem;
+.icon-twitter {
+  padding: 0 0.25rem;
+
+  svg {
+    width: 1.5rem;
+    fill: var(--link-color);
+  }
 }
 
 .page-content {

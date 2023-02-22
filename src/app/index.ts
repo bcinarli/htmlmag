@@ -1,11 +1,17 @@
-import { applyStyles, html } from '../lib/renderer';
+import { Router, applyStyles, html } from '../lib/typica';
 import styles from './index.module.scss';
 import Home from './pages/home';
+import Article from './pages/article';
 import Twitter from './icons/twitter';
 
 const css = applyStyles(styles);
 
-export const App = (): string => {
+const routes = [
+  { path: '/', component: Home },
+  { path: '/article/:article', component: Article },
+];
+
+export const App = async () => {
   return html`
     <div id="wrapper" class="${css('page-wrap')}">
       <header id="masthead" class="${css('page-header')}">
@@ -16,7 +22,9 @@ export const App = (): string => {
         >
       </header>
 
-      <div id="content" class="${css('page-content')}">${Home()}</div>
+      <div id="content" class="${css('page-content')}">
+        <div id="main" class="main-content">${await Router(routes)}</div>
+      </div>
 
       <footer class="${css('page-footer')}">
         <div class="${css('footer-content')}">
