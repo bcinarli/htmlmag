@@ -7,11 +7,7 @@ author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 keywords: Sass vs Less vs Stylus, Pre-Processors
 description: A quick comparison for CSS pre-processors. Which one to choose, Code samples, similarities and differences between Sass, Less and Stylus
-tags:
-- CSS
-- SASS
-- LESS
-- Stylus
+tags: CSS, SASS, LESS, Stylus
 ---
 CSS Pre-processors are in our development life for years. In their first implementations, they had few features. But nowadays, they are the key ingredients and must have tools for CSS development. Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. [SASS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.io/stylus/) are the well known ones. By the time this article is published, SASS is at version 3.3.5,
 LESS is at version 1.7.0 and Stylus is at version 0.43.1
@@ -47,7 +43,8 @@ values are assigned with colon (`:`), and with equals sign (`=`) in Stylus.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 $font-size: 16px;
 
 div {
@@ -56,7 +53,8 @@ div {
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 @font-size: 16px;
 
 div {
@@ -68,7 +66,8 @@ div {
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 font-size = 16px
 
 div
@@ -77,13 +76,15 @@ div
 </div>
 
 <div class="six-columns" markdown="1">
-``` {.language-css .css}
+
+```css
 div {
     font-size: 16px;
 }
 ```
 </div>
 </div>
+
 
 ### Nesting
 CSS lacks visual hierarchy while working with child selectors. You have to write selectors and their combinations in
@@ -92,7 +93,8 @@ nesting causes oversizing the selectors and something like a "selector train", s
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 $link-color: #999;
 $link-hover: #229ed3;
 
@@ -114,7 +116,8 @@ ul {
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 @link-color: #999;
 @link-hover: #229ed3;
 
@@ -139,7 +142,8 @@ ul {
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 link-color = #999
 link-hover = #229ed3
 
@@ -154,7 +158,8 @@ ul
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .css}
+
+```css
 ul { margin: 0; }
 ul li { float: left; }
 ul a { color: #999; }
@@ -169,7 +174,8 @@ easily write cross-browser background gradients or CSS arrows etc.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 @mixin bordered($width) {
     border: $width solid #ddd;
 
@@ -184,7 +190,8 @@ h1 {
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 .bordered (@width) {
     border: @width solid #ddd;
 
@@ -202,7 +209,8 @@ h1 {
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 bordered(w)
     border: n solid #ddd
     &:hover
@@ -213,7 +221,8 @@ h1
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .css}
+
+```css
 h1 { border: 5px solid #ddd; }
 h1:hover { border-color: #999; }
 ```
@@ -228,7 +237,8 @@ to extend method or you can select only the main instance. Extends are also chai
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 .block { margin: 10px 5px; }
 
 p {
@@ -244,7 +254,8 @@ ul, ol {
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 .block { margin: 10px 5px; }
 
 p {
@@ -263,7 +274,8 @@ ul, ol {
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 .block
     margin 10px 5px
 
@@ -279,7 +291,8 @@ ol
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .css}
+
+```css
 .block, p, ul, ol { margin: 10px 5px; }
 
 p { border: 1px solid #eee; }
@@ -294,7 +307,8 @@ even you can mix two or more different colors. This feature is not very essentia
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 saturate($color, $amount)
 desaturate($color, $amount)
 lighten($color, $amount)
@@ -308,7 +322,8 @@ complement($color)
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 saturate(@color, @amount)
 desaturate(@color, @amount)
 lighten(@color, @amount)
@@ -326,7 +341,8 @@ contrast(@color)
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .stylus}
+
+```stylus
 red(color)
 green(color)
 blue(color)
@@ -346,7 +362,8 @@ variables. SASS and Stylus support normal if/else conditionals. But in LESS, you
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 @if lightness($color) > 30% {
     background-color: black;
 }
@@ -357,7 +374,8 @@ variables. SASS and Stylus support normal if/else conditionals. But in LESS, you
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 .mixin (@color) when (lightness(@color) > 30%) {
     background-color: black;
 }
@@ -370,7 +388,8 @@ variables. SASS and Stylus support normal if/else conditionals. But in LESS, you
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 if lightness(color) > 30%
     background-color black
 else
@@ -385,7 +404,8 @@ if/else case, LESS is using CSS Guards and recursive mixins for looping.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 @for $i from 1px to 3px {
     .border-#{i} {
         border: $i solid blue;
@@ -394,7 +414,8 @@ if/else case, LESS is using CSS Guards and recursive mixins for looping.
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 .loop(@counter) when (@counter > 0){
     .loop((@counter - 1));
 
@@ -408,7 +429,8 @@ if/else case, LESS is using CSS Guards and recursive mixins for looping.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 for num in (1..3)
     .border-{num}
         border 1px * num solid blue
@@ -423,7 +445,8 @@ rounding, getting min or max value in a list etc.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 1cm * 1em => 1 cm * em
 2in * 3in => 6 in * in
 (1cm / 1em) * 4em => 4cm
@@ -432,7 +455,8 @@ rounding, getting min or max value in a list etc.
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 1cm * 1em => 1cm * 1em
 2in * 3in => 6in
 (1cm / 1em) * 4em => 4cm
@@ -444,7 +468,8 @@ rounding, getting min or max value in a list etc.
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 1cm * 1em => 1 cm * em
 2in * 3in => 6in
 (1cm / 1em) * 4em => 4cm
@@ -461,14 +486,16 @@ and import them to main css file. Also with `import` statement, frameworks can a
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-scss .sass}
+
+```scss
 @import "library";
 @import "mixins/mixin.scss";
 @import "reset.css";
 ```
 </div>
 <div class="six-columns" markdown="1">
-``` {.language-css .less}
+
+```less
 @import "library"
 @import "mixins/mixin.less"
 @import "reset.css"
@@ -478,7 +505,8 @@ and import them to main css file. Also with `import` statement, frameworks can a
 
 <div class="row pull-push">
 <div class="six-columns" markdown="1">
-``` {.language-css .stylus}
+
+```stylus
 @import "library"
 @import "mixins/mixin.styl"
 @import "reset.css

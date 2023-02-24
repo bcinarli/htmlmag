@@ -1,0 +1,16 @@
+.article-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.article-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  svg {
+    width: auto;
+    height: 1rem;
+  }
+}

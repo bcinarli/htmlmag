@@ -1,7 +1,4 @@
-// @ts-ignore: Property 'URLPattern' does not exist
-if (!globalThis.URLPattern) {
-  await import('urlpattern-polyfill');
-}
+import('urlpattern-polyfill');
 
 import { URLPatternComponentResult } from 'urlpattern-polyfill/dist/types';
 
@@ -26,7 +23,7 @@ const Router = async (routes: Route[]) => {
     return false;
   });
 
-  return await matched[0]?.component(matchedPathnames[0]?.groups) ?? '404';
+  return (await matched[0]?.component(matchedPathnames[0]?.groups)) ?? '404';
 };
 
 export default Router;

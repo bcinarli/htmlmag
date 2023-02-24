@@ -9,12 +9,22 @@
     />
     <link rel="canonical" href="https://htmlmag.com/" />
     <link rel="bookmark icon" href="/assets/images/favicon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
 
     <title>HTML Mag</title>
+
+    <link rel="stylesheet" href="/assets/prism/prism.css" />
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/entry.ts"></script>
+    <script src="/assets/prism/prism.min.js" data-manual></script>
+    <script>
+      (function () {
+        document.addEventListener('typicaDOMUpdated', () => {
+          Prism.highlightAll();
+        });
+      })();
+    </script>
   </body>
 </html>

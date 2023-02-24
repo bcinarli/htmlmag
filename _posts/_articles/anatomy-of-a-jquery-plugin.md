@@ -5,8 +5,7 @@ title: Anatomy of a jQuery Plugin
 date: 2014-05-12 20:23:10
 author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
-tags:
-- jQuery
+tags: jQuery, jQuery Plugin
 externalJS: //codepen.io/assets/embed/ei.js
 ---
 Since released, jQuery has become one of the key components in web projects. Extensibility, easy to use,
@@ -19,7 +18,7 @@ objects. Basic
  textlimiting plugin. Lets dig-in details.
 
 ## The Closure
-``` {.language-javascript}
+```javascript
 ;(function($){
     $.fn.textlimit = function(options){
         return this.each(function(){
@@ -38,7 +37,7 @@ Inside the closure, you are free with your plugin architecture. For maintainabil
 break down your code into smaller methods and put them outside of the `return` part separately.
 
 ## The Defaults and The Return
-``` {.language-javascript}
+```javascript
 ;(function($){
     var defaults = {
         maxlength: 0,
@@ -71,7 +70,7 @@ similar class will make the job. This could be the simplest way to check it. Aft
 call the constructor method as in `textlimit = new TextLimit($el, options);` part.
 
 ## The Constructor
-``` {.language-javascript}
+```javascript
 var TextLimit = function($el, options){
     var opts = $.extend({}, defaults, options),
         $counter = $el.next(opts.counter),
@@ -91,7 +90,7 @@ new set of values. In the `opts` variable with `opts = $.extend({}, defaults, op
 we set these options for the current object. Then, check if there is proper limit defined for the text inputs.
 
 ## The Extras
-``` {.language-javascript}
+```javascript
 var bindUIActions = function($el, limit, $counter){
     // first count initial
     countChars($el, limit, $counter);
@@ -119,7 +118,7 @@ above. `bindUIActions` binds the ui related actions to the object in a single me
 
 ## All Together
 The following code block and the CodePen embed is the final version of the sample plugin and the working example.
-``` {.language-javascript}
+```javascript
 ;(function($){
     // default plugin options
     var defaults = {

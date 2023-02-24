@@ -6,19 +6,13 @@ date: 2015-07-13 13:44:30
 author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
 lang: tr_TR
-tags:
-- javascript
-- design patterns
-related:
-- Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
-- Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
-- Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3
+tags: javascript, design patterns
 og_image: /content/2015/javascript-logo.png
 ---
 ![js][]
 
 <blockquote markdown=1>
-Bu yazı, __Tasarım Kalıpları__ dizinin 4. yazısıdır. Dizinin diğer yazılarına aşağıdaki içindekiler kısmından ulaşabilirsiniz.
+Bu yazı, Tasarım Kalıpları dizinin 4. yazısıdır. Dizinin diğer yazılarına aşağıdaki içindekiler kısmından ulaşabilirsiniz.
 
 ### İçindekiler
 
@@ -34,7 +28,7 @@ Teoride hepsi bir yere oturuyor. Özellike karşılaştığımız sorunun tespit
 
 a) Bir veri yönetim yapısı üzerinde mutabık olun. Nasıl bir yöntem izleyeceğinize karar verin ki o standardı birlikte çalıştığınız diğer geliştirici arkadaşlarınız da belirlesin ve böylece dökümante edilmesi kolay kodlarınızı üretmeye başlarsınız. Örneğin tamamen OOP bir yapı üzerinden ilerlemek isterseniz şöyle bir best practice’inizin olmasında fayda var:
 
-```{.language-javascript}
+```javascript
 /**
  * models/Person.js
  * Person nesnesini tanımladığımız dosya.
@@ -55,7 +49,7 @@ var Person = function (name, age) {
 
 b) Standart olarak OOP prensiplerini benimseyin.
 
-```{.language-javascript}
+```javascript
 /**
  * models/Employee.js
  * Person nesnesinden kalıtım alan Employee nesnesinin dosyası.
@@ -75,7 +69,7 @@ var Employee = function (name, age, department, price) {
 }
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * models/Developer.js
  * Developer nesnesinin tanımlandığı ve Person ile Employee 
@@ -95,12 +89,12 @@ var Developer = function (name, age, department, price, skills, contractDate) {
    Employee.apply(this, arguments);
 }
 
-var developer = new Developer(‘John Doe’’, 28, ‘IT’, 1, [‘Python', 'Django'], new Date());
+var developer = new Developer('John Doe', 28, 'IT', 1, ['Python', 'Django'], new Date());
 ```
 
 c) Proje kapsamında işinize yarayacağını düşündüğünüz, kullanışlı tasarım kalıplarınızı da sample kodlar halinde türetin ve ekibinizle paylaşın. Onlarla birlikte tartışın ve neticeye en son kodlama yaparken ulaşıyor olacaksınız. Mesela şöyle bir Java’msı model ile karşılaşınca çalışma arkadaşlarınız heyecanlanıyorsa onlara __sarılın__, __bırakmayın__, __sevgi verin__:
 
-```{.language-javascript}
+```javascript
 //Java-ish Objects - 1
 
 "use strict";
@@ -182,7 +176,7 @@ var Developer = (function () {
 
 Ya da şöyle bir nesne ile karşılaşsanız siz de sevinmez miydiniz?
 
-```{.language-javascript}
+```javascript
 "use strict";
 
 var Tab = function (title, subTitle, activated, html, events) {
@@ -237,7 +231,7 @@ var Tab = function (title, subTitle, activated, html, events) {
    })();
 }
 
-var tab = new Tab("sadas", "sadasd", true, "<div>test</div>", {onClick : function () { console.log("sadasd"); }});
+var tab = new Tab('sadas', 'sadasd', true, '<div>test</div>', {onClick : function () { console.log('sadasd'); }});
 ```
 
 d) Eğer istemci-tarafında Javascript geliştiricekseniz view katmanı ile model yani data katmanını nasıl bağlayacağınıza dikkatlice karar verin. Bu aşamada doğru yapılmayan tasarımlar ileride çok baş ağrıtabilir. Özellikle sizin geliştirdiğiniz kod bloklarında Lazy-Initialization gibi kalıpları kullanmak çok işinize yarayacaktır. Browser’ın render olma zamanını bilemediğinizden bunu ayrıca bir publish / subscribe kalıbı üzerinden de genişleterek bir mixin ile bağlayıp gerçekleyebilirsiniz.
@@ -280,4 +274,4 @@ Bu yazıyı yazmamda beni teşvik eden HTMLMag ekibine ve üretirken bana yardı
 - [Inheritance](http://zipcon.net/~swhite/docs/computers/languages/object_oriented_JS/inheritance.html){.external}
 - [Software Development Antipatterns](https://sourcemaking.com/antipatterns/software-development-antipatterns){.external}
 
-[js]: ../content/2015/javascript-logo.png
+[js]: /images/2015/javascript-logo.png

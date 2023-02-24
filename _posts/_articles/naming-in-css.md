@@ -26,7 +26,7 @@ Diğer bütün yazılım geliştirme sistemleri gibi, arayüz geliştirme için 
 Web tabanlı sistemleri yaşayan, sürekli büyüyen bir organizma gibi düşündüğümüzde, görünümlerinin, tasarımlarının sürekli değişmesi, yenilenmesi, revize edilmesi işten bile değildir. Örneğin, ilk başlarda yeşil renk olarak tasarlanmış ve uygulanmış bir aksiyon butonunun rengi daha sonrasında mavi olarak değiştirildiğini varsayalım. Kod kurgusu ilk tasarıma göre `.green-button` şeklinde yapılmış ve bütün sistemdeki ana aksiyon butonlarına `green-button` classı eklenmiş olsun. Tasarım revizesinden sonra bu class tanımlanmış bütün öğeler mavi gözükmeye başlıyor. İsminde _yeşil_ geçen bir class tanımını _mavi_ renk vermek için kullanmaya başlamış oluyoruz. Bir süre sonra bütün buton stillerinin değiştiğini düşündüğünüzde vardığınız nokta; yeşil aslında mavi, kırmızı aslında gri, pembe aslında kırmızı, mavi aslında sarı renk veren bir anlam karmaşası olacaktır. 
 
 İlk tasarım geldiğinde yapılan tanımlar
-``` {.language-css}
+```css
 .green-button {
 	background-color: green;
 }
@@ -41,7 +41,7 @@ Web tabanlı sistemleri yaşayan, sürekli büyüyen bir organizma gibi düşün
 ```
 
 Tasarımlarda renk revizesi olduktan sonraki tanımlar
-``` {.language-css}
+```css
 .green-button {
 	background-color: blue;
 }
@@ -66,7 +66,7 @@ Yine buton tanımlarından yola çıkacak olursak; formları işlemi sonlandıra
 ## İsimler Herkes Tarafından Anlaşılabilir Olmalı
 Tasarımdan bağımsızlık kadar, isimlerin anlaşılabilir ve hatta tahmin edilebilir olması geliştirmelerin kolay yapılması ve birden fazla geliştiricinin çalıştığı projelerde kod tekrarlarının önüne geçilmesi açısından önemlidir. Isimlendirme her zaman subjektif bir konu olmuştur. Bir çok geliştirici, kendi işini kolaylaştıracağını düşündüğünü tanımları sisteme eklerken kendisinin rahat anlayacağı bir ismi verir. Ama bu isim çoğunlukla başkası Tarafından anlamsız bulunabilir. Örneğin CSS'in projelerde yoğun kullanılmaya başlandığı zamanlarda bazı geliştiriciler `m10`, `mb5`, `ml20` gibi classları veriyorlardı. İlk bakıldığında bu class isimleri şuan hiçbir anlam ifade etmiyor olabilir. Tanımların detayları ise şu şekilde;
 
-``` {.language-css}
+```css
 .m10 { 
   margin: 10px;
 }

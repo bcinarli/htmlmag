@@ -6,18 +6,12 @@ date: 2015-06-28 22:37:17
 author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
 lang: tr_TR
-tags:
-- javascript
-- design patterns
-related:
-- Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
-- Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3
-- Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
+tags: javascript, design patterns
 ---
 ![js][]
 
 <blockquote markdown=1>
-Bu yazı, __Tasarım Kalıpları__ dizinin ilk yazısıdır. Dizinin diğer yazılarına aşağıdaki içindekiler kısmından ulaşabilirsiniz.
+Bu yazı, Tasarım Kalıpları dizinin ilk yazısıdır. Dizinin diğer yazılarına aşağıdaki içindekiler kısmından ulaşabilirsiniz.
 
 ### İçindekiler
 
