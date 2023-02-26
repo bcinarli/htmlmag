@@ -6,15 +6,12 @@ date: 2015-07-28 16:04:30
 author: HTML Magazin
 profile: https://facebook.com/htmlmag
 lang: tr_TR
-tags:
-- advertorial
-- js
-- javascript
-- free for all
+tags: advertorial, js, javascript, free for all
 ---
 Konferanstan daha etkileşimli, Meetup'tan daha sert etkinlik Free For All. Bir moderatör, birkaç anlatıcı, birçok konu, onlarca tartışmacı.
 
 <figure markdown="1">
+
 ![Free For All Spot][ffa]
 </figure>
 
@@ -24,6 +21,6 @@ Katılmak için herhangi bir ön koşulun bulunmadığı, paketlerinden boş ç�
 Standartların dışında olan bu etkinliğe katılmak için [Eventbrite][tickets]'dan kayıt olabilirsiniz. Etkinlik hakkında detaylı bilgiyi [Free For All][freeforall]'in sitesinden edinebilirsiniz.
 
 
-[ffa]: ../content/2015/free-for-all.jpg
+[ffa]: /images/2015/free-for-all.jpg
 [tickets]: https://jsninjasfreeforall.eventbrite.com?aff=htmlmag&utm_source=htmlmag&utm_medium=article&utm_campaign=ffa {.external}
 [freeforall]: http://jsninjas.org/free-for-all?utm_source=htmlmag&utm_medium=article&utm_campaign=ffa {.external}

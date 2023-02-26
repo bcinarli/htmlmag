@@ -7,7 +7,8 @@ author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
 lang: tr_TR
 tags: javascript, design patterns
-og_image: /content/2015/javascript-logo.png
+related:Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1 || Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2 || Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3
+  og_image: /images/2015/javascript-logo.png
 ---
 ![js][]
 
@@ -238,7 +239,7 @@ d) Eğer istemci-tarafında Javascript geliştiricekseniz view katmanı ile mode
 
 e) Tarayıcının engine'ine hakim olun; onu sevin, o da sizi sevsin ;)
 
-f) Bütün bir geliştirmeyi sadece sizin tasarladığınız yapı üzerinden ilerleteceğinize yoksa bir kütüphane ya da çatıdan destek alıp almayacağınıza karar verin. Günümüzde popüler olan çatı ve kütüphanler hariç oldukça decoupled araçlar bulunuyor. Benim tavsiye edeceklerim, Core.js, T3.js ve Knockout olacak. Hatta Core.js ile yapılmış küçük bir örneğe şuradan ulaşabilirsiniz: [Currency Converter](https://github.com/hwclass/client-side-currency-converter){.external}
+f) Bütün bir geliştirmeyi sadece sizin tasarladığınız yapı üzerinden ilerleteceğinize yoksa bir kütüphane ya da çatıdan destek alıp almayacağınıza karar verin. Günümüzde popüler olan çatı ve kütüphanler hariç oldukça decoupled araçlar bulunuyor. Benim tavsiye edeceklerim, Core.js, T3.js ve Knockout olacak. Hatta Core.js ile yapılmış küçük bir örneğe şuradan ulaşabilirsiniz: [Currency Converter](https://github.com/hwclass/client-side-currency-converter)
 
 g) Bütün bir geliştirme ortamınıza karar verin; IDE’nizden en küçük zoom plugin’inize kadar mümkünse siz karar verin ve elinizde kullanacağınız faydalı kod blokları yok ise bunu siz geliştirin.
 
@@ -250,28 +251,28 @@ j) Birlikte çalıştığınız arkadaşlarınızla dışarıda da zaman geçiri
 
 k) Her şeye rağmen kod yazılır, önemli olan yapıdır.
 
-Bütün bunlara değindiğim ve 20 Haziran’da Bahçeşehir Üniversitesi’nde gerçekleştirilen HTMLMag, the Frontiers:Mini etkinliğinde yaptığım sunumuma buradan ulaşabilirsiniz : [A Developers View Patterns to Make Life Easier](http://slides.com/hwclass/a-developers-view-patterns-to-make-life-easier){.external}
+Bütün bunlara değindiğim ve 20 Haziran’da Bahçeşehir Üniversitesi’nde gerçekleştirilen HTMLMag, the Frontiers:Mini etkinliğinde yaptığım sunumuma buradan ulaşabilirsiniz : [A Developers View Patterns to Make Life Easier](http://slides.com/hwclass/a-developers-view-patterns-to-make-life-easier)
  
 Bu ya da başka konular ile ilgili bana aşağıdaki iletişim kanallarından da ulaşabilirsiniz :
 
-* Twitter : [@hwclass](https://twitter.com/hwclass){.external}
-* Github : [hwclass](https://github.com/hwclass){.external}
-* Linkedin : [Barış Güler](https://tr.linkedin.com/pub/barış-güler/69/18a/3b9){.external}
+* Twitter : [@hwclass](https://twitter.com/hwclass)
+* GitHub : [hwclass](https://github.com/hwclass)
+* LinkedIn : [Barış Güler](https://tr.linkedin.com/pub/barış-güler/69/18a/3b9)
 
-Bu yazıyı yazmamda beni teşvik eden HTMLMag ekibine ve üretirken bana yardımcı olan [Spotify listeme](https://open.spotify.com/user/hwclass/playlist/3HEeoeMf9lXkSFdONCbUAi){.external} de teşekkürü borç bilirim. 
+Bu yazıyı yazmamda beni teşvik eden HTMLMag ekibine ve üretirken bana yardımcı olan [Spotify listeme](https://open.spotify.com/user/hwclass/playlist/3HEeoeMf9lXkSFdONCbUAi) de teşekkürü borç bilirim. 
 
 ## Yazı Dizisi Boyunca Faydalanılan Kaynaklar
-- [Addy Osmani](http://addyosmani.com/){.external}
-- [NCZOnline](http://nczonline.net/){.external}
-- [Javascript Design Patterns](https://carldanley.com/javascript-design-patterns/){.external}
-- [Javascript Patterns](https://github.com/shichuan/javascript-patterns){.external}
-- [Design Patterns](http://www.dofactory.com/javascript/design-patterns){.external}
-- [Design Patterns](https://sourcemaking.com/design_patterns/){.external}
-- [Javascript Modules: The ES6 Way](http://24ways.org/2014/javascript-modules-the-es6-way/){.external}
-- [How Browsers Work](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/){.external}
-- [Building Decoupled Large Scale Applications Using Javascript and jQuery](https://speakerdeck.com/addyosmani/building-decoupled-large-scale-applications-using-javascript-and-jquery){.external}
-- [Essential Javascript Links](https://github.com/ericelliott/essential-javascript-links){.external}
-- [Inheritance](http://zipcon.net/~swhite/docs/computers/languages/object_oriented_JS/inheritance.html){.external}
-- [Software Development Antipatterns](https://sourcemaking.com/antipatterns/software-development-antipatterns){.external}
+- [Addy Osmani](http://addyosmani.com/)
+- [NCZOnline](http://nczonline.net/)
+- [Javascript Design Patterns](https://carldanley.com/javascript-design-patterns/)
+- [Javascript Patterns](https://github.com/shichuan/javascript-patterns)
+- [Design Patterns](http://www.dofactory.com/javascript/design-patterns)
+- [Design Patterns](https://sourcemaking.com/design_patterns/)
+- [Javascript Modules: The ES6 Way](http://24ways.org/2014/javascript-modules-the-es6-way/)
+- [How Browsers Work](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [Building Decoupled Large Scale Applications Using Javascript and jQuery](https://speakerdeck.com/addyosmani/building-decoupled-large-scale-applications-using-javascript-and-jquery)
+- [Essential Javascript Links](https://github.com/ericelliott/essential-javascript-links)
+- [Inheritance](http://zipcon.net/~swhite/docs/computers/languages/object_oriented_JS/inheritance.html)
+- [Software Development Antipatterns](https://sourcemaking.com/antipatterns/software-development-antipatterns)
 
 [js]: /images/2015/javascript-logo.png

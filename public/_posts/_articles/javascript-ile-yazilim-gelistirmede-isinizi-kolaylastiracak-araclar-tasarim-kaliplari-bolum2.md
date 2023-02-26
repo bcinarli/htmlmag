@@ -6,13 +6,8 @@ date: 2015-07-02 13:47:17
 author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
 lang: tr_TR
-tags:
-- javascript
-- design patterns
-related:
-- Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 1) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
-- Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3
-- Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
+tags: javascript, design patterns
+related: Tasarım Kalıpları - Sorunlar ve İlkeler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 1) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1 || Tasarım Kalıplarının Kullanımı - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 3) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum3 || Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
 ---
 ![js][]
 
@@ -89,7 +84,7 @@ Genel olarak tasarım kalıplarının tipleri üzerine bir ön fikir edindikten 
 
 Sadece tek bir instance’ın bütün bir proje döngüsü içerisinde varolacağı varsayılan bir tasarım kalıbını tanımlıyor. Buna göre; bir singleton tipinde bir nesne referansımızı nasıl yöneteceğimizi de tanımlamış oluyoruz : Context sathında sadece tek bir referans ile istenilen işlemleri bu instance’ın içerdiği metod / fonksiyonlar ile gerçekleştirebilir, referans sabitlere ya da değişkenlere ulaşabilir ve güncelleyebiliriz.
 
-``` {.language-javascript}
+```javascript
 // models/Config.js
 module.exports = (function () {
    return function () {
@@ -120,14 +115,14 @@ module.exports = (function () {
 })(); 
 ```
 
-``` {.language-javascript}
+```javascript
 // base.js
-var Config = require(‘models/Config’);
+var Config = require('models/Config');
 var configInstance = new Config();
 var config = configInstance.getConfig();
 configInstance = null;
 
-$(‘.error).html(config.messages.errors.default);
+$('.error').html(config.messages.errors.default);
 ```
 <span class="credits">Kaynak: [Singleton Gist]</span>
 
@@ -139,7 +134,7 @@ Daha ileri ölçüde bir pratik edinmek isteyen geliştirici arkadaşlar için, 
 ![module][]
 Global scope içerisinde yer almasını istemediğiniz ve kendinden mesul kod blokları yaratmanızı sağlayan bir tasarım kalıbı olan modül tasarım kalıbı ile birbirinden bağımsız fonksiyonellikler tanımlayıp kolaylıkla yönetebilirsiniz. Revealing versiyonu ise sadece küçük bir ayrıntı olarak, modülün kendi context’i içerisinde yapıyor olduğu tanımlamaları global context’e aktarım noktasında küçük bir fark yaratıyor : return ile geri döndürdüğümüz metodları private scope’un kendisinden alıyor. Şimdi modül kalıbına bir örnek üzerinden gözatabiliriz.
 
-``` {.language-javascript}
+```javascript
 /**
  * global.js
  * Global tanımlamalarımızı yaptığımızı düşündüğümüz bir javascript 
@@ -150,7 +145,7 @@ Global scope içerisinde yer almasını istemediğiniz ve kendinden mesul kod bl
 var MODULES = MODULES || [];
 ```
 
-``` {.language-javascript}
+```javascript
 /** 
  * models/Module.js
  * Modüllerimizin referans yaratımını gerçekleştireceğimiz 
@@ -163,7 +158,7 @@ var Module = function (name, context) {
 }
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * register.js
  * register metodumuz, modül adı ve context adı altında iki property’si olan 
@@ -180,7 +175,7 @@ var register = (function () {
 })();
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * init.js
  * init metodumuz ile aslında yarattığımız ancak çalıştırmadığımız 
@@ -202,7 +197,7 @@ var init = (function () {
 })();
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * app.js
  * “testModule” adlı modülümü context’i ile birlikte set ediyoruz.
@@ -213,7 +208,7 @@ register.module(new Module('testModule', function () {
 }));
 
 // Ve bu modülü ismini vererek çalıştırıyoruz
-init.module(‘testModule’);
+init.module('testModule');
 ```
 <span class="credits">Kaynak: [Module / Revealing Module Gist]</span>
 
@@ -223,7 +218,7 @@ Referans bir github reposu için şu linke gözatabilirsiniz : [https://github.c
 ![mediator][]
 Şöyle düşünelim; bir havaalanındasınız ve uçakların hangi saat aralığında piste inip diğer uçuş için yolcularını alarak havalanacağının yönetilmesi gerekiyor. Bunu gerçek bir yazılım projesi olarak ele alarak uçuş kulesini konumlandıracağınız tasarım kalıbı Mediator tasarım kalıbı olabilir. Bütün modüllerinizin kendisini ataçladığı ve çalışmayı (ya da havaalanı örneğinden hareketle) havalanmayı beklediği bir yapıda bütün yönetimi merkezi anlamda bu kalıp ile gerçekleştirebilirsiniz. Yukarıdaki module / module revealing örneğimizi biraz farklılaştırarak bu kalıbı simüle edebiliriz.
 
-``` {.language-javascript}
+```javascript
 /**
  * Mediator.js
  * Mediator kalıbını gerçekleyecek temel metodlarımızı 
@@ -270,7 +265,7 @@ var Mediator = (function () {
 })();
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * testView.html
  * “testModule” isimli modülün geçerli olduğu HTML dosyası.
@@ -281,7 +276,7 @@ Mediator.module.attach({name : 'testModule', context : function () {
 }});
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * boot.js
  * Metodların init edilmesi ya da durdurulmasından sorumlu js dosyası.
@@ -297,7 +292,7 @@ Buna göre Mediator.module.attach metodu, bir modül adı ve onun context’ini 
 ### Publish/Subscribe Tasarım Kalıbı {#publish-subscribe}
 Mediator kalıbına ademi-merkeziyetçi alternatifi olarak kullanılan bu pattern’da hava gidip gelen event topic’leri bulunuyor. Bunlara bağlanan her blok ilgili datayı alıyor; bağlanmayanlar için aynı şey sözkonusu olmadığı gibi, aslında Mediator yaklaşımına göre daha tight-coupled bir tercih ancak özellikle event-based bir uygulama üzerinde çalışıyor ve fonksiyonel bir geliştirme perspektifini tercih edecekseniz kullanması faydalı olacaktır. Bunun için de gazete aboneliğini örnek verebiliriz. Abone olan üyelere her sabah gelen gazeteyi publish edilen data olarak düşünürsek herhalde üyeleri de subscribe olan context’ler olarak düşünmemiz önünde bir engel bulunmuyor.
 
-``` {.language-javascript}
+```javascript
 /** 
  *app.js
  * Event başlıklarının muhafaza edildiği TOPICS dizisini barındıran dosya.
@@ -326,7 +321,7 @@ var publish = function (topic, info) {
 }
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * ajax.js
  * Ürünlerin bir API uç noktasından bir AJAX sorgusu ile alındığını 
@@ -336,7 +331,7 @@ var publish = function (topic, info) {
 publish('productsFetchedEvent', {desc : 'This is the test data for products!'});
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * productList.js
  * Ürünlerin listelendiği view’da ise dinlediğimiz “productsFetchedEvent” 
@@ -354,7 +349,7 @@ subscribe('productsFetchedEvent', function (data) {
 Bir nesne üzerinde sonradan kullanılması olası işlerlikleri nasıl kazandırırız diye düşünürsek aklımıza bu tasarım kalıbı geliyor. Javascript’in bir güzelliği olarak düşünebileceğimiz havada nesne yaratıp istediğimiz gibi kullanma niteliği bizim bunu gerçeklememize de izin veriyor. Buna göre şöyle bir örnek ne tür bir kullanımı olduğuna dair bize fikir verecektir. 
 
 
-``` {.language-javascript}
+```javascript
 /**
  * models/Person.js
  * Person modelimizi barındıran model dosyası.
@@ -366,7 +361,7 @@ var Person = function (name, age) {
 }
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * utils.js
  * Belli başlı utility metodlarını tutuyor diye düşündüğümüz dosya. 
@@ -402,7 +397,7 @@ var mixin = {
 }
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * init.js
  * Belli başlı nesne genişletmelerinin yapıldığını varsaydığımız dosya.
@@ -411,7 +406,7 @@ var mixin = {
 extend(Person.prototype, mixin.person);
 ```
 
-``` {.language-javascript}
+```javascript
 /**
  * base.js
  * Nesne referansımızı yaratıp, önceden genişlettiğimiz metodlar 
@@ -432,7 +427,7 @@ Bütün bu örnekleri daha pratik olması açısından ve farklı tasarım kalı
 ![mvc][]
 Günümüzün popüler tanımı olarak MV*, aslında uzun senelerdir yazılım geliştiricilerinin yardımına koşmuş ve geliştirme süreçlerinde tercih edilen bir tasarım kalıbı olmuştur. Javascript kütüphane ve çatılarının da çoğalması ve çeşitlenmesiyle bu kavram istemci-taraflı Javascript geliştiricilerinin de gündemine girdi ve özellikle Angular, Backbone ve Knockout gibi araçlarla giderek ismini etrafa yaydı.
 
-``` {.language-javascript}
+```javascript
 /**
  * testViewModel.js
  * Knockout için view model objemizi bind edeceğimiz dosya.
@@ -444,7 +439,7 @@ var viewModel = {
 ko.applyBindings(viewModel);
 ```
 
-``` {.language-markup}
+```javascript
 /** 
  * testView.html
  * Verinin bind edildiği view elementinin bulunduğu dosya. 
@@ -455,16 +450,16 @@ ko.applyBindings(viewModel);
 
 Proje içerisine yerleşimi itibariyle Model - View - Whatever olarak isimlendirebileceğimiz bu tasarım kalıbının birkaç alt biçimi var. Bunlardan birisi MVC. Controller olan katman data ve view katmanlarını bağlayan ara bir katman olarak varoluyor. Aynı şekilde Controller’ı bir Presenter olarak replace edilmesi sözkonusu olan MVP ve Knockout kütüphanesi ile üne kavuşan MVVM tasarım kalıpları da bulunuyor. Kullanım kolaylığı ve giriş seviesindeki öğrenme eğrisinin düşük oluşu nedeniyle tercih edilen bu tasarım kalıbı ile özellikle istemci-taraflı çatılar sayesinde geliştiriciler yeni bir yaklaşım ile buluşmuş oldular. 
 
-[js]: ../content/2015/javascript-logo.png
-[singleton]: ../content/2015/singleton-scheme.png
-[mediator]: ../content/2015/mediator-scheme.png
-[module]: ../content/2015/module-scheme.png
-[mixin]: ../content/2015/mixin-scheme.png
-[mvc]: ../content/2015/mvc-scheme.png
+[js]: /images/2015/javascript-logo.png
+[singleton]: /images/2015/singleton-scheme.png
+[mediator]: /images/2015/mediator-scheme.png
+[module]: /images/2015/module-scheme.png
+[mixin]: /images/2015/mixin-scheme.png
+[mvc]: /images/2015/mvc-scheme.png
 
-[Singleton Gist]: https://gist.github.com/hwclass/3cab5a6b4cc906d6969a {.external}
-[Module / Revealing Module Gist]: https://gist.github.com/hwclass/335610035971df6ba1c8 {.external}
-[Bağcılar.js]: https://github.com/hwclass/bagcilar {.external}
-[Publish/Subscribe Gist]: https://gist.github.com/hwclass/72406ac02564473ac599 {.external}
-[Mixin Gist]: https://gist.github.com/hwclass/e60bb31d069213db5b81 {.external}
-[MV* Gist]: https://gist.github.com/hwclass/ca8014001c855d4d24b2 {.external}
+[Singleton Gist]: https://gist.github.com/hwclass/3cab5a6b4cc906d6969a
+[Module / Revealing Module Gist]: https://gist.github.com/hwclass/335610035971df6ba1c8
+[Bağcılar.js]: https://github.com/hwclass/bagcilar
+[Publish/Subscribe Gist]: https://gist.github.com/hwclass/72406ac02564473ac599 
+[Mixin Gist]: https://gist.github.com/hwclass/e60bb31d069213db5b81
+[MV* Gist]: https://gist.github.com/hwclass/ca8014001c855d4d24b2

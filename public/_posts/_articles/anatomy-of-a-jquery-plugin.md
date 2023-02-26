@@ -49,7 +49,9 @@ break down your code into smaller methods and put them outside of the `return` p
             var $el = $(this),
                 textlimit;
 
-            if($el.hasClass('textlimit-ready') return;
+            if($el.hasClass('textlimit-ready')){
+              return;
+            }
 
             $el.addClass('textlimit-ready');
 
@@ -181,7 +183,7 @@ The following code block and the CodePen embed is the final version of the sampl
 })(jQuery);
 ```
 
-<p data-height="268" data-theme-id="0" data-slug-hash="Larjg" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/bcinarli/pen/Larjg/'>Larjg</a> by Bilal Çınarlı (<a href='http://codepen.io/bcinarli'>@bcinarli</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="Larjg" data-default-tab="result" class='codepen'>See the Pen <a href='https://codepen.io/bcinarli/pen/Larjg/'>Larjg</a> by Bilal Çınarlı (<a href='https://codepen.io/bcinarli'>@bcinarli</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
 
 To sum up, a jQuery plugin is a new method or utility that will be available in your code. It is reusable, and it can support complex actions and operations.
 

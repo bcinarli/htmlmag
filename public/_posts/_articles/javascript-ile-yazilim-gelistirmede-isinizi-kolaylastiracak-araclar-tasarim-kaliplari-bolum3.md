@@ -6,13 +6,8 @@ date: 2015-07-08 08:22:20
 author: Barış Güler
 profile: https://www.facebook.com/profile.php?id=100005773905216
 lang: tr_TR
-tags:
-- javascript
-- design patterns
-related:
-- Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1
-- Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2
-- Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
+tags: javascript, design patterns
+related: Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum1 || Tasarım Kalıpları Nedir? - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 2) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum2 || Tasarım Kalıplarını Uygulamak için Öneriler - Javascript ile Yazılım Geliştirmede İşinizi Kolaylaştıracak Araçlar (Bölüm 4) | javascript-ile-yazilim-gelistirmede-isinizi-kolaylastiracak-araclar-tasarim-kaliplari-bolum4
 og_image: /content/2015/javascript-logo.png
 ---
 ![js][]
@@ -34,7 +29,7 @@ Bu yazı, __Tasarım Kalıpları__ dizinin 3. yazısıdır. Dizinin diğer yazı
 ### AMD (Asynchronous Module Pattern)
 Türkçe adıyla Asenkron Modül Tanımı olarak require.js kütüphanesi ile geliştirme hayatımıza giren bu kalıp ile birbirine Dependency Injection yöntemi ile context’e dahil edilen modüller yaratabiliyor ve bunları istediğimiz sırada çalıştırabiliyoruz. Yazılım tasarımı itibariyle kolay ve yönetilebilir bir kod tabanı sağlaması, büyüyen kod bloklarını yönetmede ve onları çok küçük işlem bloklarına bölmemizde yardımcı olan bu tasarım kalıbı herhangi bir kütüphane ya da çatı ile de kolaylıkla entegre çalışabiliyor. Örnek kütüphane: [requirejs.org]
 
-```{.language-javascript}
+```javascript
 /**
  * productList.js
  * Bu dosyada ürünleri başka bir modülden çağırdığımız 
@@ -47,7 +42,7 @@ define(function (require) {
 });
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * service.js
  * Ürünleri API uç noktasından almamıza yarayacak 
@@ -72,7 +67,7 @@ defined(function () {
 });
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * app.js
  * Modülleri çağırıp çalıştırdığımız dosyamız.
@@ -89,7 +84,7 @@ service.getProducts(function (products) {
 ### CommonJS
 Senkron modül tanımlama kalıbı olarak da biliniyor. Hatta Node.js’in artık resmileşmiş diyebileceğimiz modül tanımlama yöntemi olduğunu söyleyebiliriz. Buna göre istediğimiz metodları ya da değişken / sabitleri barındıran dosyaları çağırabilmemiz bu yöntem ile mümkün. Sunucu tarafında built-in geliyor olmasının yanısıra, istemci-taraflı geliştirmelerimizde [browserify]’ı kullanabiliriz.
 
-```{.language-javascript}
+```javascript
 /**
  * user.js
  * Kullanıcının genel işlemlerinin yürütüldüğü dosya.
@@ -103,7 +98,7 @@ module.exports = {
 };
 ```
 
-```{.language-javascript}
+```javascript
 
 /**
  * app.js
@@ -116,7 +111,7 @@ module.exports = function () {
 }
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * init.js
  * Bütün bir app.js’te istenen metodları çalıştıran dosya.
@@ -130,26 +125,26 @@ init();
 ### ES6 (Harmony) Modülleri
 Yeni standartlaşan ve yavaş yavaş modern tarayıcılara entegre edilecek olan ECMAScript 6’nın modül yapısı oldukça sade ve kullanışlı.
 
-```{.language-javascript}
+```javascript
 /**
  * fibonacci.js
  * Fibonacci işlemini yaptığımız dosya.
  */
 
-export fibonacci (num) {
+export function fibonacci (num) {
    if (n <= 1)
       return n;
    return fibonacci(n-1) + fibonacci(n-2);
 }
 ```
 
-```{.language-javascript}
+```javascript
 /**
  * calculate.js
  * İşlemi gerçekleştireceğimiz dosya.
  */
 
-import {fibo} from ‘fibonacci’;
+import {fibo} from 'fibonacci';
 
 console.log(fibo(4) + fibo(3));
 console.log((fibo(3) + fibo(2)) + (fibo(2) + fibo(1)));
@@ -158,16 +153,51 @@ console.log((fibo(3) + fibo(2)) + (fibo(2) + fibo(1)));
 ## Javascript’te Namespacing Kalıpları
 Javascript geliştirirken hepimizin aşina olduğu ancak bir süre sonra context set / get etme noktasında sıkıntı yaşama ihtimalimizin olduğu object literal notation tarzında çokça kullandığımız namespacing için belli başlı örneklerimiz mevcut. Bunların üzerinden de hızlıca geçersek zannedersem bazı noktalarda aslında bunların birçoğunu geliştirme günlüğümüzde zaten farkında olmadan yer aldığını farkedeceğizdir.
 
-!---------------------------------- | -------------------------------------------------------
-__Single-global Variables__         | var testModule = (function () {})();
-__Prefix Namespacing__              | var testNS_someFunctionality = {}, var testNS_someOtherFunctionality = {}
-__Object-literal Notation__         | Bkz. Module Revealing kalıbı.
-__Nested Namespacing__              | testModule.some = testModule.some || {};
-__Immediately-Invoked Function Expressions aka. IIFE / iffy__ | (function () {})();
-__Namespace Injection__             | (function () {}).apply(ns.someMethod);
-__Automating Nested Namespacing__   | moduleA.moduleB.moduleC.moduleD
-__Dependency Decleration__          | var someFunction = moduleA.moduleB.moduleC.moduleD.someFunction
-__Deep Object Extension__           | extend(destination, source)
+```javascript
+// Single Global Variables
+var testModule = (function () {})();
+```
+
+```javascript
+// Prefix Namespacing
+var testNS_someFunctionality = {};
+var testNS_someOtherFunctionality = {};
+```
+
+```javascript
+// Object-literal Notation
+// Bkz. Module Revealing kalıbı.
+```
+
+```javascript
+// Nested Namespacing
+testModule.some = testModule.some || {};
+```
+
+```javascript
+// Immediately-Invoked Function Expressions aka. IIFE / iffy
+(function () {})();
+```
+
+```javascript
+// Namespace Injection
+(function () {}).apply(ns.someMethod);
+```
+
+```javascript
+// Automating Nested Namespacing
+moduleA.moduleB.moduleC.moduleD
+```
+
+```javascript
+// Dependency Decleration
+var someFunction = moduleA.moduleB.moduleC.moduleD.someFunction
+```
+
+```javascript
+// Deep Object Extension
+extend(destination, source)
+```
 
 Bütün bu kalıpların gün içerisinde birçok başka biçimde kullanımı olmasının yanısıra aslında bazılarını başka kütüphanelerden devşirerek ya da bizzat kullanarak gerçekliyoruz. Bunun bir örneği de Javascript’in istemci-taraflı DOM-manipülasyon kütüphanesi jQuery. Birçok kullanışlı aracı içerisinde barındıran jQuery elbette ki belli tasarım kalıplarını da kullanmıyor değil. Gözattığımızda şöyle bir tablo ile karşılaşıyoruz:
 
@@ -175,7 +205,7 @@ Bütün bu kalıpların gün içerisinde birçok başka biçimde kullanımı olm
 ### Composite
 Bir selector yazarken bir class ile tanımlama yapabiliyorken bir element ile tanımlama da yapabilmemizi sağlıyor.
 
-```{.language-javascript}
+```javascript
 var paragraphsWithClassProductName = $('.productName');
 var paragraphs = $('p'); 
 ```
@@ -183,7 +213,7 @@ var paragraphs = $('p');
 ### Facade
 Gerçek API ile araya bir soyutlandırma katmanının koyulduğu kalıp.
 
-```{.language-javascript}
+```javascript
 $.ajax({
    url : '...',
    method : 'GET',
@@ -197,7 +227,7 @@ aslında XMLHTTPRequest nesnesini kullanarak yaratılmış bir metoda referans v
 ### Observer
 Publish / Subscribe pattern’ını andıran bu kalıpta belli olaylara beklenen veri yapıları karşılanıp kullanılıyor.
 
-```{.language-javascript}
+```javascript
 document.on('customEvent', function (data) {
    $('p').html(data.customized);
 });
@@ -208,33 +238,33 @@ $(document).trigger('customEvent', {customized : 'This is some data...'});
 ### Lazy Initialization
 Belli bir işlem sırası sonrasında gerçekleşen bir yaklaşımı temsil ediyor ve aşağıdaki blok aslında DOMContentLoaded event’i tetiklendikten sonra çalışıyor.
 
-```{.language-javascript}
+```javascript
 $(document).ready(function () {
-   ...
+   // ...
 }); 
 ```
 
 ### Builder
 Dinamik olarak yeni element referansları ve o referanslardan da yeni elementler yaratmamızı sağlaya bir tasarım kalıbı olarak jQuery kütüphanesinde kullanılıyor.
 
-```{.language-javascript}
+```javascript
 var p = $('</p>').text('New paragraph');
 ```
 
 ### Plugin patterns
 jQuery plugin’leri yazarken tercih edeceğimiz tasarım kalıpları. Bu kalıbın kullanımı ile alakalı detaylı anlatımı "[jQuery Plugin Anatomisi](/article/anatomy-of-a-jquery-plugin)" yazımızda bulabilirsiniz.
 
-```{.language-javascript}
+```javascript
 (function ($) { 
    $.fn.somePlugin = function (options) {
-      ...
+      // ...
       return this;
    }
 })(jQuery);
 ```
 
 
-[js]: ../content/2015/javascript-logo.png
+[js]: /images/2015/javascript-logo.png
 
-[requirejs.org]: http://requirejs.org {.external}
-[browserify]: http://browserify.org {.external}
+[requirejs.org]: http://requirejs.org
+[browserify]: http://browserify.org

@@ -7,9 +7,7 @@ author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 description: Future of Web Design konferansı 3. gün: Konferansın üçüncü ve son gününde ise ağırlık olarak Rising Stars Track kısmındaki konuşmaları takip ettim. Bu kısımdaki konuşmalar daha çok yeni konular, biraz daha teknik içerikli ya da ismi duyulmamış, yeni tanınmaya başlayan konuşmacılara aitti.
 lang: tr_TR
-related:
-- Future of Web Design 2014 - Part 1 | fowd-2014-part1
-- Future of Web Design 2014 - Part 2 | fowd-2014-part2
+related: Future of Web Design 2014 - Part 1 | fowd-2014-part1 || Future of Web Design 2014 - Part 2 | fowd-2014-part2
 ---
 Future of Web Design konferansının ilk iki gününü, [workshop](/article/fowd-2014-part1) ve [açılış konuşmalarını](/article/fowd-2014-part2) paylaştığım yazılarla özetlemiştim. Konferansın üçüncü ve son gününde ise ağırlık olarak Rising Stars Track kısmındaki konuşmaları takip ettim. Bu kısımdaki konuşmalar daha çok yeni konular, biraz daha teknik içerikli ya da ismi duyulmamış, yeni tanınmaya başlayan konuşmacılara aitti.
 
@@ -23,6 +21,7 @@ Tasarımların artık sistemleri birbirinden __ayıran__ en önemli özellik olm
 > Verilerden bahsederken sayılara değil anlamlara bakmalıyız. Sayılar anlamlandırabildiğimiz kadar değerlidirler.
 
 <figure markdown="1">
+
 ![dud][]
 <span class="credits">Fotoğraf: @basboerman</span>
 </figure>
@@ -35,6 +34,7 @@ Elimizde bir çok veri olabilir (ziyaretçi sayısı, like, sayfa görüntüleme
 İlk gün rahatsız olduğu için video kaydı verilen Harry Roberts'ın konuşması, kendisini iyi hissetmesi ve Rising Stars Track'de boş bir zaman bulunması sayesinde gerçekleştirilebildi. Roberts'ın çalışmalarını ve deneyimlerini, kendime çok yakın bulduğum, benim de çalıştığım yerlerde geliştirdiğim sistemlerin benzerleri ile uğraştığı için, daha bir ilgi ve konuşmasını ve ilk günkü workshopunu büyük keyifle takip ettim.
 
 <figure markdown="1">
+
 ![wiacfa][]
 </figure>
 
@@ -51,12 +51,14 @@ CSS Framework, layout, elemanların düzgün gösterilmesi, alignment gibi konul
 Konferanstaki tek Türk konuşmacı olan [Mustafa Kurtuldu](http://twitter.com/Mustafa_x)'nun konuşmasını Hasan abi ile dinledik. Flat tasarımının tarihinin çok eskilere dayandığından esprili şekilde bahseden Mustafa, büyük sanatçıların işlerinden ve ustalıklarından örnekler verdi.
 
 <figure markdown="1">
+
 ![wada1][]
 </figure>
 
 Özellikle Mimar Sinan'ın çizimlerine ve eserlerini inşa ederken kullandığı tekniklerini, özverisini bizim de, Dijital Mimarlar olarak işlerimize uygulamamız gerektiği ile alakalı kısımlar ve blueprint çizimleri çok güzeldi.
 
 <figure markdown="1">
+
 ![wada2][]
 </figure>
 
@@ -72,16 +74,19 @@ Mustafa'nın konuşması dışında, iki konuşma daha dinledik. Bu konuşmalard
 Güzel konuşmalar, faydalı workshoplar ve özellikle Hasan abi ile ülke gündeminden uzakta, rahat rahat Web üzerine konuşabildiğimiz 3 gün benim için böyle geçti. Konferans sırasında tanıştığımız Mustafa Kurtuldu ile de keyifli sohbetlerimiz oldu. Umarım tekrar görüşme imkanımız olabilir.
 
 <figure markdown="1">
+
 ![ft2][]
 Öğle arasında, yemek mi yesek, wall'a çizim mi yapsak, yoksa birileriyle mi tanışsak kararsızlığını yaşayan güruh.
 </figure>
 
 <figure markdown="1">
+
 ![ft1][]
 Yemek sonrası, lego odasında laflarken yaptığımız Lego Robotu
 </figure>
 
 <figure markdown="1">
+
 ![ft3][]
 FoWD hatırası: Bilal Çınarlı, Mustafa Kurtuldu, Hasan Yalçın<br />
 <span class="copyright">Fotoğraf: @hasanyalcin</span>
@@ -97,10 +102,10 @@ Bugün (17 Nisan) öğleden önce [Hasan Yalçın](http://twitter.com/hasanyalci
 [^2]: Özelleşmeden, hızlıca ortaya birşey çıkartıp, testler yapmak
 [^3]: Aslında burada "tasarım" (görsel olan) olarak tam çeviremiyoruz. Design ile kastedilen, sistemlerinin çalışmasının nasıl olması gerektiği, kullanımının, deneyiminin nasıl kurgulanması.
 
-[dud]: /public/images/2014/fowd-2014-07.jpg
-[wiacfa]: /public/images/2014/fowd-2014-08.jpg
-[wada1]: /public/images/2014/fowd-2014-09.jpg
-[wada2]: /public/images/2014/fowd-2014-10.jpg
-[ft1]: /public/images/2014/fowd-2014-11.jpg
-[ft2]: /public/images/2014/fowd-2014-12.jpg
-[ft3]: /public/images/2014/fowd-2014-13.jpg
+[dud]: /images/2014/fowd-2014-07.jpg
+[wiacfa]: /images/2014/fowd-2014-08.jpg
+[wada1]: /images/2014/fowd-2014-09.jpg
+[wada2]: /images/2014/fowd-2014-10.jpg
+[ft1]: /images/2014/fowd-2014-11.jpg
+[ft2]: /images/2014/fowd-2014-12.jpg
+[ft3]: /images/2014/fowd-2014-13.jpg

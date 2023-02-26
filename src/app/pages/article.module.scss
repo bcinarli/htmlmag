@@ -1,7 +1,7 @@
 .article-title {
   margin-bottom: 1rem;
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
 .article-meta {
@@ -12,5 +12,19 @@
   svg {
     width: auto;
     height: 1rem;
+  }
+}
+
+.article-content {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  blockquote {
+    font-weight: normal;
   }
 }

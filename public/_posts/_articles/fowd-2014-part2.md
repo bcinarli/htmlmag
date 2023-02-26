@@ -7,13 +7,12 @@ author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 description: Future of Web Design konferansı 2. gün: Güncel web tasarımları üzerine 2 günlük konuşma maratonu ile devam eden konferansın resmi ilk günü, Paul Boag'ın hoşgeldiniz konuşması ile başladı.  
 lang: tr_TR
-related:
-- Future of Web Design 2014 - Part 1 | fowd-2014-part1
-- Future of Web Design 2014 - Part 3 | fowd-2014-part3
+related: Future of Web Design 2014 - Part 1 | fowd-2014-part1 || Future of Web Design 2014 - Part 3 | fowd-2014-part3
 ---
 [Future Insights](http://www.futureinsights.com/)'ın ev sahipliğini yaptığı Future of Web Design konferansı workshoplar ile başlamıştı. Katıldığım workshop ile alakalı yorumlarımı [paylaşmıştım](/article/fowd-2014-part1). Güncel web tasarımları üzerine 2 günlük konuşma maratonu ile devam eden konferansın resmi ilk günü ise 8 Nisan Salı günü [Paul Boag](https://twitter.com/boagworld)'ın hoşgeldiniz konuşması ile başladı.
 
 <figure markdown="1">
+
 ![Paul Boag açılış konuşması][paul-photo]
 <span class="credits">Fotoğraf: @simonbusborg</span>
 </figure>
@@ -33,6 +32,7 @@ Gün boyunca Boag'ın giydiği İngiliz bayrağı temalı ceketi ve ayakkabılar
 Hoşgeldiniz konuşmasından sonra, açılış keynote konuşmasını [Paul Adams](https://twitter.com/Padday) yaptı. Konuşması webin geleceği, sitelerin ve uygulamaların üstleneceği roller üzerineydi.
 
 <figure markdown="1">
+
 ![Our New Creative Canvas][paul-adams]
 <span class="credits">Fotoğraf: @FotografFilipA</span>
 </figure>
@@ -55,6 +55,7 @@ Kullanıcılar artık özel hissetmek "unique" olmak istiyorlar. Bu yüzden sist
 ### __Basitleştirmek yerine zorlaştırıyoruz__
 Kullanıcılar her zaman A noktasından B noktasına gitmek ister. Çoğu zaman da düz bir yol izlemek yerine karmaşık bir yol sunulur. Bu karmaşık yol da, Stephen Hay'in deyimiyle "Pile of Crap"[^3]'den başka birşey değildir. Bunu da güzel bir resim ile detaylandırdı.
 <figure markdown="1">
+
 ![Pile][]
 <span class="credits">Fotoğraf: @cazk</span>
 </figure>
@@ -72,6 +73,7 @@ Arayüzde sadece kullanıcıların ihtiyacı olan ögeleri yerleştirmek kullan�
 Basitlik deyince, sadece arayüzdeki basitlik değil, uygulama ve kodlama da basitlik dikkate alınmalı. Örneğin, responsive tasarım yaparken, ilk önce geniş ekran/desktop tasarımına göre çalışıldığında normal olarak küçük ekran tanımların orjinal bir çok kodu overwrite etmek zorunda kalıyoruz. Geniş ekranda `float: left;` olarak verdiğimiz bir kolona, mobil de `float: none;` ile düzeltmemiz gerekiyor. Halbuki, ilk önce mobil kodunu yazmış olup, media queryi `max-width: 960px` yerine `min-width: 960px` şeklinde gidersek, tek _float_ tanımı ile çalışmış oluruz.
 
 <figure markdown="1">
+
 ![The Zero Interface: Use Zero-based Thinking to Maintain Simplicity][stephen-hay]
 </figure>
 
@@ -80,7 +82,8 @@ Zero interface olarak ele alınan konu ise, karşılaşılan yeni sorunları, el
 
 Bugünkü son katıldığım konuşma ise, Hasan Yalçın ile beraber çok sıkıldığımız, 1 saat boyunca, Çin'deki farklı sistemler ve ne işe yaradıklarının detaylarının olduğu bir konuşmaydı. Çok alakasız olduğunu düşündüğümüz için, konuşmayı Hasan abiyle daha çok günün ve konuşmanın kritiğini yaparak geçirdik.
 
-![wall][] Konuşma aralarında ve öğle yemeği sonrasında vakit geçirmek, sosyalleşmek için Lego masaları, Media Temple duvarı, iPad ödüllü Pacman oyunu gibi güzel etkinlik imkanları vardı. Hasan abi ile duvar resmi yaptık. Vader'ı çizdikten sonra Hasan abi "Yoda'yı çizmek için uğraşamam ama" deyince, ufak bir "çözüm" bulduk biz de.
+![wall][] 
+Konuşma aralarında ve öğle yemeği sonrasında vakit geçirmek, sosyalleşmek için Lego masaları, Media Temple duvarı, iPad ödüllü Pacman oyunu gibi güzel etkinlik imkanları vardı. Hasan abi ile duvar resmi yaptık. Vader'ı çizdikten sonra Hasan abi "Yoda'yı çizmek için uğraşamam ama" deyince, ufak bir "çözüm" bulduk biz de.
 
 Günün başka bir ilginç enstantanesi ise, yaşca büyük bir katılımcının aşağıda gördüğünüz gibi, cep telefonuna not tutma azmi oldu.
 
@@ -96,10 +99,10 @@ Günün başka bir ilginç enstantanesi ise, yaşca büyük bir katılımcının
 
 
 [seen]: http://seen.co/event/fowd-london-2014-london-uk-2014-9313
-[paul-photo]: /public/images/2014/fowd-2014-01.jpg
-[notes]: /content/2014/fowd-2014-02.jpg {.inline-right}
-[paul-adams]: /content/2014/fowd-2014-03.jpg
-[stephen-hay]: /content/2014/fowd-2014-04.jpg
-[pile]: /content/2014/fowd-2014-04-01.jpg
-[wall]: /content/2014/fowd-2014-05.jpg {.inline-left}
-[phone-note]: /content/2014/fowd-2014-06.jpg
+[paul-photo]: /images/2014/fowd-2014-01.jpg
+[notes]: /images/2014/fowd-2014-02.jpg
+[paul-adams]: /images/2014/fowd-2014-03.jpg
+[stephen-hay]: /images/2014/fowd-2014-04.jpg
+[pile]: /images/2014/fowd-2014-04-01.jpg
+[wall]: /images/2014/fowd-2014-05.jpg
+[phone-note]: /images/2014/fowd-2014-06.jpg

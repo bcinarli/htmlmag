@@ -82,7 +82,7 @@ Her zaman bildiğimiz ve uyguladığımız yöntemin en iyi yöntem olduğu yön
 * Her bir başlığın ne olduğunu ayrıntısıyla anlatmam mümkün olmadığı ve yazının konusu daha çok Tasarım Kalıpları olduğu için bu sınırlar içerisinde kalmaya çalıştım.
 * Makale esas olarak Türkiye’de henüz “__kurumsallaşmadığını__” düşündüğüm Türkiye’deki Front-End geliştiriciliğine ve Front-End geliştiricilerine hitaben yazıldı. Özellikle istemci-tarafında kod yazan sevgili arkadaşlarıma yardımcı olmasını diliyorum.
 
-[js]: ../content/2015/javascript-logo.png
+[js]: /images/2015/javascript-logo.png
 
 [^1]: Yazılım tasarımı yapılarının birbirlerini etkileme oranının azlığı ya da çokluğu olarak ifade edebiliriz. Örneğin, eğer loose-coupled bir mimariden bahsediyorsak, birbirlerinden farklı işler yapan modüllerin herhangi bir biçimde başka modüllerin kod bloklarını etkilemeyen bir ayrıksılıkta kendilerini varetmeleri gerekmektedir. Bkz. [https://en.wikipedia.org/wiki/Coupling_(computer_programming)](https://en.wikipedia.org/wiki/Coupling_(computer_programming)){.external}
 

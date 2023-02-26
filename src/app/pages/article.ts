@@ -16,7 +16,7 @@ const Article = async ({ article }: Article) => {
   const content = await Markdown({ type: 'article', item: article });
 
   return html`
-    <article class="article-content">
+    <article class="${css('article-post')}">
       <header class="article-header">
         <h1 class="${css('article-title')}">${content.meta.title}</h1>
         <div class="${css('article-meta')}">
@@ -27,7 +27,7 @@ const Article = async ({ article }: Article) => {
           </span>
         </div>
       </header>
-      <div class="article-content">${content.text}</div>
+      <div class="${css('article-content')}">${content.text}</div>
     </article>
   `;
 };

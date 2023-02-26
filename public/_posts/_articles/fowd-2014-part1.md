@@ -7,15 +7,14 @@ author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 description: Future of Web Design konferansı ilk gününden izlenimler. CSS Architure for Big Front-ends workshopu notları ve CSS kurgusu üzerine yeni fikirler
 lang: tr_TR
-related:
-- Future of Web Design 2014 - Part 2 | fowd-2014-part2
-- Future of Web Design 2014 - Part 3 | fowd-2014-part3
+related: Future of Web Design 2014 - Part 2 | fowd-2014-part2 || Future of Web Design 2014 - Part 3 | fowd-2014-part3
 ---
 Geçtiğimiz hafta [Future of Web Design](http://futureofwebdesign.com/london-2014/) konferansı için Londra'daydım. Önceden haberleşmemiş olmamıza rağmen, [Hasan Yalçın](http://twitter.com/hasanyalcin)'ın da katılmasıyla, güzel ve verimli bir üç gün geçirdik. İlk gün workshoplar için ayrılmıştı. 4 farklı workshoptan oluşan listede, benim katıldığım [@csswizardry](https://twitter.com/csswizardry)'den Harry Roberts'ın verdiği CSS ARCHITECTURE FOR BIG FRONT-ENDS isimli workshoptu. İlk gün olmasa da, konferansın ikinci ve üçüncü gününde Hasan Yalçın ile beraber bol bol tweet atıp, konuşmalardan gözümüze çarpan kısımları ve yorumlarımızı [paylaştık](https://twitter.com/search?q=%40bcinarli%20%23fowd). Diğer katılımcıların yorumlarına da [#fowd](https://twitter.com/search?q=%23fowd) ve [#fowd2014](https://twitter.com/search?q=%23fowd2014) hashtaglerin göz atabilirsiniz.
 
 Katıldığım workshopun içeriğinden bahsedecek olursak, Harry daha çok büyük boyutlu siteler/sistemler üzerinde çalışırken CSS içerisinde nelere dikkat edilmeli, kodlamayı nasıl yapmalı, hangi sistemlerden faydalanmalı gibi konulara değindi.
 
 <figure markdown="1">
+
 ![Katılımcılar][big-frontends]
 <span class="credits">Fotoğraf: @simonbusborg</span>
 </figure>
@@ -37,7 +36,8 @@ Arayüz geliştirme ve CSS'den bahsedilen bir ortamda CSS önişlemcilerden ve S
 ## Tanım Hiyerarşisi
 Inuitcss ve örnek olarak hazırlanmış olan bir başlangıç klasör yapısı ile CSS mimarisinin kurgusu üzerinde konuştuğumuz kısımlarda, Harry bir ters piramit çizdi. __"low specifity"__ prensibine göre baktığımızda, piramitte aşağıya doğru indikçe, ögelere özel daha spesifik tanımlar yapılıp, yukarı doğru çıktıkça daha genel ve sistemsel tanımlar olacaktır.
 
-![Specifity Order][order-triangle] Piramitin kırmızı çizgiye kadar olan kısmı, bir önişlemci kullanıyorsanız stil dosyanıza ilk ekleyeceğiniz ayarlar ve gerekli fonksiyonların olduğu araçlar dosyalarını içeriyor. Eğer standart CSS yazıyorsanız, dosya ve kod sıralamanızı kırmızı çizgiden itibaren yapabilirsiniz.
+![Specifity Order][order-triangle] 
+Piramitin kırmızı çizgiye kadar olan kısmı, bir önişlemci kullanıyorsanız stil dosyanıza ilk ekleyeceğiniz ayarlar ve gerekli fonksiyonların olduğu araçlar dosyalarını içeriyor. Eğer standart CSS yazıyorsanız, dosya ve kod sıralamanızı kırmızı çizgiden itibaren yapabilirsiniz.
 
 Sıralamadaki elemanlarda ise, __Generic__ kısmı için, herhangibir ögeye özelleşmemiş, genel kullanım için olan sistemsel tanımları ekleyebiliriz. Bunlar _normalize_, _reset_, _clearfix_ gibi tasarımdan ve layouttan bağımsız sistem ayarlarını içersen kodlar olabilir.
 
@@ -61,5 +61,5 @@ Bazı bilgilerimi tazelememi, bazı yeni şeyler öğrenmemi sağlayan güzel bi
     - Single Responsibility Prensibi ile de overwriteları azaltın
 
 
-[big-frontends]: /public/images/2014/big-frontends-01.jpg
-[order-triangle]: /content/2014/big-frontends-02.png {.inline-left}
+[big-frontends]: /images/2014/big-frontends-01.jpg
+[order-triangle]: /images/2014/big-frontends-02.png
