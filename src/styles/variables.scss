@@ -1,0 +1,16 @@
+:root {
+  --background-color: #222;
+  --background-color-alt: #333;
+  --text-color: #e5e5e5;
+  --link-color: #89ddff;
+}
+/* <== variables */
+/* theme switch ==> */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #fff;
+    --background-color-alt: #e5e5e5;
+    --text-color: #1b1b1b;
+    --link-color: #f78c6c;
+  }
+}

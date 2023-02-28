@@ -1,0 +1,53 @@
+.article-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.article-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  svg {
+    width: auto;
+    height: 1rem;
+  }
+}
+
+.article-content {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  blockquote {
+    font-weight: normal;
+  }
+
+  pre {
+    position: relative;
+  }
+
+  pre:before {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    content: attr(class);
+    text-transform: uppercase;
+  }
+
+  figure img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .lightbox {
+    ul {
+      list-style: none;
+    }
+  }
+}

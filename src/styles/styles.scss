@@ -1,0 +1,195 @@
+@import 'variables';
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('/assets/fonts/titillium-web-regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('/assets/fonts/titillium-web-bold.woff2') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('/assets/fonts/titillium-web-italic.woff2') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Tinos';
+  src: url('/assets/fonts/tinos-bold.woff2') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*:where(:not(iframe, canvas, img, svg, video, div, header, footer, aside, nav, strong):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: 22px/1.4 'Titillium Web', sans-serif;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  &:only-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  em {
+    font-style: italic;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  font-family: 'Tinos', serif;
+}
+
+a {
+  cursor: pointer;
+  color: var(--link-color);
+}
+
+p,
+ul,
+ol,
+div h2,
+div h3,
+blockquote + h2,
+blockquote + h3,
+p + h2,
+p + h3,
+pre + h2,
+pre + h3,
+blockquote h3,
+figure {
+  margin-top: 1.5rem;
+}
+
+p:only-child,
+ul:only-child,
+ol:only-child,
+blockquote h3 + ol,
+h3 + p,
+h3 + ol,
+h3 + ul {
+  margin-top: 0;
+}
+
+p a,
+sup a {
+  padding: 4px; /* enlarge click area for fingers */
+}
+
+blockquote {
+  position: relative;
+  border-left: 8px solid;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 3rem;
+  background-color: var(--background-color-alt);
+  font-style: italic;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p:last-child:not(:only-child) {
+  font-weight: bold;
+}
+
+pre[class*='language-'] {
+  margin: 1.5rem 0 0;
+  font-size: 0.75rem;
+}
+
+code {
+  padding: 0.2rem 0.5rem;
+  background-color: var(--background-color-alt);
+  font-family: monospace;
+}
+
+sup {
+  position: relative;
+  top: -0.25rem;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0.5rem;
+
+  svg {
+    display: inline-block;
+    width: 1rem;
+    fill: var(--text-color);
+  }
+}
+
+.lightbox {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  li {
+    flex: calc(50% - 1rem);
+  }
+
+  a {
+    display: block;
+  }
+}
