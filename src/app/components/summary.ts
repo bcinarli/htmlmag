@@ -1,9 +1,10 @@
-import { applyStyles, html } from '../../lib/typica';
+import { applyStyles, html, TypicaComponent } from '../../lib/typica';
 
 import styles from './summary.module.scss';
 import Calendar from '../icons/calendar';
 import Author from '../icons/author';
 import Comment from '../icons/comment';
+import { dateString } from '../../lib/utils';
 
 const css = applyStyles(styles);
 
@@ -14,7 +15,7 @@ export type SummaryType = {
   excerpt: string;
   author: string;
 };
-const Summary = ({ slug, title, date, excerpt, author }: SummaryType) => {
+const Summary: TypicaComponent = ({ slug, title, date, excerpt, author }: SummaryType) => {
   return html`
     <article class="${css('summary')}">
       <header class="${css('article-header')}">
@@ -22,7 +23,7 @@ const Summary = ({ slug, title, date, excerpt, author }: SummaryType) => {
           <a href="/article/${slug}">${title}</a>
         </h2>
         <div class="${css('article-meta')}">
-          <span class="${css('article-date')}"><span class="icon">${Calendar()}</span> ${date}</span>
+          <span class="${css('article-date')}"><span class="icon">${Calendar()}</span> ${dateString(date)}</span>
           <span class="article-comments">
             <span class="icon">${Comment()}</span>
             <a href="/article/${slug}#disqus_thread" data-disqus-identifier="${slug}"></a

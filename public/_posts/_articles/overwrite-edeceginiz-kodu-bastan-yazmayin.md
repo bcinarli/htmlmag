@@ -6,9 +6,7 @@ date: 2015-02-24 19:12:30
 author: Bilal Çınarlı
 profile: https://facebook.com/bcinarli
 lang: tr_TR
-tags:
-- CSS
-- Code Smart
+tags: CSS, Code Smart
 description: Karmaşık CSS kurgularında, sürekli overwrite yazılmak zorunda kalınır. Halbuki CSS kurgusu düzgün yapıldığında daha sade ve kolay kontrol edilebilir bir yapıya sahip olursunuz.
 ---
 Günlük hayatımızda mobil cihazların kullanımı arttıkça sayfa/web arayüzleri de kendilerini bu cihazlarda düzgün gözükecek şekilde kurgulanmaya başlandı. Bu kurgularda farklı yaklaşımlar olsa da, kullanılan en popüler yaklaşım dediğimiz sayfa elemanlarının pozisyonlarının ve genişliklerinin ekran/cihaz genişliğine göre değiştirildiği __responsive design[^1]__ yaklaşımıdır.
@@ -16,7 +14,7 @@ Günlük hayatımızda mobil cihazların kullanımı arttıkça sayfa/web arayü
 Responsive design yaklaşımının hayat bulmasının en önemli aktörü, CSS içerisinde bir çok ekran özelliğine göre kod tanımı yapabilmemizi sağlayan __Media Query__ tanımlarıdır. Temel anlamda, CSS içinde kodlarımızı yazdıktan sonra, çözünürlük, ekran boyu gibi değişen durumların öngörülerine göre (breakpoints[^2]) ek düzenleme kodlarının yazılması ile responsive design kurgusu hazırlanır.
 
 ### Klasik Yaklaşım
-``` {.language-css}
+```css
  .article-footer .share-widget {
     position: absolute;
     top: 50%;
@@ -36,7 +34,7 @@ Responsive design yaklaşımının hayat bulmasının en önemli aktörü, CSS i
 Halbuki, _media query_ içindeki kurgu tersine yapılmış olsa işler daha kolaylaşır. Kodun `max-width: 767px` şeklinde önce büyük ekran, sonra küçük ekran için yazılma kurgusu tersine çevrildiğinde; `min-width:768px` ve üzerindeki genişlikler için, orjinal elemanların __sadece__ değişmesi gereken tanımları yazılmış olur.
 
 ### Sadece İhtiyaca Göre Kod Yazımı
-``` {.language-css}
+```css
 .article-footer .share-widget {
     padding-bottom: 0;
 }
@@ -53,7 +51,7 @@ Halbuki, _media query_ içindeki kurgu tersine yapılmış olsa işler daha kola
 Yukarıdaki gibi, aynı bloğun farklı genişliklerdeki görünümü dışında, bu yönetimi bütün sistem üzerine uyguladığında yazılan kod miktarı ciddi oranda azalacaktır. Örneğin, klasik bir blog temasında genellikle bulunan ana içerik kolonu ve yardımcı içeriklerin olduğu yan kolonu ele alalım. Bu iki kolonu klasik yöntem ile yazıldığında, aşağıda gibi, önce genişlik tanımları ve birbirlerine olan pozisyonlarını tanımlanacaktır. Sonrasında da hem __tablet__ hem de __telefon__ genişlikleri için ek tanımlar da eklenecektir.
 
 ### Klasik Yaklaşım
-``` {.language-css}
+```css
 /* maksimum içerik genişliği */
 #content {
     max-width: 1280px;
@@ -90,7 +88,7 @@ Bu tarz iki kolonlu içerikler için klasik yaklaşımda, örnekte de görüldü
 Kurgu tersten düşünüldüğünde ise, yazılan kod %50 oranında azalmakta ve her tanım sadece 1 kez yapılmaktadır.
 
 ### Sadece İhtiyaca Göre Kod Yazımı
-``` {.language-css}
+```css
 /* maksimum içerik genişliği */
 #content {
     max-width: 1280px;

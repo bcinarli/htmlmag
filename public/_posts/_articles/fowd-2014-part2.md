@@ -19,7 +19,9 @@ related: Future of Web Design 2014 - Part 1 | fowd-2014-part1 || Future of Web D
 
 Gün boyunca Boag'ın giydiği İngiliz bayrağı temalı ceketi ve ayakkabıları ile "Buy My Book" yazılı tişörtüyle alakalı da ayrı bir not düşmüş olayım.
 
-![Notlarım][notes] 2 gün boyunca 2 farklı salonda gerçekleşen konuşmalar da, ana salon, nispeten sektörün tanınmış/bilinen isimlerinin sunumları ya da daha çok ilgi çekileceği düşünülen konulara ev sahipliği yaparken, küçük salonda (_rising stars track_) yeni tanınmaya başlayan kişilerin ya da az bilindiği düşünülen/daha az insanın ilgisini çekmesi (daha teknik) beklenen konuların olduğu konuşmalar yapıldı.
+![Notlarım][notes] 
+
+2 gün boyunca 2 farklı salonda gerçekleşen konuşmalar da, ana salon, nispeten sektörün tanınmış/bilinen isimlerinin sunumları ya da daha çok ilgi çekileceği düşünülen konulara ev sahipliği yaparken, küçük salonda (_rising stars track_) yeni tanınmaya başlayan kişilerin ya da az bilindiği düşünülen/daha az insanın ilgisini çekmesi (daha teknik) beklenen konuların olduğu konuşmalar yapıldı.
 
 İlk keynote ve konferans başlangıcında hem ortamın etkisi, hem de "_abi ne zaten biliyoruz çoğunu, yeni bir şey var mı bakacağız bakalım_" __egosu__ yüzünden not almıyordum. Ayılmam konuşmanın henüz ilk konuşmada Paul Adams'ın sıraladığı maddeler ve ilginç yaklaşımları ile oldu ve o dakikadan itibaren not tutmaya başladım. Konferans bittiğinde _kara kaplı_ defterime 30 sayfadan fazla not almıştım.
 

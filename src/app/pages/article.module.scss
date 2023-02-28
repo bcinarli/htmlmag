@@ -27,4 +27,27 @@
   blockquote {
     font-weight: normal;
   }
+
+  pre {
+    position: relative;
+  }
+
+  pre:before {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    content: attr(class);
+    text-transform: uppercase;
+  }
+
+  figure img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .lightbox {
+    ul {
+      list-style: none;
+    }
+  }
 }

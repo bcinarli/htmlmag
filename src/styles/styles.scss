@@ -62,8 +62,6 @@ a {
 }
 
 p {
-  margin-bottom: 1rem;
-
   &:only-child {
     margin-bottom: 0;
   }
@@ -95,14 +93,26 @@ a {
 p,
 ul,
 ol,
+div h2,
+div h3,
 blockquote + h2,
-blockquote + h3 {
+blockquote + h3,
+p + h2,
+p + h3,
+pre + h2,
+pre + h3,
+blockquote h3,
+figure {
   margin-top: 1.5rem;
 }
 
 p:only-child,
 ul:only-child,
-ol:only-child {
+ol:only-child,
+blockquote h3 + ol,
+h3 + p,
+h3 + ol,
+h3 + ul {
   margin-top: 0;
 }
 
@@ -118,7 +128,6 @@ blockquote {
   padding: 0.5rem 1rem 0.5rem 3rem;
   background-color: var(--background-color-alt);
   font-style: italic;
-  font-size: 1.25rem;
 }
 
 blockquote:before {
@@ -165,5 +174,22 @@ sup {
     display: inline-block;
     width: 1rem;
     fill: var(--text-color);
+  }
+}
+
+.lightbox {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  li {
+    flex: calc(50% - 1rem);
+  }
+
+  a {
+    display: block;
   }
 }

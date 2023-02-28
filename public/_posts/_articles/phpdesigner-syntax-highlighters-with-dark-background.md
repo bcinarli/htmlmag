@@ -7,7 +7,7 @@ author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 description: A black theme for phpDesigner. Sample views and installation instructions. Feel free to use it.
 ---
-### Update {.update-info}
+### Update
 > This article is first published on bcinarli.com <br />
 > Back then during my PC days, I was using this beautiful IDE. For the last 4 years (since I bought a Mac), I'm using PHPStorm from JetBrains.
 
@@ -37,8 +37,6 @@ I think there is a little bug for syntax separators' colors. While working only 
 
 ## Screen Shots
 <div class="lightbox group" markdown="1">
-* PHP
-  [![PHP file screeshot][php]][php]
 
 * HTML/xHTML/XML
   [![HTML file screenshot][html]][html]
@@ -49,11 +47,11 @@ I think there is a little bug for syntax separators' colors. While working only 
 * JavaScript
   [![JavaScript file screenshot][js]][js]
 
+* PHP
+  [![PHP file screeshot][php]][php]
+
 * VBScript
   [![VBScript file screeshot][vb]][vb]
-
-* SQL
-  [![SQL file screenshot][sql]][sql]
 
 * Perl
   [![Perl file screenshot][perl]][perl]
@@ -61,28 +59,31 @@ I think there is a little bug for syntax separators' colors. While working only 
 * Java
   [![Java file screenshot][java]][java]
 
-* C#
-  [![C# file screeshot][csharp]][csharp]
+* Ruby
+  [![Ruby file screenshot][ruby]][ruby]
 
 * Python
   [![Python file screenshot][python]][python]
 
-* Ruby
-  [![Ruby file screenshot][ruby]][ruby]
+* C#
+  [![C# file screeshot][csharp]][csharp]
+
+* SQL
+  [![SQL file screenshot][sql]][sql]
 </div>
 
 ## Installation
 
-First download the style [files](/public/downloads/phpdesigner_syntax.rar). Then unrar them. Open phpDesigner preferences screen (hit Ctrl+E while phpDesigner is open). Click the Syntax Highlighters from tree menu. You will see a folder button on the right, hit it. A folder will open. Copy your extracted file, and paste them to the opened folder. with this, you changed the file types syntax colors. For changing the editor's background color, click the Editor menu in the Preferences window. You can change the editor fonts, gutter fonts and editor's color from this menu.
+First download the style [files](/downloads/phpdesigner_syntax.rar). Then unrar them. Open phpDesigner preferences screen (hit Ctrl+E while phpDesigner is open). Click the Syntax Highlighters from tree menu. You will see a folder button on the right, hit it. A folder will open. Copy your extracted file, and paste them to the opened folder. with this, you changed the file types syntax colors. For changing the editor's background color, click the Editor menu in the Preferences window. You can change the editor fonts, gutter fonts and editor's color from this menu.
 
-[php]: /content/2009/phpdesigner/php.png "PHP file syntax color sample" {.gallery}
-[html]: /content/2009/phpdesigner/html.png "HTML file screenshot" {.gallery}
-[css]: /content/2009/phpdesigner/css.png "CSS file screenshot" {.gallery}
-[js]: /content/2009/phpdesigner/javascript.png "JavaScript file screenshot" {.gallery}
-[vb]: /content/2009/phpdesigner/vb.png "VBScript file screenshot" {.gallery}
-[sql]: /content/2009/phpdesigner/sql.png "SQL file screenshot" {.gallery}
-[perl]: /content/2009/phpdesigner/perl.png "Perl file screenshot" {.gallery}
-[java]: /content/2009/phpdesigner/java.png "Java file screenshot" {.gallery}
-[csharp]: /content/2009/phpdesigner/csharp.png "C# file screenshot" {.gallery}
-[python]: /content/2009/phpdesigner/python.png "Python file screenshot" {.gallery}
-[ruby]: /content/2009/phpdesigner/ruby.png "Ruby file screenshot" {.gallery}
+[php]: /images/2009/phpdesigner/php.png "PHP file syntax color sample"
+[html]: /images/2009/phpdesigner/html.png "HTML file screenshot"
+[css]: /images/2009/phpdesigner/css.png "CSS file screenshot"
+[js]: /images/2009/phpdesigner/javascript.png "JavaScript file screenshot"
+[vb]: /images/2009/phpdesigner/vb.png "VBScript file screenshot"
+[sql]: /images/2009/phpdesigner/sql.png "SQL file screenshot"
+[perl]: /images/2009/phpdesigner/perl.png "Perl file screenshot"
+[java]: /images/2009/phpdesigner/java.png "Java file screenshot"
+[csharp]: /images/2009/phpdesigner/csharp.png "C# file screenshot"
+[python]: /images/2009/phpdesigner/python.png "Python file screenshot"
+[ruby]: /images/2009/phpdesigner/ruby.png "Ruby file screenshot"

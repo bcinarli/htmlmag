@@ -1,11 +1,8 @@
+import { Route } from './types';
+
 import('urlpattern-polyfill');
 
 import { URLPatternComponentResult } from 'urlpattern-polyfill/dist/types';
-
-type Route = {
-  path: string;
-  component: Function;
-};
 
 const url = new URL(window.location.href);
 

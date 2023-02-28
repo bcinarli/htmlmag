@@ -1,7 +1,7 @@
-type App = () => string | Promise<string>;
+import { TypicaComponent } from './types';
 
 type Props = {
-  app: App;
+  app: TypicaComponent;
   root: Element;
 };
 

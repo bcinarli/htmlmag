@@ -1,4 +1,4 @@
-import { Router, applyStyles, html } from '../lib/typica';
+import { Router, applyStyles, html, TypicaComponent } from '../lib/typica';
 import styles from './index.module.scss';
 import Home from './pages/home';
 import Article from './pages/article';
@@ -11,7 +11,7 @@ const routes = [
   { path: '/article/:article', component: Article },
 ];
 
-export const App = async () => {
+export const App: TypicaComponent = async () => {
   return html`
     <div id="wrapper" class="${css('page-wrap')}">
       <header id="masthead" class="${css('page-header')}">

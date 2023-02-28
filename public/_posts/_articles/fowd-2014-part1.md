@@ -37,6 +37,7 @@ Arayüz geliştirme ve CSS'den bahsedilen bir ortamda CSS önişlemcilerden ve S
 Inuitcss ve örnek olarak hazırlanmış olan bir başlangıç klasör yapısı ile CSS mimarisinin kurgusu üzerinde konuştuğumuz kısımlarda, Harry bir ters piramit çizdi. __"low specifity"__ prensibine göre baktığımızda, piramitte aşağıya doğru indikçe, ögelere özel daha spesifik tanımlar yapılıp, yukarı doğru çıktıkça daha genel ve sistemsel tanımlar olacaktır.
 
 ![Specifity Order][order-triangle] 
+
 Piramitin kırmızı çizgiye kadar olan kısmı, bir önişlemci kullanıyorsanız stil dosyanıza ilk ekleyeceğiniz ayarlar ve gerekli fonksiyonların olduğu araçlar dosyalarını içeriyor. Eğer standart CSS yazıyorsanız, dosya ve kod sıralamanızı kırmızı çizgiden itibaren yapabilirsiniz.
 
 Sıralamadaki elemanlarda ise, __Generic__ kısmı için, herhangibir ögeye özelleşmemiş, genel kullanım için olan sistemsel tanımları ekleyebiliriz. Bunlar _normalize_, _reset_, _clearfix_ gibi tasarımdan ve layouttan bağımsız sistem ayarlarını içersen kodlar olabilir.

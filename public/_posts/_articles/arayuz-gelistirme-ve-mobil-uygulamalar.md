@@ -51,5 +51,5 @@ Türkiye'de de bir çok genç girişim bu konunun farkında olduğu için, altya
 [mobil-global]: /images/2015/app.png
 [mobil-local]: /images/2015/app-turkey.png
 
-[globaltrend]: http://www.google.com/trends/explore#q=html5%20app%2C%20hybrid%20app%2C%20native%20app&cmpt=q&tz= {.external}
-[localtrend]: http://www.google.com/trends/explore#q=html5%20app%2C%20hybrid%20app%2C%20native%20app%2C%20mobil%20uygulama&geo=TR&cmpt=q&tz= {.external}
+[globaltrend]: http://www.google.com/trends/explore#q=html5%20app%2C%20hybrid%20app%2C%20native%20app&cmpt=q&tz= 
+[localtrend]: http://www.google.com/trends/explore#q=html5%20app%2C%20hybrid%20app%2C%20native%20app%2C%20mobil%20uygulama&geo=TR&cmpt=q&tz=

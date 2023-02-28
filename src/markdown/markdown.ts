@@ -18,7 +18,7 @@ const Markdown = async ({ type, item }: MarkDownFiles) => {
     .split('\n')
     .filter((item) => item !== '')
     .map((item) => {
-      const [key, value] = item.split(':');
+      const [key, value] = item.split(/:(.+)/);
 
       return [key.trim(), value.trim()];
     });

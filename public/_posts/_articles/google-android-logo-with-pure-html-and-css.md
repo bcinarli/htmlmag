@@ -6,9 +6,9 @@ date: 2010-10-18
 author: Bilal Cinarli
 profile: https://facebook.com/bcinarli
 description: Google Android Logo with pure HTML and CSS. Mostly used css transform properties.
-externalCSS: /app/content/2010/android.css
+externalCSS: /content/2010/android.css
 ---
-### Update {.update-info}
+### Update
 > This article is first published on bcinarli.com
 
 While building this Google Android Logo, I've used pure HTML and CSS with new CSS3 border-radius and transform properties. Probably the visitors who are using Internet Explorer could not see the real shape of the final result. So for better results, use Firefox, Safari, Chrome or Opera
