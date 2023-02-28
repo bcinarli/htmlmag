@@ -10,7 +10,7 @@ const css = applyStyles(styles);
 const routes = [
   { path: '/', component: Home },
   { path: '/article/:article', component: Article },
-  { path: '/page/:page', component: Page}
+  { path: '/:page', component: Page}
 ];
 
 export const App: TypicaComponent = async () => {
