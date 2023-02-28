@@ -5,7 +5,7 @@ title: About
 date: 2014-04-13
 ---
 
-# HTML Magazin Hakkında {.content-title}
+## HTML Magazin Hakkında
 HTML Magazin sitesi, HTML, CSS ve JavaScript konularında güncel ve araştırma öncelikli içerikler sunmaya adanmıştır. Hazırlanan yazılan Türkçe ve İngilizce karışık olarak sunulmaktadır.
 
 ### Biz Kimiz?
